@@ -1,0 +1,8 @@
+[1,"Installing 'ggsignif' ...\n"]
+[1,"Retrieving 'https://cran.rstudio.com/bin/macosx/contrib/4.1/ggsignif_0.6.4.tgz' ...\n"]
+[1,"\tOK [downloaded 594.2 Kb in 0.6 secs]\n"]
+[1,"Installing ggsignif [0.6.4] ...\n"]
+[1,"\tOK [installed binary]\n"]
+[1,"Moving ggsignif [0.6.4] into the cache ...\n"]
+[1,"\tOK [moved to cache in 3 milliseconds]\n"]
+[2,"\n\n✔ Package 'ggsignif' successfully installed.\n"]

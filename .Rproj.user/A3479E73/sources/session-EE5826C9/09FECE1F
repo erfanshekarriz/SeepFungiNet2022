@@ -1,0 +1,27 @@
+{
+    "id": "09FECE1F",
+    "path": "~/git_repo/coldseepfungi/R/7_networkattack.R",
+    "project_path": "R/7_networkattack.R",
+    "type": "r_source",
+    "hash": "2899904315",
+    "contents": "",
+    "dirty": false,
+    "created": 1666062047195.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "420,59",
+        "scrollLine": "412"
+    },
+    "folds": "11|10|348|12|\n15|32|24|0|\n349|10|370|0|\n371|4|393|0|\n394|8|438|0|\n",
+    "lastKnownWriteTime": 1666066543,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1666081278017,
+    "read_only": false,
+    "read_only_alternatives": []
+}

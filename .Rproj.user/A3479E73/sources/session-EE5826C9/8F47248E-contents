@@ -1,0 +1,437 @@
+library(rstudioapi)
+library(phyloseq)
+library(tidyverse)
+library(dplyr)
+library(stringr)
+library(microbiome)
+library(ggplot2)
+library(vegan)
+library(reshape2)
+library(ggpmisc)
+library(corrplot)
+library(visdat)
+library(renv)
+
+
+
+setwd('/Users/erfanshekarriz/git_repo/timeseries_network_AMI/R')
+
+
+
+physeq16S <- readRDS('./data/physeq16S_AMI_filt.rds')
+physeq18S <- readRDS('./data/physeq18S_AMI_filt.rds')
+physeqArch <- readRDS('./data/physeqArch_AMI_filt.rds')
+
+physeq16Sfamily <- readRDS("./data/physeq16S_AMI_filt_FAMILY.rds")
+physeq18Sfamily <- readRDS("./data/physeq18S_AMI_filt_FAMILY.rds")
+physeqArchfamily <- readRDS("./data/physeqArch_AMI_filt_FAMILY.rds")
+
+physeq16Sphylum <- readRDS("./data/physeq16S_AMI_filt_PHYLUM.rds")
+physeq18Sphylum <- readRDS("./data/physeq18S_AMI_filt_PHYLUM.rds")
+physeqArchphylum <- readRDS("./data/physeqArch_AMI_filt_PHYLUM.rds")
+
+
+
+# metadata 
+sampledataplotraw <- data.frame(sample_data(physeq16S)) %>%
+  as.data.frame() %>%
+  mutate(startday = as.numeric(min(days)), 
+         dayspassed = as.numeric((days - startday))) %>%
+  rownames_to_column("SampleID") %>%
+  mutate(ChlorophyllBmgm3 = as.numeric(ChlorophyllBmgm3)) %>%
+  mutate(TempdegC = as.numeric(TempdegC))
+
+features <- colnames(sampledataplotraw) %>% as.data.frame()
+
+# read dist matrix if already done
+
+# raredist_Arch <- read_csv('./data/Arch_rarefied_502_distmatrix.csv') %>%
+#   select(row, col, value) %>%
+#   pivot_wider(names_from = 'col', values_from = 'value') %>%
+#   column_to_rownames(var = 'row') %>%
+#   as.dist()
+
+raredist_16S <- readRDS('./data/raredist_16S.rds')
+raredist_18S <- readRDS('./data/raredist_18S.rds')
+raredist_Arch <- readRDS('./data/raredist_Arch.rds')
+
+raredist_16S_FAMILY <- readRDS('./data/raredist_16S_FAMILY.rds')
+raredist_18S_FAMILY <- readRDS('./data/raredist_18S_FAMILY.rds')
+raredist_Arch_FAMILY <- readRDS('./data/raredist_Arch_FAMILY.rds')
+
+raredist_16S_PHYLUM <- readRDS('./data/raredist_16S_PHYLUM.rds')
+raredist_18S_PHYLUM <- readRDS('./data/raredist_18S_PHYLUM.rds')
+raredist_Arch_PHYLUM <- readRDS('./data/raredist_Arch_PHYLUM.rds')
+
+#### CALCULATE RAREDIST
+#### 16S ####
+min(sample_sums(physeq16Sfamily))
+
+# OTU level
+otutable_16S_OTU <- data.frame(otu_table(physeq16S))
+set.seed(1234)
+raredist_16S <- avgdist(otutable_16S, 
+                        dmethod = "bray", 
+                        sample=min(sample_sums(physeq16S)), 
+                        iterations = 100)
+dfotu <- melt(as.matrix(raredist_16S), varnames = c("row", "col"))
+saveRDS(raredist_16S, file = "raredist_16S.rds")
+write.csv(df, "16S_rarefied_distmatrixOTU.csv")
+
+# Family level 
+otutable_16S_FAMILY <- data.frame(otu_table(physeq16Sfamily))
+set.seed(1234)
+raredist_16S_FAMILY <- avgdist(otutable_16S_FAMILY, 
+                               dmethod = "bray", 
+                               sample=min(sample_sums(physeq16Sfamily)), 
+                               iterations = 100)
+dffamily <- melt(as.matrix(raredist_16S_FAMILY), varnames = c("row", "col"))
+saveRDS(raredist_16S_FAMILY, file = "raredist_16S_FAMILY.rds")
+write.csv(dffamily, "16S_rarefied_distmatrix_FAMILY.csv")
+
+# Phylum level 
+otutable_16S_PHYLUM <- data.frame(otu_table(physeq16Sphylum))
+set.seed(1234)
+raredist_16S_PHYLUM <- avgdist(otutable_16S_PHYLUM, 
+                               dmethod = "bray", 
+                               sample=min(sample_sums(physeq16Sphylum)), 
+                               iterations = 100)
+dfphylum <- melt(as.matrix(raredist_16S_PHYLUM), varnames = c("row", "col"))
+saveRDS(raredist_16S_PHYLUM, file = "raredist_16S.rds")
+write.csv(dfphylum, "16S_rarefied_15422_distmatrixPHYLUM.csv")
+
+
+#### 18S ####
+# OTU level
+otutable_18S_OTU <- data.frame(otu_table(physeq18S))
+set.seed(1234)
+raredist_18S <- avgdist(otutable_18S, 
+                        dmethod = "bray", 
+                        sample=min(sample_sums(physeq18S)), 
+                        iterations = 100)
+dfotu <- melt(as.matrix(raredist_18S), varnames = c("row", "col"))
+saveRDS(raredist_18S, file = "raredist_18S.rds")
+write.csv(df, "18S_rarefied_distmatrixOTU.csv")
+
+# Family level 
+otutable_18S_FAMILY <- data.frame(otu_table(physeq18Sfamily))
+set.seed(1234)
+raredist_18S_FAMILY <- avgdist(otutable_18S_FAMILY, 
+                               dmethod = "bray", 
+                               sample=min(sample_sums(physeq18Sfamily)), 
+                               iterations = 100)
+dffamily <- melt(as.matrix(raredist_18S_FAMILY), varnames = c("row", "col"))
+saveRDS(raredist_18S_FAMILY, file = "raredist_18S_FAMILY.rds")
+write.csv(dffamily, "18S_rarefied_distmatrix_FAMILY.csv")
+
+# Phylum level 
+otutable_18S_PHYLUM <- data.frame(otu_table(physeq18Sphylum))
+set.seed(1234)
+raredist_18S_PHYLUM <- avgdist(otutable_18S_PHYLUM, 
+                               dmethod = "bray", 
+                               sample=min(sample_sums(physeq18Sphylum)), 
+                               iterations = 100)
+dfphylum <- melt(as.matrix(raredist_18S), varnames = c("row", "col"))
+saveRDS(raredist_18S, file = "raredist_18S.rds")
+write.csv(dfphylum, "18S_rarefied_15422_distmatrixPHYLUM.csv")
+
+
+#### Arch ####
+# OTU level
+otutable_18S_OTU <- data.frame(otu_table(physeq18S))
+set.seed(1234)
+raredist_18S <- avgdist(otutable_18S, 
+                        dmethod = "bray", 
+                        sample=min(sample_sums(physeq18S)), 
+                        iterations = 100)
+dfotu <- melt(as.matrix(raredist_18S), varnames = c("row", "col"))
+saveRDS(raredist_18S, file = "raredist_18S.rds")
+write.csv(dfotu, "18S_rarefied_distmatrixOTU.csv")
+
+# Family level 
+otutable_Arch_FAMILY <- data.frame(otu_table(physeqArchfamily))
+set.seed(1234)
+raredist_Arch_FAMILY <- avgdist(otutable_Arch_FAMILY, 
+                               dmethod = "bray", 
+                               sample=min(sample_sums(physeqArchfamily)), 
+                               iterations = 100)
+dffamily <- melt(as.matrix(raredist_Arch_FAMILY), varnames = c("row", "col"))
+saveRDS(raredist_Arch_FAMILY, file = "raredist_Arch_FAMILY.rds")
+write.csv(dffamily, "Arch_rarefied_distmatrix_FAMILY.csv")
+
+# Phylum level 
+otutable_Arch_PHYLUM <- data.frame(otu_table(physeqArchphylum))
+set.seed(1234)
+raredist_Arch_PHYLUM <- avgdist(otutable_Arch_PHYLUM, 
+                                dmethod = "bray", 
+                                sample=min(sample_sums(physeqArchphylum)), 
+                                iterations = 100)
+dfphylum <- melt(as.matrix(raredist_Arch_PHYLUM), varnames = c("row", "col"))
+saveRDS(raredist_Arch_PHYLUM, file = "raredist_Arch.rds")
+write.csv(dfphylum, "Arch_rarefied_15422_distmatrixPHYLUM.csv")
+
+
+
+
+
+
+
+
+
+#### PLOT PCoA PLOTS ####
+customtheme <- theme(panel.grid.major = element_blank(),
+                     panel.grid.minor = element_blank(),
+                     plot.margin = margin(1,1,1,1, "cm"), 
+                     strip.text = element_text(face = "italic"),
+                     axis.title.x = element_text(margin=margin(t=10), size = 9, face = "italic"), 
+                     axis.title.y =  element_text(margin=margin(r=5), size = 8, face = "italic"),
+                     axis.text.x = element_text(size = 10, face = "italic"), 
+                     axis.text.y = element_text(size = 10, margin=margin(r=5), face = "italic"),
+                     legend.text = element_text(size = 7), 
+                     legend.position = "none",
+                     legend.background =  element_blank(), 
+                     legend.title = element_blank())
+
+customtheme1 <- theme(plot.margin = margin(1,1,1,1, "cm"), 
+                     strip.text = element_text(face = "italic"),
+                     axis.title.x = element_text(margin=margin(t=10), size = 9, face = "italic"), 
+                     axis.title.y =  element_text(margin=margin(r=5), size = 8, face = "italic"),
+                     axis.text.x = element_text(size = 10, face = "italic"), 
+                     axis.text.y = element_text(size = 10, margin=margin(r=5), face = "italic"),
+                     legend.text = element_text(size = 7), 
+                     legend.position = "none",
+                     legend.background =  element_blank(), 
+                     panel.border = element_rect(colour = "black", fill=NA, size=0.8),
+                     legend.title = element_blank())
+
+
+### 16S
+set.seed(123)
+pcoa16S <- cmdscale(raredist_16S, 
+                    k=2, 
+                    eig = TRUE)
+
+plot16S <- as.data.frame(pcoa16S$points) %>%
+  as_tibble(rownames = "SampleID") %>%
+  mutate(PCo1 = V1, PCo2 = V2) %>%
+  dplyr::select(-V1, -V2) %>%
+  inner_join(., sampledataplotraw, by = "SampleID")
+
+plot16S %>%
+  filter(!is.na(TempdegC)) %>%
+  ggplot(aes(x = PCo1, y = PCo2)) + 
+  geom_point(size = 1.0, 
+             aes(color = as.numeric(TempdegC))) +
+  xlab(paste("PCo1 (", round(sort(pcoa16S$eig, decreasing = TRUE)[1]*100/sum(pcoa16S$eig), 1), "%)", sep= "") ) + 
+  ylab(paste("PCo1 (", round(sort(pcoa16S$eig, decreasing = TRUE)[2]*100/sum(pcoa16S$eig), 1), "%)", sep= "") ) + 
+  scale_colour_gradient2(
+    low = "red3",
+    mid = "white",
+    high = "blue4",
+    midpoint = 21,
+    space = "Lab",
+    na.value = "grey50",
+    guide = "colourbar",
+    aesthetics = "colour") +
+  theme_bw() + customtheme1 + 
+  labs(title="16S")
+
+plot16S %>%
+  filter(!is.na(TempdegC)) %>%
+  ggplot(aes(x = PCo1, y = PCo2)) + 
+  geom_point(size = 1.0, 
+             aes(color =SampleSiteLocationDescription)) +
+  scale_color_brewer(palette = "Set1") + 
+  xlab(paste("PCo1 (", round(sort(pcoa16S$eig, decreasing = TRUE)[1]*100/sum(pcoa16S$eig), 1), "%)", sep= "") ) + 
+  ylab(paste("PCo1 (", round(sort(pcoa16S$eig, decreasing = TRUE)[2]*100/sum(pcoa16S$eig), 1), "%)", sep= "") ) + 
+  theme_bw() + customtheme1
+plot16S %>%
+  filter(!is.na(TempdegC)) %>%
+  ggplot(aes(x = TempdegC, y = PCo1)) + 
+  geom_point(size = 1.0, 
+             aes(color =TempdegC)) +
+  geom_smooth(method = "lm", 
+              formula = y~x) + 
+  stat_poly_eq(aes(label = paste(after_stat(p.value.label),
+                                 after_stat(rr.label), sep = "*\", \"*"))) + 
+  xlab("Temperature (°C)") +
+  ylab(paste("PCo1 (", round(sort(pcoa16S$eig, decreasing = TRUE)[1]*100/sum(pcoa16S$eig), 1), "%)", sep= "") ) + 
+  theme_bw() + customtheme1
+
+
+
+
+### 18S
+set.seed(123)
+pcoa18S <- cmdscale(raredist_18S, 
+                    k=2, 
+                    eig = TRUE)
+
+plot18S <- as.data.frame(pcoa18S$points) %>%
+  as_tibble(rownames = "SampleID") %>%
+  mutate(PCo1 = V1, PCo2 = V2) %>%
+  select(-V1, -V2) %>%
+  inner_join(., sampledataplotraw, by = "SampleID") 
+
+plot18S %>% 
+  filter(!is.na(TempdegC)) %>%
+  ggplot(aes(x = PCo1, y = PCo2)) + 
+  geom_point(size = 1.0, 
+             aes(color = as.numeric(TempdegC))) + 
+  xlab(paste("PCo1 (", round(sort(pcoa18S$eig, decreasing = TRUE)[1]*100/sum(pcoa18S$eig), 1), "%)", sep= "") ) + 
+  ylab(paste("PCo1 (", round(sort(pcoa18S$eig, decreasing = TRUE)[2]*100/sum(pcoa18S$eig), 1), "%)", sep= "") ) + 
+  scale_colour_gradient2(
+    low = "blue1",
+    mid = "white",
+    high = "red3",
+    midpoint = 21,
+    space = "Lab",
+    na.value = "grey50",
+    guide = "colourbar",
+    aesthetics = "colour"
+  ) + 
+  theme_bw() + customtheme1 + 
+  labs(title="18S")
+plot18S %>% 
+  filter(!is.na(TempdegC)) %>%
+  ggplot(aes(x = PCo1, y = PCo2)) + 
+  geom_point(size = 1.0, 
+             aes(color = SampleSiteLocationDescription)) + 
+  scale_color_brewer(palette = "Set1") + 
+  xlab(paste("PCo1 (", round(sort(pcoa18S$eig, decreasing = TRUE)[1]*100/sum(pcoa18S$eig), 1), "%)", sep= "") ) + 
+  ylab(paste("PCo1 (", round(sort(pcoa18S$eig, decreasing = TRUE)[2]*100/sum(pcoa18S$eig), 1), "%)", sep= "") ) + 
+  theme_bw() + customtheme1
+
+
+
+### Arch 
+set.seed(123)
+pcoaArch <- cmdscale(raredist_Arch, 
+                    k=2, 
+                    eig = TRUE)
+plotArch <- as.data.frame(pcoaArch$points) %>%
+  as_tibble(rownames = "SampleID") %>%
+  mutate(PCo1 = V1, PCo2 = V2) %>%
+  select(-V1, -V2) %>%
+  inner_join(., sampledataplotraw, by = "SampleID") 
+
+plotArch %>%
+  filter(!is.na(TempdegC)) %>%
+  ggplot(aes(x = PCo1, y = PCo2)) + 
+  geom_point(size = 1.0, 
+             aes(color = as.numeric(TempdegC))) + 
+  xlab(paste("PCo1 (", round(sort(pcoaArch$eig, decreasing = TRUE)[1]*100/sum(pcoaArch$eig), 1), "%)", sep= "") ) + 
+  ylab(paste("PCo1 (", round(sort(pcoaArch$eig, decreasing = TRUE)[2]*100/sum(pcoaArch$eig), 1), "%)", sep= "") ) +
+  scale_colour_gradient2(
+    low = "blue1",
+    mid = "white",
+    high = "red3",
+    midpoint = 21,
+    space = "Lab",
+    na.value = "grey50",
+    guide = "colourbar",
+    aesthetics = "colour"
+  ) + 
+  theme_bw() + customtheme1 + 
+  labs(title="Arch")
+plotArch %>%
+  filter(!is.na(TempdegC)) %>%
+  ggplot(aes(x = PCo1, y = PCo2)) + 
+  geom_point(size = 1.0, 
+             aes(color = SampleSiteLocationDescription)) + 
+  scale_color_brewer(palette = "Set1") + 
+  xlab(paste("PCo1 (", round(sort(pcoaArch$eig, decreasing = TRUE)[1]*100/sum(pcoaArch$eig), 1), "%)", sep= "") ) + 
+  ylab(paste("PCo1 (", round(sort(pcoaArch$eig, decreasing = TRUE)[2]*100/sum(pcoaArch$eig), 1), "%)", sep= "") ) +
+  theme_bw() + customtheme1
+
+
+
+#### ALL PLOTS TOGETHER
+plotALL <- bind_rows(list(`16S`=plot16S, `18S`=plot18S, `Archea`= plotArch), .id = 'source') %>%
+  # select(source, PCo1, TempdegC, SampleSiteLocationDescription) %>%
+  group_by(source) %>%
+  mutate(NormalizedPCo1 = (PCo1 - min(PCo1)/(max(PCo1)-min(PCo1)))) %>%
+  filter(!is.na(TempdegC))
+  
+
+plotALL %>%
+  ggplot(aes(x = NormalizedPCo1, 
+             y = as.numeric(TempdegC))) +
+  geom_point(aes(shape = source, 
+                 color = as.numeric(TempdegC)), 
+             size = 0.5, 
+             alpha = 0.5) + 
+  stat_poly_eq(aes(label = paste(after_stat(p.value.label),
+                                 after_stat(rr.label), sep = "*\", \"*")), 
+               size = 3, 
+               label.x = 0.9 * max(plotALL$NormalizedPCo1), 
+               label.y = 0.9 * max(as.numeric(plotALL$TempdegC))) +
+  geom_smooth(method = "lm", 
+              formula = y~x, 
+              color = "blue") + 
+  # geom_rug(col=rgb(.5,0,0,alpha=.01)) + 
+  scale_colour_gradient2(name = "Temperature (°C)",
+    low = "blue1",
+    mid = "grey90",
+    high = "red3",
+    midpoint = 21,
+    space = "Lab",
+    na.value = "grey50",
+    guide = "colourbar",
+    aesthetics = "colour"
+  ) + 
+  xlab("Normalized 16S/18S/Arch PCo1") + 
+  ylab("Water Temperature (°C)") + 
+  theme_classic() + customtheme
+
+  
+  
+
+
+
+
+
+#### ADONIS ####
+# METADATA SETUP
+metadataall <- sampledataplotraw %>%
+  column_to_rownames(var="SampleID") %>% 
+  as_tibble()
+metadataall %>% count(SampleSiteLocationDescription)
+
+metadataSW <- sampledataplotraw %>%
+  column_to_rownames(var="SampleID") %>% 
+  filter(season == 'Winter' | season == 'Summer')
+metadataSW %>% count(season)
+raredist16SSW <- raredist_16S %>% 
+  as.matrix() %>%
+  as.data.frame() %>%
+  select(any_of(rownames(metadataSW))) %>%
+  filter(rownames(metadataSW))
+
+
+metadataTemp <- sampledataplotraw %>%
+  column_to_rownames(var="SampleID") %>% 
+  as_tibble() %>%
+  filter(!is.na(TempdegC))
+metadataSW %>% pull(TempdegC) %>% hist()
+
+#### TEST
+set.seed(123)
+adonis16Ssite <- adonis2(raredist_16S~SampleSiteLocationDescription, 
+                         data = metadata, 
+                         method='eu', 
+                         permutations = 1000)
+adonis16Ssitep <- adonis16Ssite[['Pr(>F)']][1]
+
+adonis16SSW <- adonis2(raredist_16S~season, 
+                       data = metadataSW, 
+                       method='eu', 
+                       permutations = 1000)
+adonis16SSWp <- adonis16SSW[['Pr(>F)']][1]
+adonis16Stemp <- adonis2(raredist_16S~TempdegC, 
+                         data = metadata, 
+                         method='eu', 
+                         permutations = 1000)
+adonis16Stempp <- adonis16Stemp[['Pr(>F)']][1]
+
+

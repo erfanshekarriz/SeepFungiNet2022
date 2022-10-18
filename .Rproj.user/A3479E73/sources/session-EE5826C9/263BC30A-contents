@@ -1,0 +1,218 @@
+library(rstudioapi)
+library(phyloseq)
+library(tidyverse)
+library(dplyr)
+library(stringr)
+library(microbiome)
+library(ggplot2)
+library(vegan)
+library(lubridate)
+library(ggpubr)
+library(ggsignif)
+
+
+
+physeq16S <- readRDS('./data/physeq16S_AMI_filt.rds')
+physeq18S <- readRDS('./data/physeq18S_AMI_filt.rds')
+physeqArch <- readRDS('./data/physeqArch_AMI_filt.rds')
+
+# metadata 
+sampledataplot <- data.frame(sample_data(physeq16S)) %>%
+  as.data.frame() %>%
+  mutate(startday = as.numeric(min(days)), 
+         dayspassed = as.numeric((days - startday))) %>%
+  rownames_to_column("SampleID")
+features <- as.data.frame(colnames(sampledataplot))
+
+#### load data if already available ####
+rareAlpha16S <- read.csv("./data/inactive_data/16S_rarefied_15422_richness.csv") %>%
+  column_to_rownames(var="X") %>%
+  dplyr::rename(richness = x)
+rareAlpha18S <- read.csv("./data/inactive_data/18S_rarefied_15422_richness.csv") %>%
+  column_to_rownames(var="X") %>%
+  dplyr::rename(richness = x)
+rareAlphaArch <- read.csv("./data/inactive_data/Arch_rarefied_15422_richness.csv") %>%
+  column_to_rownames(var="X") %>%
+  dplyr::rename(richness = x)
+
+
+#### CLACULATE RAREFIED RICHNESS ####
+### 16S 
+min(sample_sums(physeq16S))
+otutable_16S <- data.frame(otu_table(physeq16S))
+
+set.seed(1234)
+rareAlpha16S <- vegan::rarefy(otutable_16S, 
+                             min(sample_sums(physeq16S)))
+# rareCurve16S <- vegan::rarecurve(otutable_16S,
+#                                  step = 5000)
+map_dfr(rareCurve16S, bind_rows) %>%
+  bind_cols(Group = rownames(otutable_16S),.) %>%
+  pivot_longer(-Group) %>%
+  drop_na() %>%
+  mutate(n_seqs = as.numeric(str_replace(name, "N", ""))) %>%
+  select(-name) %>%
+  ggplot(aes(x = n_seqs, y = value, group = Group)) + 
+  geom_line(size = 0.1) +
+  geom_vline(xintercept =  min(sample_sums(physeq16S)), color = "gray") + 
+  theme_classic()
+
+write.csv(rareAlpha16S, "16S_rarefied_15422_richness.csv")
+
+
+### 18S 
+min(sample_sums(physeq18S))
+otutable_18S <- data.frame(otu_table(physeq18S))
+
+set.seed(1234)
+rareAlpha18S <- vegan::rarefy(otutable_18S, 
+                              min(sample_sums(physeq18S)))
+rareCurve18S <- vegan::rarecurve(otutable_18S,
+                                 step = 5000)
+map_dfr(rareCurve18S, bind_rows) %>%
+  bind_cols(Group = rownames(otutable_18S),.) %>%
+  pivot_longer(-Group) %>%
+  drop_na() %>%
+  mutate(n_seqs = as.numeric(str_replace(name, "N", ""))) %>%
+  select(-name) %>%
+  ggplot(aes(x = n_seqs, y = value, group = Group)) + 
+  geom_line(size = 0.1) +
+  geom_vline(xintercept =  min(sample_sums(physeq18S)), color = "gray") + 
+  theme_classic()
+
+write.csv(rareAlpha18S, "18S_rarefied_15422_richness.csv")
+
+
+
+### Arch
+min(sample_sums(physeqArch))
+otutable_Arch <- data.frame(otu_table(physeqArch))
+
+set.seed(1234)
+rareAlphaArch <- vegan::rarefy(otutable_Arch, 
+                              min(sample_sums(physeqArch)))
+rareCurveArch <- vegan::rarecurve(otutable_Arch,
+                                 step = 5000)
+map_dfr(rareCurveArch, bind_rows) %>%
+  bind_cols(Group = rownames(otutable_Arch),.) %>%
+  pivot_longer(-Group) %>%
+  drop_na() %>%
+  mutate(n_seqs = as.numeric(str_replace(name, "N", ""))) %>%
+  select(-name) %>%
+  ggplot(aes(x = n_seqs, y = value, group = Group)) + 
+  geom_line(size = 0.1) +
+  geom_vline(xintercept =  min(sample_sums(physeqArch)), color = "gray") + 
+  theme_classic()
+
+write.csv(rareAlphaArch, "Arch_rarefied_15422_richness.csv")
+
+
+
+#### PLOT DIVERSITY AGAINST METADATA ####
+customtheme1 <- theme(plot.margin = margin(1,1,1,1, "cm"), 
+                      strip.text = element_text(face = "italic"),
+                      axis.title.x = element_text(margin=margin(t=10), size = 9, face = "italic"), 
+                      axis.title.y =  element_text(margin=margin(r=5), size = 8, face = "italic"),
+                      axis.text.x = element_blank(), 
+                      axis.text.y = element_text(size = 10, margin=margin(r=5), face = "italic"),
+                      legend.text = element_text(size = 7), 
+                      legend.position = "right",
+                      legend.background =  element_blank(), 
+                      panel.border = element_rect(colour = "black", fill=NA, size=0.8),
+                      legend.title = element_blank())
+
+rareAlpha16Splot <- rareAlpha16S %>%
+  as.data.frame() %>%
+  rownames_to_column(var = "SampleID") %>%
+  inner_join(sampledataplot, by = "SampleID") %>%
+  mutate(Depthm = as.numeric(Depthm)) %>%
+  mutate(Season = season) %>%
+  group_by(SampleSiteLocationDescription) %>%
+  mutate(meanrichness = mean(richness))
+
+rareAlpha18Splot <- rareAlpha18S %>%
+  as.data.frame() %>%
+  rownames_to_column(var = "SampleID") %>%
+  inner_join(sampledataplot, by = "SampleID") %>%
+  mutate(Depthm = as.numeric(Depthm)) %>%
+  mutate(Season = season) %>%
+  group_by(SampleSiteLocationDescription) %>%
+  mutate(meanrichness = mean(richness))
+
+rareAlphaArchplot <- rareAlphaArch %>%
+  as.data.frame() %>%
+  rownames_to_column(var = "SampleID") %>%
+  inner_join(sampledataplot, by = "SampleID") %>%
+  mutate(Depthm = as.numeric(Depthm)) %>%
+  mutate(Season = season) %>%
+  group_by(SampleSiteLocationDescription) %>%
+  mutate(meanrichness = mean(richness))
+
+
+
+rareAlphaALL <- bind_rows(list(`16S`= rareAlpha16Splot, 
+                               `18S`= rareAlpha18Splot, 
+                               `Arch`= rareAlphaArchplot), 
+                          .id = "Group")
+write_csv(rareAlphaALL, "./data/rareifiedAlphaDiversity.csv")
+
+richnessSite <- rareAlphaALL %>%
+  group_by(SampleSiteLocationDescription, 
+           Group) %>%
+  dplyr::summarise(avgRich = mean(richness))
+
+
+### PLOT
+# depth relationship with alpha diversity 
+rareAlphaALL %>%
+  filter(Group == "16S") %>%
+  ggplot(aes(x = reorder(SampleSiteLocationDescription, +meanrichness), 
+             y = richness, 
+             color = SampleSiteLocationDescription)) +
+  geom_jitter(size = 0.1, 
+              color = "gray") + 
+  geom_violin(color = "gray") + 
+  geom_boxplot(outlier.shape = NA, width = 0.1) + 
+  stat_compare_means(method = "kruskal.test", size = 2.8, color = "black")+
+  scale_color_brewer(palette = "Set1") + 
+  theme_bw() + 
+  facet_wrap(~Group, scales = 'free_y') + 
+  xlab("Sample Collection Station") + 
+  customtheme1
+
+# univariate
+rareAlphaALL %>% 
+  filter(Group == "Arch") %>%
+  ggplot(aes(x =richness, color = Season)) + 
+  geom_density(bw = 10) + 
+  scale_color_brewer(palette = "Set1") + 
+  facet_wrap(~SampleSiteLocationDescription) +
+  theme_bw() + 
+  customtheme1
+
+# depth
+rareAlphaALL %>%
+  filter(Group == "18S") %>%
+  ggplot(aes(x = as.numeric(TempdegC), 
+             y = richness)) +
+  geom_point(size = 0.1, 
+             aes(color = SampleSiteLocationDescription)) + 
+  geom_smooth(method = "lm", 
+              fomrula = y~x) + 
+  stat_poly_eq(aes(label = paste(after_stat(p.value.label),
+                                 after_stat(rr.label), sep = "*\", \"*"))) +  
+  scale_color_brewer(palette = "Set1") + 
+  theme_bw() + 
+  xlab("Sample Collection Station") + 
+  customtheme1
+
+
+
+
+
+
+
+
+
+
+

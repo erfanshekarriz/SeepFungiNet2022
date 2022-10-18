@@ -1,0 +1,8 @@
+[1,"Installing 'ggridges' ...\n"]
+[1,"Retrieving 'https://cran.rstudio.com/bin/macosx/contrib/4.1/ggridges_0.5.4.tgz' ...\n"]
+[1,"\tOK [downloaded 2.1 Mb in 4.7 secs]\n"]
+[1,"Installing ggridges [0.5.4] ...\n"]
+[1,"\tOK [installed binary]\n"]
+[1,"Moving ggridges [0.5.4] into the cache ...\n"]
+[1,"\tOK [moved to cache in 2.1 milliseconds]\n"]
+[2,"\n\n✔ Package 'ggridges' successfully installed.\n"]

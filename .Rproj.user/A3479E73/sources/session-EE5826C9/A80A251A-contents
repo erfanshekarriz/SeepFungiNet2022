@@ -1,0 +1,493 @@
+library(SpiecEasi)
+library(ggplot2)
+library(phyloseq)
+library(igraph)
+library(tidyr)
+library(tidyverse)
+library(rstudioapi)
+library(fantaxtic)
+library(ggridges)
+library('brainGraph')
+
+
+
+
+
+setwd(dirname(getActiveDocumentContext()$path))       # Set working directory to source file location
+getwd()                                               # Check updated working directory
+
+
+### UPLOAD ####
+
+
+
+### UPLOAD ALTERNATIVE ###
+network.A <- readRDS(file = "/Users/erfanshekarriz/Desktop/Hongbin LIU Lab/r_scripts/spiec_easi_V4/BAF_spieceasi_slr_BacArchTSprev801010_SLR_minratio0.1_nlambda40_thres0.001_rep20_iGRAPH.rds")
+network.B <- readRDS(file = "/Users/erfanshekarriz/Desktop/Hongbin LIU Lab/r_scripts/spiec_easi_V4/BF_spieceasi_slr_BacArchTSprev801010_SLR_minratio0.1_nlambda40_thres0.001_rep20_iGRAPH.rds")
+network.C <- readRDS(file = "/Users/erfanshekarriz/Desktop/Hongbin LIU Lab/r_scripts/spiec_easi_V4/BA_spieceasi_slr_BacArchTSprev801010_SLR_minratio0.1_nlambda40_thres0.001_rep20_iGRAPH.rds")
+network.D <- readRDS(file = "/Users/erfanshekarriz/Desktop/Hongbin LIU Lab/r_scripts/spiec_easi_V4/B_spieceasi_slr_BacArchTSprev801010_SLR_minratio0.1_nlambda40_thres0.001_rep20_iGRAPH.rds")
+network.E <- readRDS(file = "/Users/erfanshekarriz/Desktop/Hongbin LIU Lab/r_scripts/spiec_easi_V4/Fu_spieceasi_slr_BacArchTSprev801010_SLR_minratio0.1_nlambda40_thres0.001_rep20_iGRAPH.rds")
+network.F <- readRDS(file = "/Users/erfanshekarriz/Desktop/Hongbin LIU Lab/r_scripts/spiec_easi_V4/Ar_spieceasi_slr_BacArchTSprev801010_SLR_minratio0.1_nlambda40_thres0.001_rep20_iGRAPH.rds")
+
+
+
+# # 1) degree
+# SEEP.degree.A <- degree(network.A, normalized =FALSE)
+# SEEP.degree.B <- degree(network.B, normalized =FALSE)
+# SEEP.degree.C <- degree(network.C, normalized =FALSE)
+# SEEP.degree.D <- degree(network.D, normalized =FALSE)
+# 
+# 
+# degree.plot <- rbind(data.frame(value = as.numeric(SEEP.degree.A), Network = "BAF", Seep = "Seep"), 
+#       data.frame(value = as.numeric(SEEP.degree.B), Network = "BA", Seep = "Seep"), 
+#       data.frame(value = as.numeric(SEEP.degree.C), Network = "Bacteria", Seep = "Seep"), 
+#       data.frame(value = as.numeric(SEEP.degree.D), Network = "Fungi", Seep = "Seep"))
+# 
+# degree.plot %>% filter(value!=0) %>%
+#   ggplot(aes(x = as.numeric(value), y= 1, fill = Network )) +
+#   geom_density_ridges(aes(color = Network, scale = 0.9), bandwidth = 5,  
+#                       jittered_points = TRUE, point_size = 0.1, point_alpha = 1, alpha = 0.3)+ 
+#   scale_x_continuous(limits = c(0, 60)) +
+#   theme(axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0), angle = 90, vjust = 0.5, hjust=0)) + 
+#   theme_bw() + 
+#   labs(title = "Degree in Seep & Non-Seep Regions") +
+#   ylab(NULL) + 
+#   xlab("Degree Distribution of Network Vertices") + 
+#   ylab("Frequency Distribution") + 
+#   theme()
+# 
+# 
+# 
+# 
+# 
+# 
+# # 2) betweenness centrality
+# SEEP.betweenness.A <- betweenness(network.A, normalized =TRUE)
+# SEEP.betweenness.B <- betweenness(network.B, normalized =TRUE)
+# SEEP.betweenness.C <- betweenness(network.C, normalized =TRUE)
+# SEEP.betweenness.D <- betweenness(network.D, normalized =TRUE)
+# 
+# 
+# betweenness.plot <- rbind(data.frame(value = as.numeric(SEEP.betweenness.A), Network = "BAF", Seep = "Seep"), 
+#                      data.frame(value = as.numeric(SEEP.betweenness.B), Network = "BA", Seep = "Seep"), 
+#                      data.frame(value = as.numeric(SEEP.betweenness.C), Network = "Bacteria", Seep = "Seep"), 
+#                      data.frame(value = as.numeric(SEEP.betweenness.D), Network = "Fungi", Seep = "Seep"))
+# 
+# betweenness.plot %>% filter(value!=0) %>%
+#   ggplot(aes(x = as.numeric(value), y= 1, fill = Network)) +
+#   geom_density_ridges(trim = TRUE, aes(color = Network, scale = 0.9), bandwidth = 0.01,  
+#                       jittered_points = TRUE, point_size = 0.1, point_alpha = 1, alpha = 0.3) + 
+#   scale_x_continuous(limits = c(0, 0.07)) +
+#   theme(axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0), angle = 90, vjust = 0.5, hjust=0)) + 
+#   theme_bw() + 
+#   # scale_y_discrete(expand = expansion(add = c(0.2, 1.0))) + 
+#   labs(title = "Betweenness in Seep & Non-Seep Regions") +
+#   ylab(NULL) + 
+#   xlab("Betweenness Distribution of Network Vertices") + 
+#   ylab("Frequency Distribution") + 
+#   theme()
+# 
+# 
+# 
+# 
+# 
+# 
+# # 3) edge weights
+# 
+# SEEP.weight.A <- as.numeric(E(network.A.weighted)$weight)
+# SEEP.weight.B <- as.numeric(E(network.B.weighted)$weight)
+# SEEP.weight.C <- as.numeric(E(network.C.weighted)$weight)
+# SEEP.weight.D <- as.numeric(E(network.D.weighted)$weight)
+# 
+# 
+# weight.plot <- rbind(data.frame(value = as.numeric(SEEP.weight.A), Network = "BAF", Seep = "Seep"), 
+#                           data.frame(value = as.numeric(SEEP.weight.B), Network = "BA", Seep = "Seep"), 
+#                           data.frame(value = as.numeric(SEEP.weight.C), Network = "Bacteria", Seep = "Seep"), 
+#                           data.frame(value = as.numeric(SEEP.weight.D), Network = "Fungi", Seep = "Seep"))
+# 
+# weight.plot %>% filter(value != 0) %>%
+#   ggplot(aes(x = as.numeric(value), y= Network, fill = Network)) +
+#   geom_density_ridges(trim = TRUE, aes(color = Network, scale = 0.9), bandwidth = 0.05,  
+#                       jittered_points = TRUE, point_size = 0.1, point_alpha = 1, alpha = 0.3) +
+#   scale_x_continuous(limits = c(-1, 1)) +
+#   theme(axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0), angle = 90, vjust = 0.5, hjust=0)) + 
+#   theme_bw() + 
+#   scale_y_discrete(expand = expansion(add = c(0.2, 1.0))) + 
+#   labs(title = "Degree in Seep & Non-Seep Regions") +
+#   ylab(NULL) + 
+#   xlab("Degree Distribution of Network Vertices") + 
+#   ylab("Frequency Distribution") + 
+#   theme()
+#   
+
+
+# 4) node efficiency
+
+SEEP.effic.A <- as.numeric(efficiency(network.A, type = "nodal", weights = NULL, use.parallel = TRUE))
+SEEP.effic.B <- as.numeric(efficiency(network.B, type = "nodal", weights = NULL, use.parallel = TRUE))
+SEEP.effic.C <- as.numeric(efficiency(network.C, type = "nodal", weights = NULL, use.parallel = TRUE))
+SEEP.effic.D <- as.numeric(efficiency(network.D, type = "nodal", weights = NULL, use.parallel = TRUE))
+SEEP.effic.E <- as.numeric(efficiency(network.E, type = "nodal", weights = NULL, use.parallel = TRUE))
+SEEP.effic.F <- as.numeric(efficiency(network.F, type = "nodal", weights = NULL, use.parallel = TRUE))
+
+
+effic.plot <- rbind(data.frame(value = as.numeric(SEEP.effic.A), Network = "BAF"), 
+                    data.frame(value = as.numeric(SEEP.effic.B), Network = "BF"),
+                    data.frame(value = as.numeric(SEEP.effic.C), Network = "BA"), 
+                    data.frame(value = as.numeric(SEEP.effic.D), Network = "B"), 
+                    data.frame(value = as.numeric(SEEP.effic.E), Network = "F"), 
+                    data.frame(value = as.numeric(SEEP.effic.F), Network = "A"))
+
+effic.plot <- effic.plot %>% mutate(Network = fct_relevel(Network, levels = "F", "BF", "BAF", "BA", "B", "A"))
+
+effic.plot %>% filter(value > 0.01) %>% 
+  ggplot(aes(x = as.numeric(value), y= Network, fill =Network, color = Network)) +
+  geom_density_ridges(#fill ="white",
+                      scale = 1.4,
+                      bandwidth = 0.01,  
+                      jittered_points = TRUE, 
+                      point_size = 0.07, 
+                      point_alpha = 1,
+                      alpha = 0.7, 
+                      quantile_lines = TRUE, 
+                      quantiles = 2)+
+  scale_x_continuous(limits = c(0.0, 0.5)) + 
+  theme(axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0), angle = 90, vjust = 0.5, hjust=0)) + 
+  theme_bw() + 
+  scale_y_discrete(expand = expansion(add = c(0.5, 1.6))) + 
+  # labs(title = "The Effect of Different Domains on Network Efficiency") +
+  ylab("Network") + 
+  xlab("Information Transfer Efficiency") + 
+  theme() + 
+  scale_color_hue(h = c(180, 350)) + 
+  scale_fill_hue(h = c(180, 350)) + 
+  theme(text = element_text(size = 10)) + 
+  # scale_x_continuous(expand = c(0.008, 0.008)) +
+  guides(color = guide_legend(reverse = TRUE), fill = guide_legend(reverse = TRUE))
+
+
+ggsave("efficiency_all_graphs_R_V4.png",
+       width = 10,
+       height = 7,
+       units = "cm",
+       dpi = 1000 )
+
+
+
+
+### T-TEST CHECKS
+library(tidyverse)
+library(ggpubr)
+library(rstatix)
+
+effic.plot %>% sample_n_by(Network, size = 2)
+
+effic.plot <- effic.plot %>% filter(value!=0)
+
+effic.plot %>%
+  group_by(Network) %>%
+  get_summary_stats(value, type = "mean_sd")
+
+bxp <- ggboxplot(
+  effic.plot, x = "Network", y = "value", 
+  ylab = "efficiency", xlab = "network", add = "jitter"
+)
+bxp
+
+
+effic.plot %>%
+  group_by(Network) %>%
+  identify_outliers(value)
+
+
+ggqqplot(effic.plot, x = "value", facet.by = "Network")
+
+effic.plot %>% levene_test(value ~ Network)
+
+value <- effic.plot$value
+Network <- effic.plot$Network
+mod <- aov(value~Network)
+summary(mod)
+
+TukeyHSD(mod, conf.level = 0.99)
+
+### T-TEST
+BAF <- effic.plot %>%
+  filter(Network == "BAF") %>%
+  pull(value)
+
+BF <- effic.plot %>%
+  filter(Network == "BF") %>%
+  pull(value)
+
+
+BA <- effic.plot %>%
+  filter(Network == "BA") %>%
+  pull(value)
+
+B <- effic.plot %>%
+  filter(Network == "B") %>%
+  pull(value)
+
+Fu <- effic.plot %>%
+  filter(Network == "F") %>%
+  pull(value)
+
+
+t.test(BAF, B)
+t.test(BAF, BF)
+t.test(BAF, BA)
+t.test(BAF, Fu)
+
+t.test(BF, BA)
+t.test(BF, B)
+t.test(BF, Fu)
+
+t.test(BA, B)
+t.test(BA, Fu)
+
+t.test(B, Fu)
+
+
+### DRAW SIGNIFICANCE HEATMAP
+cormat <- t(as.matrix(read.csv("/Users/erfanshekarriz/Desktop/Hongbin LIU Lab/r_scripts/ridge_diagrams/efficiency_p_values.csv", 
+                   row.names = 1, header= TRUE)))
+# Get lower triangle of the correlation matrix
+get_lower_tri<-function(cormat){
+  cormat[upper.tri(cormat)] <- NA
+  return(cormat)
+}
+# Get upper triangle of the correlation matrix
+get_upper_tri <- function(cormat){
+  cormat[lower.tri(cormat)]<- NA
+  return(cormat)
+}
+
+
+melted_cormat <- melt(cormat)
+head(melted_cormat)
+
+ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=value)) + 
+  geom_tile()
+
+upper_tri <- get_upper_tri(cormat)
+upper_tri
+
+
+melted_cormat <- melt(upper_tri, na.rm = TRUE)
+ggheatmap <- ggplot(data = melted_cormat, aes(Var2, Var1, fill = value))+
+  geom_tile(color = "white")+
+  scale_fill_gradient2(low = "purple", 
+                       high = "white", 
+                       mid = "pink", 
+                       midpoint = 0.015, 
+                       breaks = c(0, 0.01,0.05),
+                       limit = c(0,0.05), 
+                       space = "Lab", 
+                       name="p-value",
+                       na.value = "grey88") +
+  theme_minimal()+ 
+  theme(text = element_text(size = 6), 
+        axis.text.x = element_text(angle =90, vjust = 1, hjust = 1),
+        axis.text.y = element_text(angle =90, vjust = 1, hjust = 1),
+        legend.position = "none", axis.title = element_blank())+
+  coord_fixed()
+
+ggheatmap
+
+
+
+ggsave("p_value_efficiencies.png",
+       width = 3,
+       height = 3,
+       units = "cm",
+       dpi = 1000 )
+
+ggheatmap + 
+  geom_text(aes(Var2, Var1, label=formatC(value, format = "e", digits=1)), color = "black", size = 3) 
+
+
+
+# stat.test <- genderweight %>% 
+#   t_test(weight ~ group) %>%
+#   add_significance()
+# stat.test
+# 
+# 
+# stat.test
+
+
+
+
+# # 5) node transitivity
+# 
+# SEEP.transitivity.A <- as.numeric(transitivity(network.A, type="localundirected"))
+# SEEP.transitivity.B <- as.numeric(transitivity(network.B, type="localundirected"))
+# SEEP.transitivity.C <- as.numeric(transitivity(network.C, type="localundirected"))
+# SEEP.transitivity.D <- as.numeric(transitivity(network.D, type="localundirected"))
+# 
+# 
+# transitivity.plot <- rbind(data.frame(value = as.numeric(SEEP.transitivity.A), Network = "BAF", Seep = "Seep"), 
+#                     data.frame(value = as.numeric(SEEP.transitivity.B), Network = "BA", Seep = "Seep"), 
+#                     data.frame(value = as.numeric(SEEP.transitivity.C), Network = "Bacteria", Seep = "Seep"), 
+#                     data.frame(value = as.numeric(SEEP.transitivity.D), Network = "Fungi", Seep = "Seep"))
+# 
+# transitivity.plot %>% filter(value != 1) %>% filter(value != 0) %>%
+#   ggplot(aes(x = as.numeric(value), y= Network, fill = Network)) +
+#   geom_density_ridges(trim = TRUE, aes(color = Network, scale = 0.9), bandwidth = 0.1,  
+#                       jittered_points = TRUE, point_size = 0.1, point_alpha = 1, alpha = 0.3)
+# 
+# 
+# 
+# 
+# 
+# ######## PLOT ALL
+# 
+# plot.all <- rbind(cbind(transitivity.plot, attribute = "Transativity"), 
+#                   cbind(degree.plot, attribute = "Degree"), 
+#                   cbind(betweenness.plot, attribute = "Betweenness"), 
+#                   cbind(effic.plot, attribute = "Efficiency"), 
+#                   cbind(weight.plot, attribute = "Edge Weights"))
+# 
+# 
+# plot.all.log <- plot.all
+# plot.all.log[,1] <- plot.all[,1] %>% log10()
+# plot.all.log$Network = factor(plot.all.log$Network, levels=c('Prokaryotic','Cross-Domain'))
+# 
+# 
+# 
+# ###### RIDGE PLOT
+# plot.all %>% 
+#   filter(value != 0) %>% 
+#   filter(Seep == "Seep") %>% 
+#   filter(Network != "Fungi") %>%  
+#   filter(attribute != "Transativity") %>% 
+#   filter(attribute != "Betweenness") %>% 
+#   arrange(match(Network, c("Prokaryotic", "Cross-Domain"))) %>%
+#   ggplot(aes(x = as.numeric(value), y= 1, fill = Network)) +
+#   geom_density_ridges(aes(color = Network, scale = 0.9), bandwidth = 0.01,  
+#          jittered_points = TRUE, point_size = 0.1, point_alpha = 1, alpha = 0.3)+
+#   facet_grid(attribute~., scales = "free", shrink= TRUE, switch = "y") + 
+#   scale_fill_grey() +
+#   # theme(axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0), angle = 90, vjust = 0.5, hjust=0)) + 
+#   theme_bw() + 
+#   # scale_y_discrete(expand = expansion(add = c(0.2, 1.0))) + 
+#   labs(title = "Prokaryotic vs. Cross Domain Network Parameters in Seep & Non-Seep Regions") +
+#   ylab(NULL) + 
+#   xlab("Arbitrary Log Normalized Values") + 
+#   ylab("Nodal Distribution of Network Properties") + 
+#   theme()
+#   
+# 
+# # ggsave("Distribution.Properties.ProkvsCD.png" ,
+# #        width = 25,
+# #        height = 20,
+# #        units = "cm",
+# #        dpi = 300 )
+# 
+# 
+# # Fine tune text for plotting
+# 
+# plot.all.clean <- plot.all
+# plot.all.clean$seep_f = factor(plot.all$Seep, levels=c('Seep', 'Non.Seep'))
+# plot.all.clean$seep_f <- plot.all.clean$seep_f %>% str_replace("Non.Seep", "Non-Seep")
+# plot.all.clean$attribute <- plot.all$attribute %>%
+#   str_replace("Efficiency", "Information Transfer Efficiency") %>% 
+#   str_replace("Betweenness", "Betweenness Centrality") %>% 
+#   str_replace("Degree", "Degree") %>% 
+#   str_replace("Edge Weights", "Edge Weight")
+# 
+# 
+# 
+# plot.all.clean %>% 
+#   na.omit() %>% 
+#   filter(value != 0) %>% 
+#   filter(Seep == "Seep") %>% 
+#   filter(Network != "Fungi") %>%  
+#   filter(attribute != "Transativity") %>% 
+#   filter(attribute != "Betweenness Centrality") %>% 
+#   # arrange(match(attribute, c("Betweenness Centrality", "Information Transfer Efficiency", "Edge Weight"))) %>%
+#   ggplot(aes(x = as.numeric(value), y= 1, fill = Network)) +
+#   geom_density_ridges(aes(color = Network, scale = 0.9), bandwidth = 0.01,  
+#                       jittered_points = TRUE, point_size = 0.1, point_alpha = 1, alpha = 0.3)+
+#   facet_grid(attribute~., switch = "y", scale="free") + 
+#   scale_x_continuous(limits = c(0, 0.5)) +
+#   theme(axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0), angle = 90, vjust = 0.5, hjust=0)) + 
+#   theme_bw() + 
+#   labs(title = "Density Distribution") +
+#   ylab(NULL) + 
+#   scale_y_discrete(expand = expansion(add = c(0, 2.5))) + 
+#   ylab("Nodal Frequency Distribution") + 
+#   theme(panel.grid.major.y = element_blank(), 
+#         panel.grid.minor.y = element_blank(), 
+#         axis.text.y=element_blank(),
+#         axis.ticks.y=element_blank(), 
+#         axis.title.x=element_blank())
+# 
+# 
+# ggsave("SLR_Distributions_Effic.png" ,
+#        width = 16,
+#        height = 17,
+#        units = "cm",
+#        dpi = 1000 )
+# 
+# 
+# 
+# # T-TESTS 
+# library(ggpubr)
+# library(rstatix)
+# 
+# # assign the test groups 
+# test.data <- degree.plot %>% 
+#   filter(value != 0) %>%
+#   filter(Seep == "Seep") %>%
+#   filter(Network != "Fungi")
+# 
+# # check summary statistics
+# test.data %>%
+#   group_by(Network) %>%
+#   get_summary_stats(value, type = "mean_sd")
+# 
+# # visualize
+# bxp <- ggboxplot(
+#   test.data, x = "Network", y = "value", 
+#   ylab = "Value", xlab = "Network", add = "jitter")
+# 
+# bxp
+# 
+# 
+# # assumptions check 
+# 
+# # no extreme outliers 
+# test.data %>%
+#   group_by(Network) %>%
+#   identify_outliers(value)
+# 
+# # is normally distributed
+# test.data.g<- test.data %>%
+#   group_by(Network)
+# 
+# test.data %>% filter(Network=="Cross-Domain") %>% shapiro.test(value)
+# 
+# ggqqplot(test.data, x = "value", facet.by = "Network")
+# 
+# 
+# # variances are equal (p value greater than 0.05)
+# test.data %>% levene_test(value ~ Network)
+# 
+# 
+# # Welch's Unequal Variances T-Test 
+# stat.test <- test.data %>% 
+#   t_test(value ~ Network) %>%
+#   add_significance()
+# stat.test
+# 
+# # Equal Variance T-Test
+# stat.test2 <- test.data %>%
+#   t_test(value ~ Network, var.equal = TRUE) %>%
+#   add_significance()
+# stat.test2
+
+
+
+
