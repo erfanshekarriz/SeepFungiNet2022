@@ -6,7 +6,8 @@ library(tidyverse)
 library(rlist)
 library(ggpubr)
 
-
+set.seed(324)
+npermutations <- 1000
 
 
 #FUNCTIONS####################################
@@ -18,7 +19,7 @@ remove.0v <- function(ingraph) {
   outgraph <- ingraph
   cat("\nOriginal Graph Vertices: ", length(V(ingraph)))
   V(outgraph)$names <- paste0("v", 1:length(V(outgraph))) #assign unique names to vertices to keep track
-  disconnected.V <- which(degree(outgraph)==0) # index completely disconnected vertices
+  disconnected.V <- which(degree(outgraph)<4) # index completely disconnected vertices
   outgraph <- delete.vertices(outgraph, disconnected.V) # remove them
   cat("\nFiltered Graph Vertices: ", length(V(outgraph)), "\n")
   return(outgraph)
@@ -348,11 +349,11 @@ plot.robustness <- function(x, vulnerability=TRUE){
 #LOAD & PREPARE GRAPHS GRAPHS ###
 #LOAD GRAPHS
 #LOAD_DATA####################################
-files <- list.files("./data/networks/attackanalysis/", 
+files <- list.files("./data/networks/filtered/nonweighted/", 
                     recursive=FALSE, 
                     full.names = TRUE)
 
-filesshort <- list.files("./data/networks/attackanalysis/", 
+filesshort <- list.files("./data/networks/filtered/nonweighted/", 
                          recursive=FALSE, 
                          full.names = FALSE)
 
@@ -365,18 +366,16 @@ for (i in 1:length(files)){
 
 # add custom names to the graphs
 names(graph.list) <- c("B", "BA", 
-                       "BAF", "BF", 
-                       "Fu")
+                       "BAF", "BF")
 
 
 #RUN####################################
-set.seed(324)
 # randomperm 
 # betweennness
 # degree
 attack.robustness.ran <- attack.robustness(graph.list, 
                                            method="randomperm", 
-                                           permutation_n = 100)
+                                           permutation_n = npermutations)
 
 
 plot.robustness(attack.robustness.ran, vulnerability = F) + 
@@ -395,12 +394,11 @@ plot.robustness(attack.robustness.ran, vulnerability = F) +
 #PVALUES####################################
 
 # choose which networks you'd like to compare
-my_comparisons <- list(c("BA", "Fu"),
-                       c("BA", "B"),
+my_comparisons <- list(c("B", "BF"),
                        c("BF", "BAF"), 
                        c("BA", "BF"))
 
-tofind <- paste(c("BAF","BA", "BF", "B","Fu"), collapse="|")
+tofind <- paste(c("BAF","BA", "BF", "B"), collapse="|")
 
 
 stack(lapply(attack.robustness.ran, function(l) l[['V.list']])) %>%
@@ -411,18 +409,19 @@ stack(lapply(attack.robustness.ran, function(l) l[['V.list']])) %>%
   ggplot(aes(y = Vulnerability, 
              x = reorder(Network, desc(meanV)), 
              color = factor(method))) +
-  geom_jitter(size = 0.1, alpha = 0.1) + 
-  geom_boxplot(fill = "NA", outlier.shape = NA) +
+  geom_jitter(size = 0.1, alpha = 0.1, height=0.1, width=0.2) + 
+  geom_boxplot(fill = "NA", outlier.shape = NA, width=0.2) +
   stat_compare_means(aes(label = ..p.signif..), 
                      comparisons = my_comparisons,
                      size = 4, 
                      method = "wilcox.test", 
                      color = "gray20", 
-                     label.y = c(0.2, 0.25, 0.3, 0.34, 0.4), 
+                     vjust=0.5,
+                     label.y = c(0.45, 0.32, 0.41), 
   ) + 
   stat_compare_means(method= "anova", 
                      label.y = 0.48, 
-                     label.x = length(attack.robustness.ran)-1.1,  
+                     label.x = length(attack.robustness.ran)-0.5,  
                      size = 2.2, 
                      color = "black") + 
   expand_limits(y = 0.50) +  # adjust y axis expansion
@@ -435,6 +434,7 @@ stack(lapply(attack.robustness.ran, function(l) l[['V.list']])) %>%
     legend.position = "none") +
   labs(x = "Network",
        y = "Permutated Vulnerability",
-       color = "Network") 
+       color = "Network")  + 
+  scale_color_brewer(palette = "Set1")
 
 ######

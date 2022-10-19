@@ -7,7 +7,7 @@ library('brainGraph')
 
 
 ### UPLOAD FILES ###
-files <- list.files(path = "./data/networks/attackanalysis", 
+files <- list.files(path = "./data/networks/filtered/nonweighted", 
                     full.names = TRUE)
 networklist <- list()
 remove.0v <- function(ingraph) {
@@ -27,7 +27,7 @@ for (file in files){
 }
 
 
-names(networklist) <- c("B", "BA", "BAF", "BF", "Fu")
+names(networklist) <- c("B", "BA", "BAF", "BF")
 
 
 
@@ -40,7 +40,7 @@ for (i in 1:length(networklist)){
                                             type = "nodal", 
                                             weights = NULL, use.parallel = TRUE)))))
 }
-names(efficlist) <- c("B", "BA", "BAF", "BF", "Fu")
+names(efficlist) <- c("B", "BA", "BAF", "BF")
 
 # combine data
 effic.plot.tax <- bind_rows(efficlist, .id = "Network") %>% t() 
@@ -69,20 +69,20 @@ effic.plot <- effic.plot %>%
 
 #### PLOT ####
 effic.plot %>% 
-  filter(Efficiency > 0.2) %>% 
+  filter(Efficiency > 0.05) %>%  # removes efficiency of disconnected vertices
   ggplot(aes(x = as.numeric(Efficiency), 
              y= reorder(Network, -meanEff), 
              fill =Network, color = Network)) +
   geom_density_ridges(#fill ="white",
     scale = 1.4,
-    bandwidth = 0.04,  
+    bandwidth = 0.02,  
     jittered_points = TRUE, 
     point_size = 0.07, 
     point_alpha = 1,
     alpha = 0.7, 
     quantile_lines = TRUE, 
     quantiles = 2)+
-  scale_x_continuous(limits = c(0.0, 0.7)) + 
+  scale_x_continuous(limits = c(0.0, 0.5)) + 
   theme(axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0), angle = 90, vjust = 0.5, hjust=0)) + 
   theme_bw() + 
   scale_y_discrete(expand = expansion(add = c(0.5, 1.6))) + 
@@ -99,7 +99,7 @@ effic.plot %>%
 
 ggsave("./data/graphs/efficiency.png",
        width = 10,
-       height = 7,
+       height = 5,
        units = "cm",
        dpi = 1000 )
 
