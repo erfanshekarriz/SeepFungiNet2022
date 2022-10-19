@@ -15,9 +15,12 @@ library(gridExtra)
 #        in the working directory ./data/ to include only phyloseq objects
 #        with Fungi, or Prokaryotes respectively. You can also filter them 
 #        using the cod on line 57 and 58!
+#
+#        The parameterization of the β parameter can also be done by 
+#        adjusting the "input parameters" range. 
 
                                                        
-# input your parameters
+#### INPUT PARAMETERS ####
 # methods <- c('slr', 'glasso', 'mb')
 methods <- c('slr')
 nlambda.x <- 20
@@ -26,7 +29,13 @@ thresh.x <- 0.05
 rep.num.x <- 5
 ncores.x <- 4
 
+# the maximum integer value for β while it begins from 0 and stepwise increases
+# the model with the lowest eBIC is selected
 
+rankmin <- 2
+rankmax <- 50       # Maximum equal to the number of your ASVs
+                      # By default set to ASV-1 count if you leave this variable blank
+ranksteps <- 20
 
 #### SETUP FILE DIRECTORIES ####
 inputdir <- getwd()
@@ -49,28 +58,34 @@ names(physeqlist) <- files %>%
   str_extract(pattern = "(physeq...)")
 
 
-#### filter the common sample ####
+#### FILTER FOR COMMON SAMPLES ####
 commonsamp <- unlist(unique(lapply(physeqlist, 
                                    FUN = function(x) sample_names(x))))
 physeqlistcom <- list()
 for(i in 1:length(physeqlist)) {        
   physeqlistcom[[i]] <- subset_samples(physeqlist[[i]], sample_names(physeqlist[[i]]) %in% commonsamp) 
-  # physeqlistcom[[i]] <- subset_taxa(physeqlistcom[[i]], 
+  # physeqlistcom[[i]] <- subset_taxa(physeqlistcom[[i]],
   #                                   (Domain %in% c("Bacteria", "Eukaryota")))
 }
-
-
 names(physeqlistcom) <- names(physeqlist)
 
 
+#### MAKE COMBINED PHYLOSEQ ####
+combinedotu <- bind_cols(lapply(physeqlistcom, FUN = function(x) as.data.frame(otu_table(x))))
+combinedtax <- bind_rows(lapply(physeqlistcom, FUN = function(x) as.data.frame(tax_table(x))))
+metadata <- as.data.frame(sample_data(physeqlistcom[[1]]))
+
+physeqcombined <- phyloseq(otu_table(combinedotu%>% as.matrix(), taxa_are_rows = FALSE), 
+                           tax_table(combinedtax %>% as.matrix()),
+                           sample_data(metadata))
+
+saveRDS(physeqcombined, paste("./data","physeqcombined.rds", sep = '/'))
+
+cat(paste("Combined phyloseq object made..."))
 
 
-#### FILTER BASED ON TAXONOMIC DOMAIN ####
 
-
-
-
-#### Create SpiecEasi Network ####
+#### INFER SPIEC-EASI NETWORK ####
 pulsar.params <- list(thresh = thresh.x, 
                       rep.num= rep.num.x, 
                       ncores = ncores.x, 
@@ -78,24 +93,47 @@ pulsar.params <- list(thresh = thresh.x,
 
 cat(paste("Started making the network at", Sys.time(), 'HKT'))
 
+if (!exists("rankmax")){
+  rankmax <- ncol(combinedotu) - 1
+}
 
+#### SET RANK for BETA Estimation 
+ranks <- unique(round(exp(seq(log(rankmin), log(rankmax), len=ranksteps))))
+cat(paste0("Selecting with the following ranks: ", paste(ranks, collapse = " ")))
 SElist <- list()
 for (i in 1:length(methods)){
+  i <- 1
   netname <- paste("SE", methods[i], sep = "")
   cat(paste("\nStarted making the", methods[i],  "network at", Sys.time(), 'HKT\n'))
 
-  stability <- 0
-  nlambdatemp <- nlambda.x
-  # while(stability < 0.04){
-  SElist[i] <- list(spiec.easi(physeqlistcom,
-                               method= methods[i],
-                               nlambda= nlambdatemp,
-                               lambda.min.ratio= lambda.min.ratio.x,
-                               pulsar.params = pulsar.params))
+  # perform model selection for SLR β parameter
+  if (methods[i]=="slr"){
+    se.slr <- spiec.easi(physeqlistcom,
+                         method= methods[i],
+                         r = ranks, 
+                         lambda.log=TRUE,
+                         nlambda= nlambda.x,
+                         lambda.min.ratio= lambda.min.ratio.x,
+                         pulsar.params = pulsar.params)
+    ebic <- sapply(se.slr, function(x)
+      ebic(x$refit$stars, x$est$data,
+           x$est$loglik[x$select$stars$opt.index]))
+    ebic <- ebic[ebic!=0]
+    se.slr$ebic <- ebic
+    ebicminInd <- names(which.min(ebic))
+    SElist[i] <- se.slr[ebicminInd]
+    SElist[[i]]$ebictested <- ebic
+    SElist[[i]]$eBIC <- min(ebic)
+    
+    }
+  else{SElist[i] <- list(spiec.easi(physeqlistcom,
+                                   method= methods[i],
+                                   nlambda= nlambdatemp,
+                                   lambda.log=TRUE,
+                                   lambda.min.ratio= lambda.min.ratio.x,
+                                   pulsar.params = pulsar.params))}
+
   stability <- signif(getStability(SElist[[i]]), digits = 4)
-    # nlambdatemp <- nlambdatemp + 5
-                      #}
-                      
   names(SElist)[i] <- netname
   
   cat(paste("Finished making the", methods[i],  "network at", Sys.time(), 'HKT'))
@@ -139,18 +177,6 @@ cat(paste("\nNow calculating parameters and plotting graphs..."))
 # physeqlistcom <- list(readRDS("./data/physeqcombined.rds"))
 
 
-#### Make combined phyloseq ####
-combinedotu <- bind_cols(lapply(physeqlistcom, FUN = function(x) as.data.frame(otu_table(x))))
-combinedtax <- bind_rows(lapply(physeqlistcom, FUN = function(x) as.data.frame(tax_table(x))))
-metadata <- as.data.frame(sample_data(physeqlistcom[[1]]))
-
-physeqcombined <- phyloseq(otu_table(combinedotu%>% as.matrix(), taxa_are_rows = FALSE), 
-                           tax_table(combinedtax %>% as.matrix()),
-                           sample_data(metadata))
-
-saveRDS(physeqcombined, paste("./data","physeqcombined.rds", sep = '/'))
-
-cat(paste("Combined phyloseq object made..."))
 
 
 

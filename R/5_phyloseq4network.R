@@ -66,3 +66,4 @@ for (i in 1:length(physeqlist)){
   cat(paste("\nBefore filtering:", ntaxa(physeqlist[[i]]), "taxa..."))
   cat(paste("\nAfter filtering:", ntaxa(physeqfilt), "taxa..."))
 }
+
