@@ -1,22 +1,22 @@
 library(tidyverse)
 library(phyloseq)
 library(igraph)
-# library(fantaxtic)
 library(ggridges)
 library('brainGraph')
 
 
+set.seed(123)
 ### UPLOAD FILES ###
 files <- list.files(path = "./data/networks/filtered/nonweighted", 
                     full.names = TRUE)
 networklist <- list()
 remove.0v <- function(ingraph) {
-  library(igraph)
   outgraph <- ingraph
   cat("\nOriginal Graph Vertices: ", length(V(ingraph)))
-  V(outgraph)$names <- paste0("v", 1:length(V(outgraph))) #assign unique names to vertices to keep track
-  disconnected.V <- which(degree(outgraph)==0) # index completely disconnected vertices
-  outgraph <- delete.vertices(outgraph, disconnected.V) # remove them
+  components <- igraph::clusters(ingraph, mode="weak")
+  biggest_cluster_id <- which.max(components$csize)
+  vert_ids <- V(ingraph)[components$membership != biggest_cluster_id]
+  outgraph <- delete.vertices(outgraph, vert_ids) # remove them
   cat("\nFiltered Graph Vertices: ", length(V(outgraph)), "\n")
   return(outgraph)
 }
@@ -66,10 +66,13 @@ efficorder <- effic.plot %>%
 effic.plot <- effic.plot %>%
   mutate(Network = factor(Network, levels = efficorder))
 
+effic.plottext <- effic.plot %>%
+  group_by(Network) %>%
+  summarize(mean = signif(mean(Efficiency), 2), 
+            sd = signif(sd(Efficiency), 2))
 
 #### PLOT ####
 effic.plot %>% 
-  filter(Efficiency > 0.05) %>%  # removes efficiency of disconnected vertices
   ggplot(aes(x = as.numeric(Efficiency), 
              y= reorder(Network, -meanEff), 
              fill =Network, color = Network)) +
@@ -82,7 +85,10 @@ effic.plot %>%
     alpha = 0.7, 
     quantile_lines = TRUE, 
     quantiles = 2)+
-  scale_x_continuous(limits = c(0.0, 0.5)) + 
+  geom_text(data = effic.plottext, aes(y=Network, x=0.42, 
+                                       label =paste("μ", "=", mean, "σ", "=", sd)), 
+            fontface = "bold", size = 1.5, vjust=-1, parse = FALSE) + 
+  scale_x_continuous(limits = c(0.05, 0.5)) + 
   theme(axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0), angle = 90, vjust = 0.5, hjust=0)) + 
   theme_bw() + 
   scale_y_discrete(expand = expansion(add = c(0.5, 1.6))) + 
@@ -94,11 +100,18 @@ effic.plot %>%
   scale_fill_hue(h = c(180, 350)) + 
   theme(text = element_text(size = 10)) + 
   # scale_x_continuous(expand = c(0.008, 0.008)) +
-  guides(color = guide_legend(reverse = TRUE), fill = guide_legend(reverse = TRUE))  
+  guides(color = guide_legend(reverse = TRUE), fill = guide_legend(reverse = TRUE)) + 
+  theme(axis.text = element_text(size = 4), 
+        axis.title.x = element_text(size = 5, vjust = -1), 
+        axis.title.y = element_text(size = 5, vjust= 1), 
+        plot.margin = margin(0.5,0.5,0.5,0.5, "cm"), 
+        legend.position = "none")  + 
+  scale_color_brewer(palette="Set1") + 
+  scale_fill_brewer(palette="Set1")
 
 
-ggsave("./data/graphs/efficiency.png",
-       width = 10,
+ggsave("./data/graphs/Fig4B_9networkeffic.png",
+       width = 6 ,
        height = 5,
        units = "cm",
        dpi = 1000 )

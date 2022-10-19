@@ -8,22 +8,22 @@ set.seed(1234)
 
 # function to remove disconnected nodes
 remove.0v <- function(ingraph) {
-  library(igraph)
   outgraph <- ingraph
   cat("\nOriginal Graph Vertices: ", length(V(ingraph)))
-  V(outgraph)$names <- paste0("v", 1:length(V(outgraph))) #assign unique names to vertices to keep track
-  disconnected.V <- which(degree(outgraph)<2) # index completely disconnected vertices
-  outgraph <- delete.vertices(outgraph, disconnected.V) # remove them
+  components <- igraph::clusters(ingraph, mode="weak")
+  biggest_cluster_id <- which.max(components$csize)
+  vert_ids <- V(ingraph)[components$membership != biggest_cluster_id]
+  outgraph <- delete.vertices(outgraph, vert_ids) # remove them
   cat("\nFiltered Graph Vertices: ", length(V(outgraph)), "\n")
   return(outgraph)
 }
 
-igraphw <- remove.0v(readRDS("./data/networks/BAF/BAF_igraphSLR_igraphw.rds"))
-igraph <- remove.0v(readRDS("./data/networks/BAF/BAF_igraphSLR_igraph.rds"))
+igraphw <- remove.0v(readRDS("./data/networks/filtered/weighted/BAF_igraphSLR_igraphw.rds"))
+igraph <- remove.0v(readRDS("./data/networks/filtered/nonweighted/BAF_igraphSLR_igraph.rds"))
 
 
 
-physeq <- readRDS("./data/rawanalysis/physeqcombined.rds")
+physeq <- readRDS("./data/Data/physeqcombined.rds")
 taxa <- data.frame(tax_table(physeq))[as_ids(V(igraph)),]
 
 
@@ -86,9 +86,9 @@ edgeweight <- as_edgelist(igraphw) %>%
 # degeff <- inner(degrees[matchrow, ], efficiency[matchrow,])
 plotdf <- rbind(betweenness, degrees, efficiency, edgeweight) %>%
   mutate(Factor = factor(Factor, levels = c("Absolute Edge Weight",
+                                            "Normalized Degree",
                                             "Efficiency", 
-                                            "Betweenness", 
-                                            "Normalized Degree")), 
+                                            "Betweenness")), 
          Domain = factor(Domain, levels = c("Fungi", "Bacteria", "Archaea")))  %>%
   filter(Factor!= "Efficiency")
   
@@ -107,7 +107,7 @@ horizline <- selectcolor %>%
   mutate(text = as.character(min)) 
 dataMedian <- summarise(group_by(plotdf, Factor, Domain), 
                         MD = signif(median(Value), 2), 
-                        Pos = quantile(Value, prob=0.80)) 
+                        Pos = quantile(Value, prob=0.5)) 
 
 selectnocolor  <-  plotdf %>%
   group_by(Factor) %>%
@@ -128,26 +128,30 @@ selectnocolor %>%
   #            color = "red", size =0.2, linetype = "dashed") +
   stat_compare_means(aes(label = ..p.signif..), 
                      comparisons = my_comparisons,
-                     size = 3, 
+                     size = 2, 
                      method = "wilcox.test", 
                      color = "gray70", 
                      vjust = 1.6, bracket.size = 0.5) + 
   geom_text(data = dataMedian, aes(Domain, Pos, label = paste("m =", MD), color = Domain), 
-            size = 2, vjust = -2, fontface = "bold") + 
+            size = 1.5, vjust = -4, hjust= -0.15, fontface = "bold", angle=0) + 
   facet_wrap(~Factor, ncol = 1, scales = "free_y", strip.position="top") + 
   theme_bw() +
   theme(strip.background = element_rect(fill="grey99", color="grey", size =1), 
-        strip.text = element_text(face = "italic", size = 6), 
+        strip.text = element_text(face = "bold", size = 6), 
         axis.title = element_blank(), 
         axis.text =  element_text(size = 5), 
         legend.text =   element_text(size = 6), 
         legend.title =   element_text(size = 6),
-        panel.border =element_rect(colour="grey", size = 1)) + 
-  expand_limits(y = 1) 
+        panel.border =element_rect(colour="grey", size = 1), 
+        panel.background = element_rect(fill = "grey90"), 
+        panel.grid = element_line(color = "grey95")) + 
+  expand_limits(y = 1) + 
+  scale_color_brewer(palette = "Set1")
+  
 
 
-ggsave("./data/graphs/VAFanalysis.png",
-       width = 7,
+ggsave("./data/graphs/Fig1D_10domainspecBAF.png",
+       width = 6.7,
        height = 13,
        units = "cm",
        dpi = 1000 )

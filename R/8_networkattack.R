@@ -6,8 +6,17 @@ library(tidyverse)
 library(rlist)
 library(ggpubr)
 
+
+
+#### NOTE: This piece of code only works on the LARGEST CONNECTED COMPONENT
+#          of your graphs. It will automatically remove all other vertices
+#          and report the number of nodes removed as it processes. 
+
+
 set.seed(324)
-npermutations <- 1000
+npermutations <- 100 # this number has been tested to be enough to capture variation
+                     # in data while maintaing a clear plot
+alphapoints <- 0.01 # sets the opacity for plots 
 
 
 #FUNCTIONS####################################
@@ -15,12 +24,12 @@ npermutations <- 1000
 
 # function to remove vertices with no edges
 remove.0v <- function(ingraph) {
-  library(igraph)
   outgraph <- ingraph
   cat("\nOriginal Graph Vertices: ", length(V(ingraph)))
-  V(outgraph)$names <- paste0("v", 1:length(V(outgraph))) #assign unique names to vertices to keep track
-  disconnected.V <- which(degree(outgraph)<4) # index completely disconnected vertices
-  outgraph <- delete.vertices(outgraph, disconnected.V) # remove them
+  components <- igraph::clusters(ingraph, mode="weak")
+  biggest_cluster_id <- which.max(components$csize)
+  vert_ids <- V(ingraph)[components$membership != biggest_cluster_id]
+  outgraph <- delete.vertices(outgraph, vert_ids) # remove them
   cat("\nFiltered Graph Vertices: ", length(V(outgraph)), "\n")
   return(outgraph)
 }
@@ -39,7 +48,7 @@ gg_color_hue <- function(n) {
 attack.robustness.random <- function(g, perm = 50){
   n <- length(V(g)) # get the number of vertices as an integer
   mat <- matrix(ncol=2,nrow=n, 0) # make an empty matrix with vertices as rows
-  mat[,1] <- V(g)$names #add vertices names to matrix
+  mat[,1] <- as_ids(V(g)) #add vertices names to matrix
   random.attack <- list(plotting_values = NULL,
                         permutation=NULL,
                         R= NULL,
@@ -49,11 +58,12 @@ attack.robustness.random <- function(g, perm = 50){
                         raw_value_table=list(NULL),
                         method = "randomperm")
   for (j in 1:perm) {
+    # j <- 1
     matri <- as.matrix(mat[sample(nrow(mat)),]) #randomly shuffle
     g2 <- g # make a copy of the graph
     clustersizes<-integer(n-1)
     for(i in 1:(n-1)){
-      g2 <- delete.vertices(g2, v=which(V(g2)$names==matri[i,1])) #delete by name
+      g2 <- delete.vertices(g2, v=which(as_ids(V(g2))==matri[i,1])) #delete by name
       maxcsize2 <- max(clusters(g2)$csize)
       clustersizes[i]<-maxcsize2
     }
@@ -79,7 +89,6 @@ attack.robustness.random <- function(g, perm = 50){
     random.attack$raw_permutation_values[[j]] <- df
   }
   
-  library(rlist)
   random.attack$plotting_values <- list.rbind(lapply(random.attack$raw_permutation_values, `[`, 4:5))
   random.attack$variance <- var(random.attack$plotting_values[,2])
   
@@ -111,7 +120,7 @@ attack.robustness.random <- function(g, perm = 50){
 attack.robustness.betweenness <- function(g){
   n <- length(V(g)) # get the number of vertices as an integer
   mat <- matrix(ncol=2,nrow=n, 0) # make an empty matrix with vertices as rows
-  mat[,1] <- V(g)$names #add vertices names to matrix
+  mat[,1] <- as_ids(V(g)) #add vertices names to matrix
   bet <- betweenness(g)  #calculate the betweenness of the vertex
   mat[,2] <- bet # add the degree to the graph
   matri <- mat[order(as.numeric(mat[,2]), decreasing =TRUE ),] #order in terms of decreasing between-ness
@@ -166,7 +175,7 @@ attack.robustness.betweenness <- function(g){
 attack.robustness.degree <- function(g){
   n <- length(V(g)) # get the number of vertices as an integer
   mat <- matrix(ncol=2,nrow=n, 0) # make an empty matrix with vertices as rows
-  mat[,1] <- V(g)$names #add vertices names to matrix
+  mat[,1] <- as_ids(V(g)) #add vertices names to matrix
   deg <- degree(g) #calculate the degree of the vertex
   mat[,2] <- deg # add the degree to the graph
   matri <- mat[order(as.numeric(mat[,2]), decreasing =TRUE ),] #order in terms of decreasing between-ness
@@ -243,18 +252,21 @@ attack.robustness <- function(graphlist, method = "randomperm", permutation_n = 
   print("done")
 }
 plot.robustness <- function(x, vulnerability=TRUE){
-  library(ggplot2)
+  require(ggplot2)
   vulnerability <- vulnerability
+  
   # 1) initialize lists and matrices
   plot.matrix <- matrix()
   barplot.matrix <- matrix()
   plot.matrix.list <- list()
   barplot.matrix.list <- list()
+  
   # 2) loop through the graphs and create a LIST containing extracted plotting values
   for (i in 1:length(x)) {
     plot.matrix.list[[i]] <- cbind(rbind(x[[i]]$plotting_values), Network = names(x)[i])
     barplot.matrix.list[[i]] <- cbind(rbind(x[[i]]$R), rbind(x[[i]]$V) , Network = names(x)[i])
   }
+  
   # 3) convert list into a clean plottable data frame
   library(rlist)
   plot.matrix <- list.rbind(lapply(plot.matrix.list, `[`, 1:3))
@@ -281,10 +293,25 @@ plot.robustness <- function(x, vulnerability=TRUE){
     random.matrix.plot.df <- random.matrix.plot.df
     random.matrix.plot.df <- random.matrix.plot.df %>%
       mutate(Network =  factor(Network, levels = names(graph.list))) %>%
-      arrange(Network)    
-    plot.main <- ggplot(plot.df, aes(x= as.numeric(`Fraction of Nodes Removed`), y = as.numeric(`Fraction Size of Largest Component`), color = Network))+
-      geom_point(size = 0.2, alpha = 0.01) +
-      stat_smooth() +
+      arrange(Network) 
+    
+    legendord <- names(sort(unlist(lapply(x, function(x) x$V))))
+    attack.robustness.ran
+    
+    plot.df  <- plot.df %>%
+      mutate(Network = factor(Network, levels = legendord)) %>%
+      group_by(Network) %>%
+      mutate(Fractionbin = cut(`Fraction of Nodes Removed`, breaks = 100), 
+             Fractionbinnum = `Fraction of Nodes Removed`[as.numeric(Fractionbin)]) %>%
+      group_by(Fractionbin) %>%
+      mutate(meanFraction = mean(`Fraction Size of Largest Component`))
+    
+    plot.main <- ggplot(plot.df, 
+                        aes(x= as.numeric(`Fraction of Nodes Removed`), 
+                            y = as.numeric(`Fraction Size of Largest Component`), 
+                            color = Network))+
+      geom_point(size = 0.2, alpha=alphapoints) +
+      geom_line(aes(x = `Fraction of Nodes Removed`, y = meanFraction, group=Network)) +
       scale_x_continuous(expand = c(0, 0)) +
       scale_y_continuous(expand = c(0, 0)) +
       theme(
@@ -296,7 +323,11 @@ plot.robustness <- function(x, vulnerability=TRUE){
         axis.text=element_text(size=10)) +
       labs(x = "Fraction of Nodes Removed",
            y = "Fraction Size of Largest Component",
-           color = "Network\n")
+           color = "Network\n") + 
+      theme_bw() + 
+      scale_x_continuous(breaks=seq(0, 1.0, by = 0.05), expand = c(0, 0)) + 
+      scale_y_continuous(breaks=seq(0, 1.0, by = 0.05), expand = c(0, 0)) + 
+      scale_color_brewer(palette = "Set1")
     
   }
   else {
@@ -314,7 +345,11 @@ plot.robustness <- function(x, vulnerability=TRUE){
       labs(x = "Fraction of Nodes Removed",
            y = "Fraction Size of Largest Component",
            color = "Network\n") +
-      expand_limits(x = 0, y = 1)
+      expand_limits(x = 0, y = 1) + 
+      theme_bw() + 
+      scale_x_continuous(breaks=seq(0, 1.0, by = 0.05), expand = c(0, 0)) + 
+      scale_y_continuous(breaks=seq(0, 1.0, by = 0.05), expand = c(0, 0)) + 
+      scale_color_brewer(palette = "Set1")
     
   }
   if (vulnerability){
@@ -344,10 +379,6 @@ plot.robustness <- function(x, vulnerability=TRUE){
 }
 
 
-
-
-#LOAD & PREPARE GRAPHS GRAPHS ###
-#LOAD GRAPHS
 #LOAD_DATA####################################
 files <- list.files("./data/networks/filtered/nonweighted/", 
                     recursive=FALSE, 
@@ -379,15 +410,16 @@ attack.robustness.ran <- attack.robustness(graph.list,
 
 
 plot.robustness(attack.robustness.ran, vulnerability = F) + 
-  theme_bw() + 
-  scale_x_continuous(breaks=seq(0, 1.0, by = 0.05), expand = c(0, 0)) + 
-  scale_y_continuous(breaks=seq(0, 1.0, by = 0.05), expand = c(0, 0))
+  theme(axis.text = element_text(size = 8), 
+        axis.title.x = element_text(size = 9, vjust = -4), 
+        axis.title.y = element_text(size = 9, vjust= 4), 
+        plot.margin = margin(0.5,0,0.8,0.8, "cm"))
 
-# ggsave("attack.robustness.randomperm_vul.png" ,
-#        width = 22,
-#        height = 15,
-#        units = "cm",
-#        dpi = 1000 )
+ggsave("./data/graphs/Fig4A1_8networkattack.png" ,
+       width = 18,
+       height = 15,
+       units = "cm",
+       dpi = 1000 )
 
 
 
@@ -400,16 +432,18 @@ my_comparisons <- list(c("B", "BF"),
 
 tofind <- paste(c("BAF","BA", "BF", "B"), collapse="|")
 
+legendord <- names(sort(unlist(lapply(attack.robustness.ran, function(x) x$V))))
 
 stack(lapply(attack.robustness.ran, function(l) l[['V.list']])) %>%
   rename(Network = ind, Vulnerability = values) %>%
+  mutate(Network = factor(Network, levels=legendord)) %>%
   group_by(Network) %>%
   mutate(meanV = mean(Vulnerability), 
          method = unlist(str_extract_all(Network, tofind))) %>%
   ggplot(aes(y = Vulnerability, 
              x = reorder(Network, desc(meanV)), 
              color = factor(method))) +
-  geom_jitter(size = 0.1, alpha = 0.1, height=0.1, width=0.2) + 
+  geom_jitter(size = 0.001, alpha = 1, height=0.1, width=0.2, color = "grey98") + 
   geom_boxplot(fill = "NA", outlier.shape = NA, width=0.2) +
   stat_compare_means(aes(label = ..p.signif..), 
                      comparisons = my_comparisons,
@@ -417,24 +451,35 @@ stack(lapply(attack.robustness.ran, function(l) l[['V.list']])) %>%
                      method = "wilcox.test", 
                      color = "gray20", 
                      vjust=0.5,
-                     label.y = c(0.45, 0.32, 0.41), 
+                     label.y = c(0.43, 0.3, 0.38), 
   ) + 
   stat_compare_means(method= "anova", 
-                     label.y = 0.48, 
-                     label.x = length(attack.robustness.ran)-0.5,  
+                     label.y = 0.49, 
+                     label.x = length(attack.robustness.ran)-1.35,  
                      size = 2.2, 
-                     color = "black") + 
+                     color = "black", 
+                     fontface = "bold") + 
   expand_limits(y = 0.50) +  # adjust y axis expansion
   theme_bw() +
   theme(
-    panel.grid.major = element_blank(),
+    # panel.grid.major = element_blank(),
     axis.title.x=element_text(margin = margin(t =10), size = 8),
     axis.title.y =element_text(margin = margin(r =10), size=8), 
     axis.text=element_text(size=8), 
+    plot.background = element_blank(),
+    panel.background = element_rect(fill = "grey90", color = "black"),
+    panel.grid = element_line(color="white"),
     legend.position = "none") +
   labs(x = "Network",
-       y = "Permutated Vulnerability",
+       y = "Vulnerability (V)",
        color = "Network")  + 
-  scale_color_brewer(palette = "Set1")
+  scale_color_manual(values=c("#4DAF4A" , "#984EA3", "#E41A1C", "#377EB8"))
+
+ggsave("./data/graphs/Fig4A2_8networkattack.png" ,
+       width = 5.1,
+       height = 5,
+       units = "cm",
+       dpi = 1000 )
+
 
 ######
