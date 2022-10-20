@@ -1,5 +1,0 @@
-nohup virsorter run \
--w vent_ELSC.out \
--i /home/eshekarriz/hdd_16t/analysis/deepseavirus/assemblyfilt/vent_ELSC_filt1k.fa \
---min-length 1000 \
--j 20 all &

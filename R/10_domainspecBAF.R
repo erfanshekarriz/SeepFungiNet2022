@@ -128,30 +128,34 @@ selectnocolor %>%
   #            color = "red", size =0.2, linetype = "dashed") +
   stat_compare_means(aes(label = ..p.signif..), 
                      comparisons = my_comparisons,
-                     size = 2, 
+                     size = 2.5, 
                      method = "wilcox.test", 
-                     color = "gray70", 
+                     color = "orange", 
                      vjust = 1.6, bracket.size = 0.5) + 
   geom_text(data = dataMedian, aes(Domain, Pos, label = paste("m =", MD), color = Domain), 
             size = 1.5, vjust = -4, hjust= -0.15, fontface = "bold", angle=0) + 
   facet_wrap(~Factor, ncol = 1, scales = "free_y", strip.position="top") + 
   theme_bw() +
   theme(strip.background = element_rect(fill="grey99", color="grey", size =1), 
-        strip.text = element_text(face = "bold", size = 6), 
+        strip.text = element_text(face = "bold.italic", size = 8), 
         axis.title = element_blank(), 
-        axis.text =  element_text(size = 5), 
+        axis.text =  element_text(size = 7), 
+        axis.text.x =  element_text(color = brewer.pal(n=3,"Set1"), face ="bold"),
         legend.text =   element_text(size = 6), 
+        legend.background = element_blank(),
         legend.title =   element_text(size = 6),
         panel.border =element_rect(colour="grey", size = 1), 
         panel.background = element_rect(fill = "grey90"), 
-        panel.grid = element_line(color = "grey95")) + 
+        plot.background = element_blank(), 
+        panel.grid = element_line(color = "grey95"), 
+        legend.position = "none") + 
   expand_limits(y = 1) + 
   scale_color_brewer(palette = "Set1")
   
 
 
-ggsave("./data/graphs/Fig1D_10domainspecBAF.png",
-       width = 6.7,
+ggsave("./data/graphs/Fig1D_10domainspecBAF.tiff",
+       width = 4.5,
        height = 13,
        units = "cm",
        dpi = 1000 )

@@ -380,13 +380,13 @@ plot.robustness <- function(x, vulnerability=TRUE){
 
 
 #LOAD_DATA####################################
-files <- list.files("./data/networks/filtered/nonweighted/", 
-                    recursive=FALSE, 
+files <- list.files("./data/networks/filtered/nonweighted", 
                     full.names = TRUE)
-
-filesshort <- list.files("./data/networks/filtered/nonweighted/", 
+files <- files[files !="./data/networks/filtered/nonweighted/Fu_igraphSLR_igraph.rds"]
+filesshort <- list.files("./data/networks/filtered/nonweighted", 
                          recursive=FALSE, 
                          full.names = FALSE)
+filesshort <- files[files !=".Fu_igraphSLR_igraph.rds"]
 
 graph.list <- list()
 for (i in 1:length(files)){
@@ -411,11 +411,13 @@ attack.robustness.ran <- attack.robustness(graph.list,
 
 plot.robustness(attack.robustness.ran, vulnerability = F) + 
   theme(axis.text = element_text(size = 8), 
-        axis.title.x = element_text(size = 9, vjust = -4), 
-        axis.title.y = element_text(size = 9, vjust= 4), 
-        plot.margin = margin(0.5,0,0.8,0.8, "cm"))
+        axis.title.x = element_text(size = 12, vjust = -4), 
+        axis.title.y = element_text(size = 12, vjust= 4), 
+        panel.border = element_rect(size = 1),
+        plot.margin = margin(0.5,0,0.8,0.8, "cm"), 
+        legend.background = element_blank())
 
-ggsave("./data/graphs/Fig4A1_8networkattack.png" ,
+ggsave("./data/graphs/Fig4A1_8networkattack.tiff" ,
        width = 18,
        height = 15,
        units = "cm",
@@ -463,21 +465,23 @@ stack(lapply(attack.robustness.ran, function(l) l[['V.list']])) %>%
   theme_bw() +
   theme(
     # panel.grid.major = element_blank(),
-    axis.title.x=element_text(margin = margin(t =10), size = 8),
+    axis.title.x= element_blank(),
     axis.title.y =element_text(margin = margin(r =10), size=8), 
     axis.text=element_text(size=8), 
+    axis.text.x = element_text(color = c("#984EA3" , "#4DAF4A", "#377EB8", "#E41A1C")),
     plot.background = element_blank(),
     panel.background = element_rect(fill = "grey90", color = "black"),
     panel.grid = element_line(color="white"),
+    legend.background = element_blank(),
     legend.position = "none") +
   labs(x = "Network",
        y = "Vulnerability (V)",
        color = "Network")  + 
   scale_color_manual(values=c("#4DAF4A" , "#984EA3", "#E41A1C", "#377EB8"))
 
-ggsave("./data/graphs/Fig4A2_8networkattack.png" ,
-       width = 5.1,
-       height = 5,
+ggsave("./data/graphs/Fig4A2_8networkattack.tiff" ,
+       width = 5.5,
+       height = 4.7,
        units = "cm",
        dpi = 1000 )
 

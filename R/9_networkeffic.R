@@ -9,6 +9,8 @@ set.seed(123)
 ### UPLOAD FILES ###
 files <- list.files(path = "./data/networks/filtered/nonweighted", 
                     full.names = TRUE)
+
+files <- files[files !="./data/networks/filtered/nonweighted/Fu_igraphSLR_igraph.rds"]
 networklist <- list()
 remove.0v <- function(ingraph) {
   outgraph <- ingraph
@@ -101,17 +103,19 @@ effic.plot %>%
   theme(text = element_text(size = 10)) + 
   # scale_x_continuous(expand = c(0.008, 0.008)) +
   guides(color = guide_legend(reverse = TRUE), fill = guide_legend(reverse = TRUE)) + 
-  theme(axis.text = element_text(size = 4), 
-        axis.title.x = element_text(size = 5, vjust = -1), 
-        axis.title.y = element_text(size = 5, vjust= 1), 
+  theme(axis.text = element_text(size = 7), 
+        axis.title.x = element_text(size = 8, vjust = -1), 
+        axis.title.y = element_text(size = 8, vjust= 1), 
         plot.margin = margin(0.5,0.5,0.5,0.5, "cm"), 
+        plot.background = element_blank(), 
+        legend.background = element_blank(),
+        panel.border =element_rect(colour="black", size = 0.7), 
         legend.position = "none")  + 
   scale_color_brewer(palette="Set1") + 
   scale_fill_brewer(palette="Set1")
 
-
-ggsave("./data/graphs/Fig4B_9networkeffic.png",
-       width = 6 ,
+ggsave("./data/graphs/Fig4B_9networkeffic.tiff",
+       width = 8 ,
        height = 5,
        units = "cm",
        dpi = 1000 )
