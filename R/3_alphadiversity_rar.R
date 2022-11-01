@@ -1,15 +1,38 @@
 library(phyloseq)
 library(tidyverse)
 library(vegan)
-library(ggpubr)
+library(ggplot2)
+library(iNEXT)
 
+### the iNEXT rarefaction curves take a very long time to perform, 
+### so we have commented out analysis needing lots of time. 
+
+### If you wish to recreate everything from scratch feel free to manually un-comment!
+
+
+set.seed(1234)
 
 
 #### LOAD DATA ####
-physeq16S <- readRDS('./data/physeq16S.rds')
-physeq18S <- readRDS('./data/physeq18SFungi.rds')
+physeq16S <- readRDS('./data/Data/physeq16S.rds')
+physeq18S <- readRDS('./data/Data/physeq18SFungi.rds')
+physeq18SROV <- merge_samples(physeq18S, "ROV")
+physeq16SROV <- merge_samples(physeq16S, "ROV")
+
+# otu16S <- data.frame(otu_table(physeq16S))
+# otu18S <- data.frame(otu_table(physeq18S))
+# otu16SROV <- data.frame(otu_table(physeq16SROV))
+# otu18SROV <- data.frame(otu_table(physeq18SROV))
 
 
+tax16S <- data.frame(tax_table(physeq16S))
+tax18S <- data.frame(tax_table(physeq18S))
+
+metadata <- data.frame(sample_data(physeq16S))
+
+metadata %>%
+  group_by(ROV) %>%
+  summarize(n=n())
 
 # metadata 
 sampledataplotraw <- data.frame(sample_data(physeq16S)) %>%
@@ -18,105 +41,262 @@ sampledataplotraw <- data.frame(sample_data(physeq16S)) %>%
 features <- colnames(sampledataplotraw) %>% as.data.frame()
 
 
-#### ANALYSE ####
+#### ROV BASED RAREFACITON RICHNESS CURVES ####
+
 ### 16S 
-min(sample_sums(physeq16S))
-otutable_16S <- data.frame(otu_table(physeq16S))
-set.seed(1234)
-rareAlpha16S <- vegan::rarefy(otutable_16S, 
-                              min(sample_sums(physeq16S)))
+# inext16S <- iNEXT(t(otu16SROV), 
+#                   q=c(0,1,2),# hill number diversity order
+#                   datatype="abundance", 
+#                   nboot=100, 
+#                   se = FALSE, 
+#                   conf = 0.95)
+# 
+# saveRDS(inext16S, "./data/Data/ROVrarecurveiNEXT16S.rds")
+inext16S <- readRDS("./data/Data/ROVrarecurveiNEXT16S.rds")
+
+plotdf16S <- inext16S$iNextEst$size_based %>% mutate(m = m/10000, 
+                                                     qD = qD/1000)  %>%
+  filter(Order.q == 0)
+observed16S <- plotdf16S %>% filter(Method == "Observed")
+extrapolate16S <- plotdf16S %>% filter(Method == "Extrapolation")
 
 
-### 18S Fungi 
-min(sample_sums(physeq18S))
-otutable_18S <- data.frame(otu_table(physeq18S))
-set.seed(1234)
-rareAlpha18S <- vegan::rarefy(otutable_18S, 
-                              min(sample_sums(physeq18S)))
+
+### 18S
+# inext18S <- iNEXT(t(otu18SROV), 
+#                   q=c(0,1,2),# hill number diversity order
+#                   datatype="abundance", 
+#                   nboot=100, 
+#                   se = TRUE, 
+#                   conf = 0.95)
+# saveRDS(inext18S, "./data/Data/ROVrarecurveiNEXT18S.rds")
+inext18S <- readRDS("./data/Data/ROVrarecurveiNEXT18S.rds")
+
+plotdf18S <- inext18S$iNextEst$size_based %>% mutate(m = m/10000, 
+                                                     qD = qD/1000)  %>%
+  filter(Order.q == 0)
+
+observed18S <- plotdf18S %>% filter(Method == "Observed") 
+extrapolate18S <- plotdf18S %>% filter(Method == "Extrapolation")
+
+#### PLOT ROV BASED COMBINED ####
+plotdf <- rbind(cbind(plotdf16S, Group="16S"), cbind(plotdf18S, Group="18S Fungi")) %>%
+  mutate(Group = factor(Group, levels=c("18S Fungi", "16S")))
+plotext <- rbind(cbind(extrapolate16S, Group="16S"), cbind(extrapolate18S, Group="18S Fungi")) %>%
+  mutate(Group = factor(Group, levels=c("18S Fungi", "16S")))
+plotobs <- rbind(cbind(observed16S, Group="16S"), cbind(observed18S, Group="18S Fungi")) %>%
+  mutate(Group = factor(Group, levels=c("18S Fungi", "16S")))
+
+
+scales_y <- list(
+  `16S` = scale_y_continuous(limits = c(0, 27)),
+  `18S Fungi` = scale_y_continuous(limits = c(0, 1.5))
+)
+
+plotdf %>%
+  filter(Method == "Rarefaction") %>%
+  mutate(Group = factor(Group, levels=c("18S Fungi", "16S"))) %>%
+  ggplot(aes(x = m, y = qD, group = Assemblage)) + 
+  geom_line(color = "grey", size = 0.40, linetype="solid") + 
+  geom_line(data = plotext, aes(x = m, y=qD, group=Assemblage, color = Assemblage), 
+            size = 0.90, linetype="dashed") + 
+  geom_point(data = plotobs, aes(x = m, y = qD), size =1, 
+             color = "blue") + 
+  geom_text(data = plotobs, aes(x = m, y = qD, label = Assemblage, color = Assemblage), 
+            size = 4, hjust=-1.5, vjust=-1, fontface="bold") + 
+  geom_text(data = plotobs, aes(x = m, y = qD), 
+            label = "OBSERVED", size = 2, vjust=-1) + 
+  facet_wrap(~Group, scales = "free", nrow = 2, strip.position="top") + 
+  theme_bw() + 
+  theme(strip.background=element_rect(fill="grey95", color="white"), 
+        strip.text=element_text(face = "bold.italic", size = 12), 
+        axis.title.x=element_text(face="bold", size=11, vjust=-3), 
+        axis.title.y=element_text(face="bold", size=11, vjust=4), 
+        axis.text=element_text(size = 9, face ="bold"), 
+        legend.text=element_text(size = 6, face="bold"), 
+        legend.background=element_blank(),
+        legend.title=element_text(size=6, face="bold"),
+        legend.position="none",
+        panel.border=element_rect(colour="black", size = 1), 
+        panel.background=element_blank(), 
+        plot.background=element_blank(), 
+        plot.margin=unit(c(0.5,1,1,1), "cm"),
+        panel.grid=element_line(color="grey95"), 
+        panel.grid.minor=element_line(color="grey95"))  + 
+  # expand_limits(y=c(0,27)) +
+  scale_color_brewer(palette="Set1") + 
+  xlab("Sequences Sampled (x10,000)") + 
+  scale_y_continuous(limits = c(0, NA), expand = expansion(mult = c(0, 0.15)), 
+                     position="left") + 
+  ylab("Richness (x1000)") 
+
+
+ggsave("./data/graphs/Fig2E_3alphadiversity.tiff",
+       width = 9,
+       height = 16,
+       units = "cm",
+       dpi = 1000 )
 
 
 
-#### CLEAN & MERGE DATA ####
-rareAlpha16Splot <- rareAlpha16S %>%
-  as.data.frame() %>%
-  rename(., richness= `.`) %>%
-  rownames_to_column(var = "SampleID") %>%
-  inner_join(sampledataplotraw, by = "SampleID") %>%
-  group_by(ROV) %>%
-  mutate(meanrichness = mean(richness))
 
-rareAlpha18Splot <- rareAlpha18S %>%
-  as.data.frame() %>%
-  rename(., richness= `.`) %>%
-  rownames_to_column(var = "SampleID") %>%
-  inner_join(sampledataplotraw, by = "SampleID") %>%
-  group_by(ROV) %>%
-  mutate(meanrichness = mean(richness))
+#### SAMPLE BASED COVERAGE CURVES ####
 
+### 16S 
+# inextSample16S <- iNEXT(t(otu16S), 
+#                   q=c(0,1,2),# hill number diversity order
+#                   datatype="abundance", 
+#                   nboot=100, 
+#                   se = FALSE, 
+#                   conf = 0.95)
+# 
+# saveRDS(inextSample16S, "./data/Data/SAMPrarecurveiNEXT16S.rds")
+inextSample16S <- readRDS("./data/Data/SAMPrarecurveiNEXT16S.rds")
 
-rareAlphaALL <- bind_rows(list(`16S`= rareAlpha16Splot, 
-                               `18S`= rareAlpha18Splot), 
-                          .id = "Group")
-write_csv(rareAlphaALL, "./data/rareifiedAlphaDiversity.csv")
-rm(rareAlpha16Splot, rareAlpha18Splot)
+plotdf16Ssamp <- inextSample16S$iNextEst$size_based %>% mutate(m = m/10000, 
+                                                     qD = qD/1000)  %>% filter(Order.q == 0) %>%
+  left_join(., metadata %>% rownames_to_column(var = "Assemblage"), by = "Assemblage" )
+observed16Ssamp <- plotdf16Ssamp %>% filter(Method == "Observed")
+extrapolate16Ssamp <- plotdf16Ssamp %>% filter(Method == "Extrapolation")
 
-#### PLOT ####
-
-# ROV level diversity 
-rareAlphaALL %>%
-  ggplot(aes(x = reorder(ROV, +meanrichness), 
-             y = richness, 
-             color = ROV)) +
-  geom_jitter(size = 0.01, 
-              color = "gray") + 
-  # geom_violin(color = "gray") + 
-  geom_boxplot(outlier.shape = NA, width = 0.3) + 
-  stat_compare_means(method = "kruskal.test", size = 2.8, color = "black")+
+plotdf16Ssamp %>%
+  filter(Method == "Rarefaction") %>%
+  ggplot(aes(x = m, y = qD, group = Assemblage)) + 
+  geom_line(color = "grey", size = 0.10, linetype="solid") + 
+  geom_line(data = extrapolate16Ssamp, aes(x = m, y=qD, group=Assemblage, color=ROV), 
+            size = 0.50, linetype="solid") + 
+  geom_point(data = observed16Ssamp, aes(x = m, y = qD), size =1, 
+             color = "blue") + 
+  theme_bw() + 
+  theme(axis.text =  element_text(size = 10), 
+        axis.title.x = element_text(size = 12, vjust = -2), 
+        axis.title.y = element_text(size = 12, vjust= 4), 
+        plot.title = element_text(size = 12, face = "italic"),
+        legend.text =   element_text(size = 9), 
+        legend.background = element_blank(),
+        plot.background = element_blank(), 
+        panel.background = element_blank(),
+        panel.border =element_rect(colour="black", size = 1.3), 
+        panel.grid = element_line(color = "grey95"),        
+        plot.margin = margin(0.5,0.5,0.5,0.5, "cm"), 
+        legend.position = c(0.87,0.84),
+        legend.title = element_blank()) +
+  expand_limits(x=c(0,22)) + 
   scale_color_brewer(palette = "Set1") + 
+  xlab("Sequence Sampled (x10,000)") + 
+  ylab("Richness (x1000)") + 
+  ggtitle("Prokaryotic 16S Diversity")
+
+
+plotdf16Ssamp %>%
+  filter(Method == "Rarefaction") %>%
+  ggplot(aes(x = m, y = SC, group = Assemblage)) + 
+  geom_line(color = "grey", size = 0.10, linetype="solid") + 
+  geom_line(data = extrapolate16Ssamp, aes(x = m, y=SC, group=Assemblage), 
+            size = 0.50, linetype="solid", color = "red") + 
+  geom_point(data = observed16Ssamp, aes(x = m, y = SC), size =1, 
+             color = "blue") + 
   theme_bw() + 
-  facet_wrap(~Group, scales = 'free_y') + 
-  xlab("Sample Collection Station")
-
-# ROV level methane concentrations
-rareAlphaALL %>%
-  ggplot(aes(x = reorder(ROV, +Methane), 
-             y = Methane, 
-             fill = ROV)) +
-  # geom_violin(color = "gray") + 
-  geom_col(outlier.shape = NA, width = 0.3) + 
-  stat_compare_means(method = "kruskal.test", size = 2.8, color = "black")+
-  scale_fill_brewer(palette = "Set1") + 
-  theme_bw() + 
-  facet_wrap(~Group, scales = 'free_y') + 
-  xlab("Sample Collection Station")
-
-
-
-# Effect of Methane levels on Diversity
-rareAlphaALL %>%
-  ggplot(aes(x = reorder(ROV, +Methane), 
-             y = Methane, 
-             fill = ROV)) +
-  # geom_violin(color = "gray") + 
-  geom_col(outlier.shape = NA, width = 0.3) + 
-  stat_compare_means(method = "kruskal.test", size = 2.8, color = "black")+
-  scale_fill_brewer(palette = "Set1") + 
-  theme_bw() + 
-  facet_wrap(~Group, scales = 'free_y') + 
-  xlab("Sample Collection Station")
+  theme(axis.text =  element_text(size = 10), 
+        axis.title.x = element_text(size = 12, vjust = -2), 
+        axis.title.y = element_text(size = 12, vjust= 4), 
+        plot.title = element_text(size = 12, face = "italic"),
+        legend.text =   element_text(size = 9), 
+        # legend.title =   element_text(size = 9),
+        legend.background = element_blank(),
+        plot.background = element_blank(), 
+        panel.background = element_blank(),
+        panel.border =element_rect(colour="black", size = 1.3), 
+        panel.grid = element_line(color = "grey95"),        
+        plot.margin = margin(0.5,0.5,0.5,0.5, "cm"), 
+        legend.position = c(0.87,0.84),
+        legend.title = element_blank()) + 
+  xlab("Sequence Sampled (x10,000)") + 
+  ylab("Proportion ASV Coverage") + 
+  ggtitle("Prokaryotic 16S Diversity")
 
 
+### 18S
+# inextSample18S <- iNEXT(t(otu18S), 
+#                         q=c(0,1,2),# hill number diversity order
+#                         datatype="abundance", 
+#                         nboot=100, 
+#                         se = FALSE, 
+#                         conf = 0.95)
+# 
+# saveRDS(inextSample18S, "./data/Data/SAMPrarecurveiNEXT18S.rds")
+inextSample18S <- readRDS("./data/Data/SAMPrarecurveiNEXT18S.rds")
 
-
-rareAlphaALL %>%
-  ggplot(aes(x = Depth, 
-             y = richness)) +
-  geom_jitter(size = 0.1, 
-              aes(color = ROV)) + 
-  theme_bw() + 
-  geom_smooth(method="lm", 
-              formula = y~x, 
-              se = FALSE) +
-  facet_wrap(~Group, scales = 'free_y') 
-
+plotdf18Ssamp <- inextSample18S$iNextEst$size_based %>% mutate(m = m/10000, 
+                                                               qD = qD/1000)  %>% 
+  filter(Order.q == 0) %>%
+  left_join(., metadata %>% rownames_to_column(var = "Assemblage"), by = "Assemblage" )
   
+observed18Ssamp <- plotdf18Ssamp %>% filter(Method == "Observed")
+extrapolate18Ssamp <- plotdf18Ssamp %>% filter(Method == "Extrapolation")
+
+plotdf18Ssamp %>%
+  filter(Method == "Rarefaction") %>%
+  ggplot(aes(x = m, y = qD, group = Assemblage, color=ROV)) + 
+  geom_line(color = "grey", size = 0.10, linetype="solid") + 
+  geom_line(data = extrapolate18Ssamp, aes(x = m, y=qD, group=Assemblage, color = ROV), 
+            size = 0.50, linetype="solid") + 
+  geom_point(data = observed18Ssamp, aes(x = m, y = qD), size =1, 
+             color = "blue") + 
+  theme_bw() + 
+  theme(axis.text =  element_text(size = 10), 
+        axis.title.x = element_text(size = 12, vjust = -2), 
+        axis.title.y = element_text(size = 12, vjust= 4), 
+        plot.title = element_text(size = 12, face = "italic"),
+        legend.text =   element_text(size = 9), 
+        # legend.title =   element_text(size = 9),
+        legend.background = element_blank(),
+        plot.background = element_blank(), 
+        panel.background = element_blank(),
+        panel.border =element_rect(colour="black", size = 1.3), 
+        panel.grid = element_line(color = "grey95"),        
+        plot.margin = margin(0.5,0.5,0.5,0.5, "cm"), 
+        legend.position = c(0.87,0.84),
+        legend.title = element_blank()) + 
+  scale_color_brewer(palette="Set1") +
+  expand_limits(x=c(0,15)) + 
+  xlab("Sequence Sampled (x10,000)") + 
+  ylab("Richness (x1000)") + 
+  ggtitle("Fungal 18S Diversity")
+
+
+plotdf18Ssamp %>%
+  filter(Method == "Rarefaction") %>%
+  ggplot(aes(x = m, y = SC, group = Assemblage)) + 
+  geom_line(color = "grey", size = 0.10, linetype="solid") + 
+  geom_line(data = extrapolate18Ssamp, aes(x = m, y=SC, group=Assemblage), 
+            size = 0.50, linetype="solid", color = "red") + 
+  geom_point(data = observed18Ssamp, aes(x = m, y = SC), size =1, 
+             color = "blue") + 
+  theme_bw() + 
+  theme(axis.text =  element_text(size = 10), 
+        axis.title.x = element_text(size = 12, vjust = -2), 
+        axis.title.y = element_text(size = 12, vjust= 4), 
+        plot.title = element_text(size = 12, face = "italic"),
+        legend.text =   element_text(size = 9), 
+        legend.title =   element_text(size = 9),
+        legend.background = element_blank(),
+        plot.background = element_blank(), 
+        panel.background = element_blank(),
+        panel.border =element_rect(colour="black", size = 1.3), 
+        panel.grid = element_line(color = "grey95"),        
+        plot.margin = margin(0.5,0.5,0.5,0.5, "cm"), 
+        legend.position = "none") + 
+  xlab("Sequence Sampled (x10,000)") + 
+  ylab("Proportion ASV Coverage") + 
+  ggtitle("Fungal 18S Diversity")
+
+
+
+#### ALPHA DIVERSITY CORRELATION ####
+# observed18Ssamp %>%
+#   ggplot(aes(x=d13CV, y = qD)) + 
+#   geom_point(size=1, color = "grey") + 
+#   theme_bw()
+  
+

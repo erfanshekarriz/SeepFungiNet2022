@@ -32,24 +32,31 @@ taxa <- data.frame(tax_table(physeq))[as_ids(V(igraph)),]
 plotdf <- data.frame(Degree =degree(igraph, normalized = TRUE), 
            Betweenness = betweenness(igraph, normalized = TRUE)) %>%
   cbind(taxa) %>% 
-  mutate(Domain = if_else(Domain=="Eukaryota", "Fungi", Domain))
+  mutate(Domain = if_else(Domain=="Eukaryota", "Fungi", Domain)) %>% 
+  mutate(Domain = factor(Domain, levels = c("Fungi", "Bacteria", "Archaea")))
+  
 
 quant <- 0.8
 plotdfcol <- plotdf %>%
+  rownames_to_column(var="ASV") %>%
   group_by() %>%
   mutate(quant90deg = quantile(Degree, quant), 
          quant90bet = quantile(Betweenness, quant)) %>%
   filter(Degree >= quant90deg, 
          Betweenness >= quant90bet) %>%
   add_column(label = NA) %>%
-  mutate(label = Species)
+  mutate(label = Species)  %>%
+  column_to_rownames("ASV")
 
 plotdfncol <- plotdf %>%
+  rownames_to_column(var="ASV") %>%
   group_by() %>%
   mutate(quant90deg = quantile(Degree, quant), 
          quant90bet = quantile(Betweenness, quant)) %>%
   filter(Degree < quant90deg, 
-         Betweenness < quant90bet)
+         Betweenness < quant90bet) %>%
+  column_to_rownames("ASV")
+
 
 degquant <- unique(plotdfcol$quant90deg)
 betquant <- unique(plotdfcol$quant90bet)
@@ -99,7 +106,6 @@ plotdfncol %>%
              size = 2, 
              fill = NA,
              fontface = "bold") + 
-  scale_color_brewer(palette = "Set1") + 
   theme_bw() + 
   xlab("Normalized Degree")+ 
   ylab("Normalized Betweenness")  + 
@@ -115,10 +121,11 @@ plotdfncol %>%
         panel.grid = element_line(color = "grey95"),        
         plot.margin = margin(0.5,0.5,0.5,0.5, "cm")) + 
   geom_text(x = 0.08, y = 0.165, label = paste0("TOP ", 100-(quant*100), "th PERCENTILE"), size = 3, 
-            fontface = "bold.italic", color = "orange")
+            fontface = "bold.italic", color = "orange") + 
+  scale_color_brewer(palette = "Set1")
   
 
-  
+
 
 
 ggsave("./data/graphs/Fig4C_11keystonespec.tiff",

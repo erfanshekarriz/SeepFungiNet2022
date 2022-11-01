@@ -11,14 +11,6 @@ library(gridExtra)
 # output: output directory for saving network
 
 
-# NOTE : To make the BAF, Ba, and Fu networks separately, change the files
-#        in the working directory ./data/ to include only phyloseq objects
-#        with Fungi, or Prokaryotes respectively. You can also filter them 
-#        using the cod on line 57 and 58!
-#
-#        The parameterization of the β parameter can also be done by 
-#        adjusting the "input parameters" range. 
-
                                                        
 #### INPUT PARAMETERS ####
 # methods <- c('slr', 'glasso', 'mb')
@@ -45,7 +37,7 @@ dir.create("./data/networks", showWarnings = FALSE)
 
 
 #### READ PHYSEQ in ./DATA DIRECTORY ####
-files <- list.files(path= './data/', 
+files <- list.files(path= './data/Data', 
                     pattern="^.*_NetREADY_.*$", 
                     full.names=TRUE, 
                     recursive=FALSE) 

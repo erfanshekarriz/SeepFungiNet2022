@@ -3,6 +3,8 @@ library(phyloseq)
 library(igraph)
 library(brainGraph)
 library(binr)
+library(ggpubr)
+library(RColorBrewer)
 
 set.seed(1234)
 

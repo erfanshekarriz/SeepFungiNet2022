@@ -485,5 +485,4 @@ ggsave("./data/graphs/Fig4A2_8networkattack.tiff" ,
        units = "cm",
        dpi = 1000 )
 
-
 ######

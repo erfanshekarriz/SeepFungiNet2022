@@ -2,6 +2,9 @@ library(phyloseq)
 library(tidyverse)
 
 
+dir.create("./data/networks/filtered", showWarnings = FALSE)
+dir.create("./data/networks/filtered/weighted", showWarnings = FALSE)
+dir.create("./data/networks/filtered/nonweighted", showWarnings = FALSE)
 
 
 
@@ -63,7 +66,13 @@ for (i in 1:length(graphlist)){
   cat(paste("Edges:", length(E(newgraph))))
   cat("\n\n")
   
-  saveRDS(newgraph, names(graphlist)[i] %>%
-            str_replace("raw/.+/","filtered/"))
+  if (grepl("igraphw_", names(graphlist)[i])){
+    saveRDS(newgraph, names(graphlist)[i] %>%
+              str_replace("raw/.+/","filtered/weighted/"))
+  }
+  else if (grepl("igraph_", names(graphlist)[i])){
+    saveRDS(newgraph, names(graphlist)[i] %>%
+              str_replace("raw/.+/","filtered/nonweighted/"))
+  }
   
 }

@@ -5,10 +5,13 @@ library(reshape2)
 library(ggpmisc)
 library(corrplot)
 
+#### THE ANALYSIS OF RAREFIED DISTANCES TAKES A LONG TIME
+
+
 
 #### LOAD DATA ####
-physeq16S <- readRDS('./data/physeq16S.rds')
-physeq18S <- readRDS('./data/physeq18SFungi.rds')
+physeq16S <- readRDS('./data/Data/physeq16S.rds')
+physeq18S <- readRDS('./data/Data/physeq18SFungi.rds')
 
 
 
@@ -19,8 +22,8 @@ sampledataplotraw <- data.frame(sample_data(physeq16S)) %>%
 features <- colnames(sampledataplotraw) %>% as.data.frame()
 
 ### read dist matrix if already done
-raredist_16S <- readRDS('./data/raredist_16S.rds')
-raredist_18S <- readRDS('./data/raredist_18S.rds')
+raredist16S <- readRDS('./data/Data/raredist_16S.rds')
+raredist18S <- readRDS('./data/Data/raredist_18S.rds')
 
 #### CALCULATE RAREDIST ####
 
@@ -36,26 +39,6 @@ df <- melt(as.matrix(raredist16S), varnames = c("row", "col"))
 saveRDS(raredist16S, file = "raredist_16S.rds")
 write.csv(df, "16S_rarefied_distmatrixOTU.csv")
 
-# PCoA
-set.seed(123)
-pcoa16S <- cmdscale(raredist16S, 
-                    k=2, 
-                    eig = TRUE)
-
-plot16S <- as.data.frame(pcoa16S$points) %>%
-  as_tibble(rownames = "SampleID") %>%
-  mutate(PCo1 = V1, PCo2 = V2) %>%
-  select(-V1, -V2) %>%
-  inner_join(., 
-             sampledataplotraw %>%
-               rownames_to_column(var = "SampleID"), 
-             by = "SampleID") 
-
-
-plot16S %>%
-  ggplot(aes(x = PCo1, y = PCo2, color = ROV)) +
-  geom_point() + 
-  theme_bw()
 
 #### 18S
 # Rarefied braycurtis dist
@@ -69,13 +52,16 @@ df <- melt(as.matrix(raredist18S), varnames = c("row", "col"))
 saveRDS(raredist18S, file = "raredist_18S.rds")
 write.csv(df, "18S_rarefied_distmatrixOTU.csv")
 
-# PCoA
+
+
+#### ORDINATION & PLOT ####
+### 16S
 set.seed(123)
-pcoa18S <- cmdscale(raredist18S, 
+pcoa16S <- cmdscale(raredist16S, 
                     k=2, 
                     eig = TRUE)
 
-plot18S <- as.data.frame(pcoa18S$points) %>%
+plotdf16S<- as.data.frame(pcoa16S$points) %>%
   as_tibble(rownames = "SampleID") %>%
   mutate(PCo1 = V1, PCo2 = V2) %>%
   select(-V1, -V2) %>%
@@ -83,12 +69,31 @@ plot18S <- as.data.frame(pcoa18S$points) %>%
              sampledataplotraw %>%
                rownames_to_column(var = "SampleID"), 
              by = "SampleID") 
-plot18S %>%
-  ggplot(aes(x = PCo1, y = PCo2, color = as.factor(Depth))) +
+
+
+plotdf16S %>%
+  ggplot(aes(x = PCo1, y = PCo2, color = ROV)) +
   geom_point() + 
   theme_bw()
 
 
+### 18S Fungi 
+set.seed(123)
+pcoa18S <- cmdscale(raredist18S, 
+                    k=2, 
+                    eig = TRUE)
 
-#### PLOT ####
+plotdf18S <- as.data.frame(pcoa18S$points) %>%
+  as_tibble(rownames = "SampleID") %>%
+  mutate(PCo1 = V1, PCo2 = V2) %>%
+  select(-V1, -V2) %>%
+  inner_join(., 
+             sampledataplotraw %>%
+               rownames_to_column(var = "SampleID"), 
+             by = "SampleID") 
+plotdf18S %>%
+  ggplot(aes(x = PCo1, y = PCo2, color = as.factor(ROV))) +
+  geom_point() + 
+  theme_bw()
+
 

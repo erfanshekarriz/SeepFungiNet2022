@@ -6,13 +6,26 @@ library(ape)
 ##### 16S OTU #####
 
 #### load OTU, Tree, and Taxonomy data ####
-otu <- read.delim2("./data/physeq_data/coldseep_18S_ASV_protists.txt") %>%
+otu <- read.delim2("./data/physeqraw/coldseep_18S_ASV_protists.txt") %>%
   column_to_rownames(var = "X") %>%
   t() %>%
   as.data.frame()
 
 
-tax <- read.delim2("./data/physeq_data/taxonom_18s_all.txt") %>%
+x<- c(D_0__="D0_", 
+      D_1__="D1_", 
+      D_2__="D2_", 
+      D_3__="D3_", 
+      D_4__="D4_", 
+      D_5__="D5_", 
+      D_6__="D6_", 
+      D_7__="D7_", 
+      D_8__="D8_",
+      D_9__="D9_",
+      D_10__="D10_", 
+      D_11__="D11_")
+
+tax <- read.delim2("./data/physeqraw/taxonom_18s_all.txt") %>%
   column_to_rownames(var = "Feature_id") %>%
   filter(grepl("Fungi", Taxon)) %>%
   mutate(Taxon = str_replace_all(Taxon, c(D_0__="D0_", 
@@ -74,10 +87,10 @@ taxclean <- tax %>%
 
 
 
-tree <- read.tree("./data/physeq_data/rooted-tree-18s_protists.nwk")  
+tree <- read.tree("./data/physeqraw/rooted-tree-18s_protists.nwk")  
 
 #### LOAD & merge environmental & sample data ####
-envdat <- read.csv("./data/physeq_data/cold seep env.csv") %>%
+envdat <- read.csv("./data/physeqraw/cold seep env.csv") %>%
   rename(Methane = CH4.mg.kg., 
          Phosphate = PO4.ppm., 
          Sulfide = sulfide_mg.L, 
@@ -98,7 +111,7 @@ envdat <- read.csv("./data/physeq_data/cold seep env.csv") %>%
   mutate(ROV  = str_extract(SampleIDnew, "ROV."), 
          Depth = as.numeric(str_extract(SampleIDnew, "\\d?\\d$")))
 
-sampledat <- read.delim2("./data/physeq_data/sample-metadata.txt") %>%
+sampledat <- read.delim2("./data/physeqraw/sample-metadata.txt") %>%
   mutate(SampleID = X %>%
            str_replace_all("\\.", ""), 
          Depth = as.numeric(Depth %>% str_extract_all("\\d+"))) %>% 
