@@ -59,7 +59,7 @@ betweenness <- data.frame(Value = betweenness(igraph, normalized = FALSE)) %>%
 #### WEIGHTED AVERAGE ####
 edgeweight <- as_edgelist(igraphw) %>%
   as.data.frame() %>%
-  rename(from = V1, to = V2) %>%
+  dplyr::rename(from = V1, to = V2) %>%
   mutate(fromtaxa = taxa[from,"Domain"], 
          totaxa = taxa[to,"Domain"], 
          weights = E(igraphw)$weight) %>%
@@ -124,15 +124,15 @@ selectnocolor %>%
   ggplot(aes(x = Domain, y = Value, color = Domain)) +
   geom_jitter(size = 0.01, width=0.1, color = "grey", alpha = 0.4) + 
   geom_jitter(data=selectcolor, aes(x = Domain, y = Value), 
-              color = "Red", size = 0.5, width=0.1, shape = 4) +
+              color = "orange", size = 0.5, width=0.1, shape = 4) +
   geom_boxplot(width = 0.2, outlier.shape = NA) +
-  # geom_hline(data = horizline, aes(yintercept = min),
-  #            color = "red", size =0.2, linetype = "dashed") +
+  geom_hline(data = horizline, aes(yintercept = min),
+             color = "orange", size =0.4, linetype = "dashed") +
   stat_compare_means(aes(label = ..p.signif..), 
                      comparisons = my_comparisons,
-                     size = 2.5, 
+                     size = 3, 
                      method = "wilcox.test", 
-                     color = "orange", 
+                     color = "grey50", 
                      vjust = 1.6, bracket.size = 0.5) + 
   geom_text(data = dataMedian, aes(Domain, Pos, label = paste("m =", MD), color = Domain), 
             size = 1.5, vjust = -4, hjust= -0.15, fontface = "bold", angle=0) + 
