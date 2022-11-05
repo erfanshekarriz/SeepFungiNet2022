@@ -11,7 +11,7 @@ import re
 
 
 inputdir = input("Enter the input file directory with all fasta files: ")
-seqtype = input("Enter whether your sequence type (RNA or AminoAcid): ")
+seqtype = input("Enter whether your sequence type (RNA or AA): ")
 seqtype = seqtype.lower()
 
 # Read input file fasta file function
@@ -120,7 +120,7 @@ if seqtype == "rna":
             continue
 
 # AMINO ACID CHECK
-elif seqtype == "aminoacid":
+elif seqtype == "aa":
     # make new output directory
     os.chdir(inputdir)
     outputdir = os.path.join(inputdir, "motifchecked_Prot")
@@ -157,7 +157,7 @@ elif seqtype == "aminoacid":
                 if (cysMatch is not None): #and (8 <= cyscount <= 10):
                     # The first cysteine is the reference frame
                     # print(seq)
-                    print(cyscount)
+                    # print(cyscount)
                     finalseqDict[seqID] = seq
 
                 else:
