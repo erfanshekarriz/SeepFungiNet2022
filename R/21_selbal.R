@@ -35,12 +35,12 @@ ROVcov <- sampledf %>% dplyr::mutate(ROV=as.factor(ROV)) %>% dplyr::select(ROV)
 
 #### SELBAL MODELLING WITH DISCRETICIZED METHANE LEVELS ####
 
-# selbalmod <- selbal.cv(x = otumat,
-#                        y = methlev,
-#                        n.fold = 5,
-#                        n.iter = 2000,
-#                        logit.acc = "AUC")
-# saveRDS(selbalmod, "./data/Data/selbalMETHLev.rds")
+selbalmod <- selbal.cv(x = otumat,
+                       y = methlev,
+                       n.fold = 5,
+                       n.iter = 2000,
+                       logit.acc = "AUC")
+saveRDS(selbalmod, "./data/Data/selbalMETHLev10000.rds")
 
 
 
@@ -58,6 +58,7 @@ globalbal <- selbalmod$global.balance %>%
   mutate(Taxa=gsub("^X", "", Taxa)) %>%
   merge(., taxdf %>% rownames_to_column("Taxa"), by="Taxa") 
 
+# manually name by BLASTing representative sequence against the NCBI database
 manualnames <- c("Unkown Fungal ASV 3", 
                  "Derxomyces sp.",
                  "Unkown Fungal ASV 1", 

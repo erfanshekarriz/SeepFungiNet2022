@@ -3,6 +3,10 @@ library(tidyverse)
 library(vegan)
 library(ggplot2)
 library(iNEXT)
+library(corrplot)
+library(PerformanceAnalytics)
+library(GGally)
+
 
 ### the iNEXT rarefaction curves take a very long time to perform, 
 ### so we have commented out analysis needing lots of time. 
@@ -31,8 +35,8 @@ tax18S <- data.frame(tax_table(physeq18S))
 metadata <- data.frame(sample_data(physeq16S))
 
 metadata %>%
-  group_by(ROV) %>%
-  summarize(n=n())
+  dplyr::group_by(ROV) %>%
+  dplyr::summarize(n=n())
 
 # metadata 
 sampledataplotraw <- data.frame(sample_data(physeq16S)) %>%
@@ -164,7 +168,7 @@ plotdf16Ssamp %>%
   ggplot(aes(x = m, y = qD, group = Assemblage)) + 
   geom_line(color = "grey", size = 0.10, linetype="solid") + 
   geom_line(data = extrapolate16Ssamp, aes(x = m, y=qD, group=Assemblage, color=ROV), 
-            size = 0.50, linetype="solid") + 
+            size = 0.50, linetype="solid", color="red") + 
   geom_point(data = observed16Ssamp, aes(x = m, y = qD), size =1, 
              color = "blue") + 
   theme_bw() + 
@@ -186,6 +190,13 @@ plotdf16Ssamp %>%
   xlab("Sequence Sampled (x10,000)") + 
   ylab("Richness (x1000)") + 
   ggtitle("Prokaryotic 16S Diversity")
+
+ggsave("./data/graphs/supplementary/FigS1_3alphadiversity.png",
+       width = 15,
+       height = 13,
+       units = "cm",
+       dpi = 300 )
+
 
 
 plotdf16Ssamp %>%
@@ -215,6 +226,12 @@ plotdf16Ssamp %>%
   ylab("Proportion ASV Coverage") + 
   ggtitle("Prokaryotic 16S Diversity")
 
+ggsave("./data/graphs/supplementary/FigS2_3alphadiversity.png",
+       width = 15,
+       height = 13,
+       units = "cm",
+       dpi = 300 )
+
 
 ### 18S
 # inextSample18S <- iNEXT(t(otu18S), 
@@ -240,7 +257,7 @@ plotdf18Ssamp %>%
   ggplot(aes(x = m, y = qD, group = Assemblage, color=ROV)) + 
   geom_line(color = "grey", size = 0.10, linetype="solid") + 
   geom_line(data = extrapolate18Ssamp, aes(x = m, y=qD, group=Assemblage, color = ROV), 
-            size = 0.50, linetype="solid") + 
+            size = 0.50, linetype="solid", color="red") + 
   geom_point(data = observed18Ssamp, aes(x = m, y = qD), size =1, 
              color = "blue") + 
   theme_bw() + 
@@ -263,6 +280,12 @@ plotdf18Ssamp %>%
   xlab("Sequence Sampled (x10,000)") + 
   ylab("Richness (x1000)") + 
   ggtitle("Fungal 18S Diversity")
+
+ggsave("./data/graphs/supplementary/FigS3_3alphadiversity.png",
+       width = 15,
+       height = 13,
+       units = "cm",
+       dpi = 300 )
 
 
 plotdf18Ssamp %>%
@@ -291,12 +314,70 @@ plotdf18Ssamp %>%
   ylab("Proportion ASV Coverage") + 
   ggtitle("Fungal 18S Diversity")
 
+ggsave("./data/graphs/supplementary/FigS4_3alphadiversity.png",
+       width = 15,
+       height = 13,
+       units = "cm",
+       dpi = 300 )
+
 
 
 #### ALPHA DIVERSITY CORRELATION ####
-# observed18Ssamp %>%
-#   ggplot(aes(x=d13CV, y = qD)) + 
-#   geom_point(size=1, color = "grey") + 
-#   theme_bw()
-  
+numericdf <- observed18Ssamp %>%
+  select_if(is.numeric) %>%
+  select_if(~sum(!is.na(.x)) > 0) %>%
+  select(-Order.q, -m, -SC) %>%
+  dplyr::rename(Richness=qD) %>%
+  drop_na()
+
+corrdf <- cor(numericdf) 
+myfunc <- function(i,j) mapply(function(a,b) cor.test(mtcars[[a]], mtcars[[b]])$p.value, i, j)
+pvaldf <- outer(numericdf, numericdf, Vectorize(function(a, b) cor.test(a, b)$p.value)) 
+
+
+# only label isgnificant 
+png("./data/graphs/supplementary/FigS4_3alphadiversity.png",
+       width = 10,
+       height = 10,
+       units = "cm",
+     res = 300 )
+
+corrplot(corrdf, type = "lower",method = 'number',
+         tl.col = "black", tl.srt = 45, number.cex=0.5, tl.cex=0.5,
+         p.mat = pvaldf, insig = "pch") 
+dev.off()
+
+
+ggpairs(numericdf) +  theme_classic()
+
+
+
+# 16S
+numericdf16S <- observed16Ssamp %>%
+  select_if(is.numeric) %>%
+  select_if(~sum(!is.na(.x)) > 0) %>%
+  select(-Order.q, -m, -SC) %>%
+  dplyr::rename(Richness=qD) %>%
+  drop_na()
+
+corrdf16S <- cor(numericdf16S) 
+pvaldf16S <- outer(numericdf16S, numericdf16S, Vectorize(function(a, b) cor.test(a, b)$p.value)) 
+
+
+# only label isgnificant 
+png("./data/graphs/supplementary/FigS5_3alphadiversity.png",
+    width = 10,
+    height = 10,
+    units = "cm",
+    res = 300 )
+
+corrplot(corrdf16S, type = "lower",method = 'number',
+         tl.col = "black", tl.srt = 45, number.cex=0.5, tl.cex=0.5,
+         p.mat = pvaldf16S, insig = "pch") 
+dev.off()
+
+
+ggpairs(numericdf16S) +  theme_classic()
+
+
 

@@ -1,0 +1,8 @@
+Name	Taxid	Rank	Observed_markers	Read_counts	Percent_observed_markers	Total_marker_coverage	Percent_identity	Amount of marker length in EukDetect db
+Prasinoderma singulare	676789	species	2	3	2.2%	20.12%	98.88%	121534
+Chloropicon roscoffensis	1461544	species	2	3	1.27%	17.07%	100.0%	275974
+Pycnococcus provasolii	41880	species	1	1	1.03%	21.93%	99.33%	119181
+Gephyrocapsa oceanica	38817	species	1	2	1.0%	34.05%	99.51%	137559
+Chloropicon mariensis	1606511	species	1	1	0.91%	27.52%	98.0%	157984
+Chloropicon primus	1764295	species	1	2	0.72%	3.76%	100.0%	281336
+Micromonas	38832	genus	1	2	0.56%	2.93%	97.85%	358692

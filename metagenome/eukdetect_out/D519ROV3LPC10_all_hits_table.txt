@@ -1,0 +1,13 @@
+Name	Taxid	Rank	Observed_markers	Read_counts	Percent_observed_markers	Total_marker_coverage	Percent_identity	Amount of marker length in EukDetect db
+Prasinoderma singulare	676789	species	9	17	9.89%	14.7%	99.5%	121534
+Chloropicon roscoffensis	1461544	species	13	22	8.23%	10.47%	99.65%	275974
+Chloropicon mariensis	1606511	species	9	16	8.18%	18.64%	98.92%	157984
+Prasinococcaceae	2201465	family	1	2	4.0%	10.06%	100.0%	36508
+Micromonas pusilla	38833	species	1	2	3.85%	22.12%	97.0%	49695
+Chloropicon laureae	464258	species	2	2	3.57%	16.23%	98.32%	50762
+Gephyrocapsa oceanica	38817	species	2	3	2.0%	8.42%	100.0%	137559
+Pycnococcus provasolii	41880	species	1	1	1.03%	7.7%	97.95%	119181
+Prasinococcaceae sp. CCMP 1430	2489100	species	1	2	0.92%	4.57%	99.0%	225148
+Chloropicon primus	1764295	species	1	2	0.72%	5.97%	100.0%	281336
+[Candida] haemulonis	45357	species	1	1	0.62%	3.11%	100.0%	339692
+Flammulina velutipes KACC42780	1300067	species	1	2	0.56%	19.5%	98.33%	343446

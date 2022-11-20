@@ -16,9 +16,15 @@ BAphyseq <-  readRDS("./data/Data/physeq16S_seep_NetREADY_taxprevl_0.5.rds")[[1]
 # Bphyseq <- readRDS("./data/Data/physeq18SFungi_seep_NetREADY_taxprevl_0.2.rds")[[1]]
 
 sampdata <- data.frame(sample_data(BAFphyseq))
-
+avgDepth0Meth <- sampdata %>%
+  filter(Depth==0) %>%
+  pull(Methane) %>%
+  max()
+sampdata <- sampdata %>% 
+  mutate(MethLev = as.factor(if_else(Methane<=avgDepth0Meth, "Low", "High")))
 
 ### PERFORM ROBUST PCA
+myfunc <- function(i,j) mapply(function(a,b) cor.test(mtcars[[a]], mtcars[[b]])$p.value, i, j)
 
 # Bacterial-Archaeal-Fungal network
 XBAF <- BAFslr$est$data
@@ -55,10 +61,15 @@ corresBAF <- data.frame(cor(plotdfnumBAF)) %>%
   filter(!grepl("PC", rownames(.))) %>%
   as.matrix()
 
+pvaldfBAF <- outer(plotdfnumBAF, plotdfnumBAF, Vectorize(function(a, b) cor.test(a, b)$p.value))  %>%
+  as.data.frame() %>%
+  select_if(grepl("PC", names(plotdfnumBAF))) %>%
+  filter(!grepl("PC", rownames(.))) %>% as.matrix()
+  
 
-corrplot(corresBAF, type = "full",method = 'circle',
+corrplot(corresBAF, type = "full", method = 'circle',
          tl.col = "black", tl.srt = 45, number.cex=0.5, tl.cex=0.5,
-         p.mat = corresBAF, insig = "blank")
+         p.mat = pvaldfBAF, insig = "pch")
 
 
 
@@ -97,11 +108,18 @@ corresBA <- data.frame(cor(plotdfnumBA)) %>%
   filter(!grepl("PC", rownames(.))) %>%
   as.matrix()
 
+pvaldfBA <- outer(plotdfnumBA, plotdfnumBA, Vectorize(function(a, b) cor.test(a, b)$p.value))  %>%
+  as.data.frame() %>%
+  select_if(grepl("PC", names(plotdfnumBA))) %>%
+  filter(!grepl("PC", rownames(.))) %>% as.matrix()
 
 corrplot(corresBA, type = "full",method = 'circle',
          tl.col = "black", tl.srt = 45, number.cex=0.5, tl.cex=0.5,
-         p.mat = corresBA, insig = "blank")
+         p.mat = pvaldfBA, insig = "pch")
 
+plotdfBA %>% 
+  ggplot(aes(x=MethLev, y=PC3)) + 
+  geom_boxplot() 
 
 
 
@@ -129,33 +147,33 @@ plotdfBAF %>%
 
 
 # logistic regression model
-testdf <- plotdfBA %>%
-  mutate(MethLev = if_else(Methane<20, 0, 1))%>%
-  select(MethLev, PC3)
-
-
-model <- glm(data=testdf, formula=MethLev~PC3, family = "binomial") 
-R2 <- with(summary(model), 1 - deviance/null.deviance)
-R2
-
-plotdfLR <- testdf %>% select(PC3)
-plotdfLR %>%
-  mutate(MethLev = predict(model, plotdfLR, type="response")) %>%
-  ggplot(aes(x=PC3, y=MethLev)) +
-  geom_point(data=testdf, aes(x=PC3, y=MethLev, color=MethLev)) + 
-  stat_smooth(method="glm", se=FALSE, method.args = list(family=binomial)) + 
-  scale_x_reverse() + 
-  theme_bw()
-
-
-
-
-plotdfBAF %>%
-  mutate(MethLev = if_else(Methane<70, "Low", "High"), 
-         SulfateLev = if_else(Sulfate<1000, "Low", "High")) %>%
-  ggplot(aes(x=SulfateLev, y=PC3)) +
-  geom_point(aes(color=ROV), size=1, height = 10) +
-  geom_smooth(formula = y~x, method="glm", color="black", se=FALSE) +
-  stat_compare_means(method = "anova") + 
-  theme_bw()
-
+# testdf <- plotdfBA %>%
+#   mutate(MethLev = if_else(Methane<20, 0, 1))%>%
+#   select(MethLev, PC3)
+# 
+# 
+# model <- glm(data=testdf, formula=MethLev~PC3, family = "binomial") 
+# R2 <- with(summary(model), 1 - deviance/null.deviance)
+# R2
+# 
+# plotdfLR <- testdf %>% select(PC3)
+# plotdfLR %>%
+#   mutate(MethLev = predict(model, plotdfLR, type="response")) %>%
+#   ggplot(aes(x=PC3, y=MethLev)) +
+#   geom_point(data=testdf, aes(x=PC3, y=MethLev, color=MethLev)) + 
+#   stat_smooth(method="glm", se=FALSE, method.args = list(family=binomial)) + 
+#   scale_x_reverse() + 
+#   theme_bw()
+# 
+# 
+# 
+# 
+# plotdfBAF %>%
+#   mutate(MethLev = if_else(Methane<70, "Low", "High"), 
+#          SulfateLev = if_else(Sulfate<1000, "Low", "High")) %>%
+#   ggplot(aes(x=SulfateLev, y=PC3)) +
+#   geom_point(aes(color=ROV), size=1, height = 10) +
+#   geom_smooth(formula = y~x, method="glm", color="black", se=FALSE) +
+#   stat_compare_means(method = "anova") + 
+#   theme_bw()
+# 

@@ -1,0 +1,48 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19900\viewh13940\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 cat veba_output/binning/prokaryotic/SMM2/output/unbinned.fasta | /home/eshekarriz/miniconda3/envs/VEBA-binning-eukaryotic_env/bin/seqkit seq -m 1500 > veba_output/binning/eukaryotic/SMM2/output/unbinned.fasta && python /home/eshekarriz/miniconda3/envs/VEBA-binning-eukaryotic_env/bin/scripts/binning_wrapper.py -f veba_output/binning/prokaryotic/SMM2/output/unbinned.fasta -b veba_output/assembly/SMM2/output/mapped.sorted.bam -o veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2 -a metabat2 -p 24 --minimum_contig_length 1500 --minimum_genome_length 2000000 --bin_prefix SMM2__METABAT2__E.1__ --random_state 1 && \
+\
+\
+mv veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/scaffolds_to_bins.tsv veba_output/binning/eukaryotic/SMM2/tmp && \
+\
+cat veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/bins/*.fa | /home/eshekarriz/miniconda3/envs/VEBA-binning-eukaryotic_env/bin/seqkit seq -m 3000 > veba_output/binning/eukaryotic/SMM2/tmp/scaffolds.binned.gte3000.fasta && \
+\
+mkdir -p veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/consensus_domain_classification && \
+\
+mkdir -p veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/bins/non-eukaryota && \
+\
+/home/eshekarriz/miniconda3/envs/VEBA-binning-eukaryotic_env/bin/tiara -i veba_output/binning/eukaryotic/SMM2/tmp/scaffolds.binned.gte3000.fasta -o veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/consensus_domain_classification/tiara_output.tsv --probabilities -m 3000 -t 24  && \
+\
+python /home/eshekarriz/miniconda3/envs/VEBA-binning-eukaryotic_env/bin/scripts/consensus_domain_classification.py -i veba_output/binning/eukaryotic/SMM2/tmp/scaffolds_to_bins.tsv -t veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/consensus_domain_classification/tiara_output.tsv -o veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/consensus_domain_classification --logit_transform tss && \
+\
+\
+#### THIS IS THE STEP WHERE ALL BINS ARE CLASSIFIED AS PROKARYOTES\
+\
+\
+\
+\
+mv veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/bins/*.fa veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/bins/non-eukaryota &&\
+\
+for ID_GENOME in $(cat veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/consensus_domain_classification/eukaryota.list); do mv veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/bins/non-eukaryota/$\{ID_GENOME\}.* veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/bins; done && \
+\
+\
+(for FP in veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/bins/non-eukaryota/*.fa; do cat $FP >> veba_output/binning/eukaryotic/SMM2/tmp/non-eukaryota.scaffolds.fasta; done) 2> /dev/null || > veba_output/binning/eukaryotic/SMM2/tmp/non-eukaryota.scaffolds.fasta && \
+\
+cat veba_output/binning/eukaryotic/SMM2/tmp/non-eukaryota.scaffolds.fasta | grep "^>" | cut -c2- > veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/non-eukaryota.scaffolds.list && \
+\
+cat veba_output/binning/eukaryotic/SMM2/tmp/scaffolds_to_bins.tsv | grep -v -f veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/non-eukaryota.scaffolds.list > veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/scaffolds_to_bins.tsv &&\
+\
+ [ -s veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/scaffolds_to_bins.tsv ] || (echo 'No eukaryotic bins' && exit 1) &&\
+\
+ cat veba_output/binning/eukaryotic/SMM2/tmp/scaffolds_to_bins.tsv | grep -f veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/non-eukaryota.scaffolds.list > veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/non-eukaryota.scaffolds_to_bins.tsv || > veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/non-eukaryota.scaffolds_to_bins.tsv && \
+\
+cut -f1 veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/scaffolds_to_bins.tsv > veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/binned.list && \
+\
+cut -f2 veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/scaffolds_to_bins.tsv | sort -u > veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/bins.list &&\
+\
+( rm -rf veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/bins veba_output/binning/eukaryotic/SMM2/tmp/non-eukaryota.scaffolds.fasta veba_output/binning/eukaryotic/SMM2/tmp/scaffolds_to_bins.tsv veba_output/binning/eukaryotic/SMM2/tmp/scaffolds.binned.gte3000.fasta veba_output/binning/eukaryotic/SMM2/intermediate/1__binning_metabat2/intermediate ) }

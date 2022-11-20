@@ -1,0 +1,2 @@
+Name	Rank	Lineage	Taxid	Observed_markers	Read_counts	Percent_observed_markers	Total_marker_coverage	Percent_identity
+Caenorhabditis elegans	species	phylum-Nematoda|class-Chromadorea|order-Rhabditida|family-Rhabditidae|genus-Caenorhabditis|species-Caenorhabditis_elegans	6239	2	4	1.18%	8.38%	99.17%

@@ -40,6 +40,17 @@ otumergeheat <- otumerge %>% pivot_longer(c(ROV1, ROV2, ROV3, ROV5),
   select(-Phylum)
 treephyldf <- otumerge %>% select(ID, Phylum)
 
+abundtab <- otumergeheat %>% 
+  group_by(ID) %>%
+  mutate(sd= sd(Abund)) %>%
+  group_by(ID, ROV) %>%
+  summarize(meanAbund = mean(Abund), 
+            sd = sd)%>%
+  merge(., taxdf %>%
+          rownames_to_column("ID"), by="ID")
+
+
+# taxdf["8026cec509b8e367afc55e8425d92c24", ]
 # join tree & metadata
 tree %<+% treephyldf + 
   geom_tiplab(aes(label=Phylum), 

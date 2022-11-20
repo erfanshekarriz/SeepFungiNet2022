@@ -1,0 +1,8 @@
+Name	Taxid	Rank	Observed_markers	Read_counts	Percent_observed_markers	Total_marker_coverage	Percent_identity	Amount of marker length in EukDetect db
+Malassezia restricta	76775	species	5	9	3.33%	7.18%	99.53%	348317
+Chloropicon laureae	464258	species	1	1	1.79%	14.72%	100.00%	50762
+Chloropicon roscoffensis	1461544	species	2	4	1.27%	18.01%	99.33%	275974
+Chloropicon mariensis	1606511	species	1	2	0.91%	4.93%	99.32%	157984
+Tyrophagus putrescentiae	59818	species	1	2	0.86%	12.12%	99.00%	241626
+Chloropicon primus	1764295	species	1	2	0.72%	13.83%	99.67%	281336
+Malassezia globosa CBS 7966	425265	species	1	2	0.64%	4.29%	97.92%	332937
