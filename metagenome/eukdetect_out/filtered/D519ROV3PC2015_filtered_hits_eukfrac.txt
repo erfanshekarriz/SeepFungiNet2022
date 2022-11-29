@@ -1,7 +1,0 @@
-Lineage	Rank	Name	TaxID	RPKS	Euk_fraction	Reads	Amt_marker_sequence
-phylum-Chlorophyta	phylum	Chlorophyta	3041	0.0411	100.0	12	291834
-phylum-Chlorophyta|class-Chloropicophyceae	class	Chloropicophyceae	2302911	0.0411	100.0	12	291834
-phylum-Chlorophyta|class-Chloropicophyceae|order-Chloropicales	order	Chloropicales	2302912	0.0411	100.0	12	291834
-phylum-Chlorophyta|class-Chloropicophyceae|order-Chloropicales|family-Chloropicaceae	family	Chloropicaceae	2302913	0.0411	100.0	12	291834
-phylum-Chlorophyta|class-Chloropicophyceae|order-Chloropicales|family-Chloropicaceae|genus-Chloropicon	genus	Chloropicon	2302914	0.0411	100.0	12	291834
-phylum-Chlorophyta|class-Chloropicophyceae|order-Chloropicales|family-Chloropicaceae|genus-Chloropicon|species-Chloropicon_primus	species	Chloropicon primus	1764295	0.0213	100.0	6	281336

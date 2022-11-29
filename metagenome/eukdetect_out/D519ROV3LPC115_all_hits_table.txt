@@ -1,4 +1,0 @@
-Name	Taxid	Rank	Observed_markers	Read_counts	Percent_observed_markers	Total_marker_coverage	Percent_identity	Amount of marker length in EukDetect db
-Chloropicon roscoffensis	1461544	species	3	5	1.9%	10.06%	99.2%	275974
-Gephyrocapsa oceanica	38817	species	1	2	1.0%	21.88%	99.05%	137559
-Chloropicon mariensis	1606511	species	1	2	0.91%	12.51%	97.65%	157984

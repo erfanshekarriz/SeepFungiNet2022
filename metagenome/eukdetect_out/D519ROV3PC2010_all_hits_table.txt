@@ -1,4 +1,0 @@
-Name	Taxid	Rank	Observed_markers	Read_counts	Percent_observed_markers	Total_marker_coverage	Percent_identity	Amount of marker length in EukDetect db
-Emiliania huxleyi CCMP1516	280463	species	1	1	2.94%	5.4%	100.0%	44652
-Malassezia restricta	76775	species	1	1	0.67%	6.01%	100.0%	348317
-Chloropicon roscoffensis	1461544	species	1	2	0.63%	12.14%	100.0%	275974

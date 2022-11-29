@@ -1,4 +1,0 @@
-Name	Taxid	Rank	Observed_markers	Read_counts	Percent_observed_markers	Total_marker_coverage	Percent_identity	Amount of marker length in EukDetect db
-Pycnococcus provasolii	41880	species	1	2	1.03%	51.02%	99.67%	119181
-Chloropicon mariensis	1606511	species	1	2	0.91%	14.99%	100.0%	157984
-Chloropicon roscoffensis	1461544	species	1	1	0.63%	3.34%	100.0%	275974

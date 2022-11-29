@@ -4,3 +4,6 @@
 .Ruserdata
 *.tiff
 *.tif
+metagenome
+metatrans
+physeqraw

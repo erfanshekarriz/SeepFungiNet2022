@@ -37,7 +37,7 @@ def fasta2dict(fastafile):
                 seqsplit = seqto.split("*NEWLINE*")
                 if len(seqsplit) > 1:
                     seqkey = ">" + seqsplit[0]
-                    seq_dict[seqkey] = seqsplit[1]
+                    seq_dict[seqkey] = seqsplit[1].upper()
 
             return seq_dict
 
@@ -144,7 +144,7 @@ elif seqtype == "aa":
 
             # use regular expressions to match hydrophobin cystein patterns
             # --C--CC--C--C--CC--C--
-            STRPAT = "^.+?C.+?CC.+?C.+?C.+?CC.+?C.+$"
+            STRPAT = "^[^C]+?C[^C]+?CC[^C]+?C[^C]+?C[^C]+?CC[^C]+?C[^C]+$"
             cyspattern = re.compile(STRPAT, re.IGNORECASE)
             for seqID, seq in SeqDict.items():
                 cysMatch = re.search(cyspattern, seq)

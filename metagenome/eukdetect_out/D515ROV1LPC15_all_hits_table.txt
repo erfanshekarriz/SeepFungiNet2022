@@ -1,3 +1,0 @@
-Name	Taxid	Rank	Observed_markers	Read_counts	Percent_observed_markers	Total_marker_coverage	Percent_identity	Amount of marker length in EukDetect db
-Prasinoderma singulare	676789	species	2	3	2.2%	14.2%	99.78%	121534
-Gephyrocapsa oceanica	38817	species	1	1	1.0%	8.38%	97.33%	137559

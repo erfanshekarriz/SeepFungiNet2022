@@ -1,9 +1,0 @@
-Name	Taxid	Rank	Observed_markers	Read_counts	Percent_observed_markers	Total_marker_coverage	Percent_identity	Amount of marker length in EukDetect db
-Chloropicon roscoffensis	1461544	species	10	14	6.33%	7.25%	99.76%	275974
-Malassezia restricta	76775	species	6	12	4.0%	11.66%	98.93%	348317
-Micromonas pusilla	38833	species	1	2	3.85%	20.51%	97.66%	49695
-Prasinoderma singulare	676789	species	3	5	3.3%	12.38%	99.71%	121534
-Malassezia globosa CBS 7966	425265	species	2	4	1.27%	18.69%	98.48%	332937
-Pycnococcus provasolii	41880	species	1	2	1.03%	22.9%	100.0%	119181
-Chloropicon mariensis	1606511	species	1	2	0.91%	9.49%	99.53%	157984
-Chloropicon primus	1764295	species	1	1	0.72%	3.05%	100.0%	281336

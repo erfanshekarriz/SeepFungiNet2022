@@ -1,7 +1,0 @@
-Lineage	Rank	Name	TaxID	RPKS	Euk_fraction	Reads	Amt_marker_sequence
-phylum-Nematoda	phylum	Nematoda	6231	0.0138	100.0	4	289180
-phylum-Nematoda|class-Chromadorea	class	Chromadorea	119089	0.0138	100.0	4	289180
-phylum-Nematoda|class-Chromadorea|order-Rhabditida	order	Rhabditida	6236	0.0138	100.0	4	289180
-phylum-Nematoda|class-Chromadorea|order-Rhabditida|family-Rhabditidae	family	Rhabditidae	6243	0.0138	100.0	4	289180
-phylum-Nematoda|class-Chromadorea|order-Rhabditida|family-Rhabditidae|genus-Caenorhabditis	genus	Caenorhabditis	6237	0.0138	100.0	4	289180
-phylum-Nematoda|class-Chromadorea|order-Rhabditida|family-Rhabditidae|genus-Caenorhabditis|species-Caenorhabditis_elegans	species	Caenorhabditis elegans	6239	0.0138	100.0	4	289180

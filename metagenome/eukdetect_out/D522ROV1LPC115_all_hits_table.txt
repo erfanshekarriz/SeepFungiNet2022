@@ -1,4 +1,0 @@
-Name	Taxid	Rank	Observed_markers	Read_counts	Percent_observed_markers	Total_marker_coverage	Percent_identity	Amount of marker length in EukDetect db
-Chloropicon primus	1764295	species	2	3	1.45%	16.1%	100.0%	281336
-Chloropicon mariensis	1606511	species	1	1	0.91%	7.97%	99.21%	157984
-Malassezia restricta	76775	species	1	2	0.67%	5.62%	99.66%	348317
