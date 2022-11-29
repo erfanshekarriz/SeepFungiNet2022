@@ -10,7 +10,7 @@ ____________________________________________
 
 1. Open your terminal
 2. Enter the directory you'd like to download the files in
-3. Make sure you have git installed on your device (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+3. Make sure you have git installed on your device (https://www.atlassian.com/git/tutorials/install-git)
 4. Paste the command ``` git clone https://github.com/erfanshekarriz/SeepFungiNet2022 ```
 
 This should download all the data we have onto your device.
