@@ -28,7 +28,8 @@ Our repository has the following tree structure:
 - **renv**: file that is important for reproducibility.
 - **renv.lock**: file that includes all the packages, version, sources, and in general anything else you would need to set up your environment exactly like ours to stably reproduce our results.
 - **coldseepfungi.Rproj**: where you will click to begin your exciting journey of reproducing our results!
-- [OPTIONAL] **presentation**: a presentation I gave about my paper for a post-graduate seminar. You might learn something new if you check it out.
+- [OPTIONAL] **metagen**: bash scripts written for metagenomic processing
+- [OPTIONAL] **metatrans**: bash scripts written for metatranscriptomic processing
 
 ____________________________________________
 
