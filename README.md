@@ -47,21 +47,21 @@ In the ```Files``` panel enter the ```R``` directory.
 
 Some of the steps can take a long time and high computation power. To help save your precious time, we've gone ahead and commented out those sections of the code, and instead directly upload the preprocessed output (denoted as [OPTIONAL]). Feel free to uncomment these code blocks and run the analysis for yourself! All figures are saved to the ./data/graphs or  ./data/graphs/supplementary directory
 
-- [OPTIONAL] code you can skip because they mostly involve non-trivial 'cleaning' tasks not relevant to the output ofour figures.
+- [OPTIONAL] code you can skip because they mostly involve trivial 'cleaning' tasks not relevant to the output of our figures.
 - [ANALYSIS] code that doesn't generate a figure, but an important file object that we will use later for analysis.
-- [FIG XXX] code that specifically generates a figure in our study.
+- [FIGXX] code that specifically generates a figure in our study.
 
 These are the corresponding files and some notes:
 
 1. **make_phyloseq.R** [OPTIONAL]: generate phyloseq files.
 
-2. **alphadiversity_rar.R** [OPTIONAL] [ANALYSIS] [FIG2E] : performs rarefaction using the iNEXT package which can take a very very very very long time. The blocks of code that do the analysis itself have been commented out, so you can still used it to generate the figures.
+2. **alphadiversity_rar.R** [OPTIONAL] [ANALYSIS] [FIG2E] : performs rarefaction using the iNEXT package which can take an extremely long time. The blocks of code that are used to do the computation have been commented out, so you can still used it to generate the figures without having to wait for the output.
 
 3. **phyloseq_split.R** [OPTIONAL]: splits the phyloseq file into seep and non-seep subsets to infer cold seep networks.
 
 4. **phyloseq4network.R** [OPTIONAL]: filters phyloseq to only include taxa prevelant in 20% of samples (N=26)
 
-5. **spieceasi_SLR.R** [ANALYSIS]: a versatile and complex pipeline that can generate SPIEC-Easi networks with either glasso, mb, or slr methods. It automatically turns your SPIEC.Easi object into an igraph weighted and non-weighted files and saves summary statistics of that network.  For SLR, it automatically does β parameterization using extended Bayesian Information Criterion mentioned in our study and needs some setting up. This is the only file that is difficult to reproduce only because it needs all the phyloseq files to be in the same directory as input. If you only have the 16S phyloseq in your directory, then it will make a bacterial-archaeal network. If you only have the 18S fungal phyloseq in your directory, then it will make a fungi-only network. If you have both, then it will make a multi-domain network (bacteria-archaea-fungi). If you don't understand the code please feel free to contact me! I would recommend you to skip this portion since the output files have already been generated for you for the next steps of analysis.
+5. **spieceasi_SLR.R** [ANALYSIS]: a versatile and complex pipeline that can generate SPIEC-Easi networks with either glasso, mb, or slr methods. It automatically turns your SPIEC.Easi object into an igraph weighted and non-weighted file and saves summary statistics of that network.  For SLR, it automatically does β parameterization using extended Bayesian Information Criterion mentioned in our study and needs some setting up. This is the only file that is difficult to reproduce only because it needs all the phyloseq files to be in the same directory as input. If you only have the 16S phyloseq in your directory, then it will make a bacterial-archaeal network. If you only have the 18S fungal phyloseq in your directory, then it will make a fungi-only network. If you have both, then it will make a multi-domain network (bacteria-archaea-fungi). If you don't understand the code please feel free to contact me! I would recommend you to skip this portion since the output files have already been generated for you for the next steps of analysis.
 
 6. **filternetwork.R** [ANLYSIS]: filters the network to only includes ASVs that are present in both ROV1 and ROV2 (the most active cold seep sites). This only eliminates around 5 ASVs.
 
