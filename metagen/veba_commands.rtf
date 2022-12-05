@@ -16,10 +16,22 @@ conda activate bowtie2\
 \f1 \cf4 \cb5 for ID in $(cat identifiers.list); \
 	do  \
 	SCAFF=veba_output/assembly/$\{ID\}/output/scaffolds.fasta\
-	INDEXD=veba_output/assembly/$\{ID\}/output/index\
+	INDEXD=veba_output/assembly/$\{ID\}/output/scaffolds.fasta\
 	nohup bowtie2-build $\{SCAFF\} $\{INDEXD\} &\
 	done\
 \
+ID=vent_ELSC (not working)\
+ID=vent_GB1 (not working)\
+ID=vent_GB2\
+ID=vent_TVG\
+\
+ID=seep_ROV1a\
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf2 \cb3 N_JOBS=48\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf4 \cb5 \
 \pard\pardeftab720\partightenfactor0
 
 \f0 \cf2 \cb3 conda activate bowtie2\
@@ -30,22 +42,24 @@ N_JOBS=4\
 	do  \
 	FASTA1=veba_output/preprocess/$\{ID\}/output/cleaned_1.fastq.gz\
 	FASTA2=veba_output/preprocess/$\{ID\}/output/cleaned_2.fastq.gz\
-	INDEX=veba_output/assembly/$\{ID\}/output/index\
-	OUTPUT=veba_output/assembly/$\{ID\}/output/output.sam\
+	INDEX=veba_output/assembly/$\{ID\}/output/scaffolds.fasta\
+	OUTPUT=veba_output/assembly/$\{ID\}/output/mapped.sam\
 	nohup bowtie2 --no-unal -p $\{
 \f0 \cf2 \cb3 N_JOBS\}
-\f1 \cf4 \cb5  -x $\{INDEX\} -1 $\{FASTA1\} -2 $\{FASTA2\} -S $\{OUTPUT\} > bowtieout &\
+\f1 \cf4 \cb5  -x $\{INDEX\} -1 $\{FASTA1\} -2 $\{FASTA2\} -S $\{OUTPUT\} &\
 	done\
+\
+\
 \
 \pard\pardeftab720\partightenfactor0
 
 \f0 \cf2 \cb3 conda activate bowtie2\
 \pard\pardeftab720\partightenfactor0
 
-\f1 \cf4 \cb5 for ID in $(cat identifiers.list); \
+\f1 \cf4 \cb5 for ID in $(cat ventID); \
 	do  \
-	INPUT=veba_output/assembly/$\{ID\}/output/output.sam\
-	OUTPUT=veba_output/assembly/$\{ID\}/output/output.bam\
+	INPUT=veba_output/assembly/$\{ID\}/output/mapped.sam\
+	OUTPUT=veba_output/assembly/$\{ID\}/output/mapped.bam\
 	nohup 
 \f2\fs24 \cf6 \cb7 samtools view -S -b 
 \f1\fs27\fsmilli13600 \cf4 \cb5 $\{INPUT\}
@@ -53,14 +67,15 @@ N_JOBS=4\
 \f1\fs27\fsmilli13600 \cf4 \cb5 $\{OUTPUT\} &\
 	done\
 \
+\
 \pard\pardeftab720\partightenfactor0
 
 \f0 \cf2 \cb3 conda activate bowtie2\
 \pard\pardeftab720\partightenfactor0
 
-\f1 \cf4 \cb5 for ID in $(cat identifiers.list); \
+\f1 \cf4 \cb5 for ID in $(cat ventID); \
 	do  \
-	INPUT=veba_output/assembly/$\{ID\}/output/output.bam\
+	INPUT=veba_output/assembly/$\{ID\}/output/mapped.bam\
 	OUTPUT=veba_output/assembly/$\{ID\}/output/mapped.sorted.bam\
 	nohup 
 \f2\fs24 \cf6 \cb7 samtools sort 
@@ -96,8 +111,7 @@ for ID in $(cat identifiers.list); do \
 
 \fs27\fsmilli13600 N_JOBS=4\
 OUT_DIR=veba_output/binning/eukaryotic/\
-\pard\pardeftab720\partightenfactor0
-\cf2 export TMPDIR=/home/eshekarriz/tempfiles/\
+export TMPDIR=/home/eshekarriz/tempfiles/\
 for ID in $(cat identifiers.list); do\
 	N="binning-eukaryotic__$\{ID\}";\
 	rm -f logs/$\{N\}.*\
