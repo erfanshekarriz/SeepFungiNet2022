@@ -1,0 +1,532 @@
+2324084850	Cokeromyces recurvatus uncharacterized protein (BX663DRAFT_522990), mRNA	Cokeromyces recurvatus
+2272256424	Candida oxycetoniae FPR3 (KGF56_002543), partial mRNA	Candida oxycetoniae
+2234844223	Psilocybe cubensis uncharacterized protein (JR316_0003416), partial mRNA	Psilocybe cubensis
+2272145419	Wardomyces moseri uncharacterized protein (JN550_003687), partial mRNA	Neoarthrinium moseri
+2324003872	Kickxella alabastrina ATP synthase subunit alpha (BX661DRAFT_177403), mRNA	Kickxella alabastrina
+2292393977	Schizophyllum commune H4-8 ammonium transporter (SCHCODRAFT_02636140), mRNA	Schizophyllum commune H4-8
+2325473741	Candida margitis RPO31 (CANMA_004484), partial mRNA	Candida margitis
+2273239384	Colletotrichum lupini ATPase (CLUP02_05443), partial mRNA	Colletotrichum lupini
+2323939722	Alternaria infectoria uncharacterized protein (J4E92_000572), partial mRNA	Alternaria infectoria
+2323939722	Alternaria infectoria uncharacterized protein (J4E92_000572), partial mRNA	Alternaria infectoria
+2324031146	Mucor mucedo plasma-membrane proton-efflux P-type ATPase (EV154DRAFT_557995), partial mRNA	Mucor mucedo
+2323743304	Halteromyces radiatus P-loop containing nucleoside triphosphate hydrolase protein (BX664DRAFT_299457), mRNA	Halteromyces radiatus
+2323678619	Umbelopsis ramanniana AG uncharacterized protein (K450DRAFT_217727), mRNA	Umbelopsis ramanniana AG
+2272096437	Ophidiomyces ophidiicola Alanine--tRNA ligase (ALA1), partial mRNA	Ophidiomyces ophidiicola
+2325077062	Candida pseudojiufengensis CTA1 (KGF55_001633), partial mRNA	Candida pseudojiufengensis
+2324018250	Kickxella alabastrina 26S protease regulatory subunit 10B (BX661DRAFT_185177), mRNA	Kickxella alabastrina
+2323775124	Gamsiella multidivaricata P-loop containing nucleoside triphosphate hydrolase protein (BC939DRAFT_527321), mRNA	Gamsiella multidivaricata
+2323767869	Gamsiella multidivaricata GTP-binding protein TypA (BC939DRAFT_391919), partial mRNA	Gamsiella multidivaricata
+2323766915	Gamsiella multidivaricata P-loop containing nucleoside triphosphate hydrolase protein (BC939DRAFT_436053), mRNA	Gamsiella multidivaricata
+2323972645	Tricharina praecox uncharacterized protein (BZA05DRAFT_249228), mRNA	Tricharina praecox
+2273228669	Colletotrichum lupini chaperonin GroL (CLUP02_01237), partial mRNA	Colletotrichum lupini
+2287672920	Penicillium oxalicum Heat shock protein 60 (POX_f08405), partial mRNA	Penicillium oxalicum
+2272320663	Alternaria metachromatica chaperonin (HSP60), partial mRNA	Alternaria metachromatica
+2272452780	Alternaria novae-zelandiae chaperonin (HSP60), partial mRNA	Alternaria novae-zelandiae
+2323854808	Emericellopsis cladophorae Heat shock protein-like protein (J7T54_003762), partial mRNA	Emericellopsis cladophorae
+2323772156	Gamsiella multidivaricata tetrapyrrole methylase (BC939DRAFT_500179), partial mRNA	Gamsiella multidivaricata
+2324018010	Kickxella alabastrina ammonium transporter AmtB-like domain-containing protein (BX661DRAFT_184969), mRNA	Kickxella alabastrina
+2323939722	Alternaria infectoria uncharacterized protein (J4E92_000572), partial mRNA	Alternaria infectoria
+2323900936	Hypoxylon trugodes ATP synthase beta chain mitochondrial precursor (F4822DRAFT_404458), mRNA	Hypoxylon trugodes
+2325093975	Candida jiufengensis ATP2 (KGF54_001740), partial mRNA	Candida jiufengensis
+2272250985	Candida oxycetoniae PIB2 (KGF56_001383), partial mRNA	Candida oxycetoniae
+2324018254	Kickxella alabastrina uncharacterized protein (BX661DRAFT_185179), mRNA	Kickxella alabastrina
+2323898837	Hypoxylon trugodes 26S proteasome subunit P45 family protein (F4822DRAFT_402930), mRNA	Hypoxylon trugodes
+2235007783	Daldinia vernicosa fungal-specific transcription factor domain-containing protein (F5Y00DRAFT_249522), mRNA	Daldinia vernicosa
+2272136436	Daldinia loculata RhoGAP-domain-containing protein (F4817DRAFT_334655), mRNA	Daldinia loculata
+2323956074	Alternaria infectoria glutamate synthase [NADH] (GLT1), partial mRNA	Alternaria infectoria
+2323975475	Tricharina praecox putative glutamate synthase (BZA05DRAFT_36931), mRNA	Tricharina praecox
+2234843651	Fulvia fulva Glucose-6-phosphate 1-dehydrogenase (CLAFUR5_07167), partial mRNA	Fulvia fulva
+2323755434	Gilbertella persicaria hsp60-like protein (B0P05DRAFT_552905), partial mRNA	Gilbertella persicaria
+2292406649	Schizophyllum commune H4-8 uncharacterized protein (SCHCODRAFT_02752522), mRNA	Schizophyllum commune H4-8
+2292406649	Schizophyllum commune H4-8 uncharacterized protein (SCHCODRAFT_02752522), mRNA	Schizophyllum commune H4-8
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2323741111	Gilbertella persicaria 3,4-dihydroxy-2-butanone 4-phosphate synthase (B0P05DRAFT_470557), partial mRNA	Gilbertella persicaria
+2323741111	Gilbertella persicaria 3,4-dihydroxy-2-butanone 4-phosphate synthase (B0P05DRAFT_470557), partial mRNA	Gilbertella persicaria
+2324017074	Kickxella alabastrina uncharacterized protein (BX661DRAFT_184079), mRNA	Kickxella alabastrina
+2323889952	Hypoxylon trugodes DEAD-domain-containing protein (F4822DRAFT_176309), mRNA	Hypoxylon trugodes
+2292379506	Schizophyllum commune H4-8 uncharacterized protein (SCHCODRAFT_02487300), partial mRNA	Schizophyllum commune H4-8
+2323772156	Gamsiella multidivaricata tetrapyrrole methylase (BC939DRAFT_500179), partial mRNA	Gamsiella multidivaricata
+2323985920	Tricharina praecox uncharacterized protein (BZA05DRAFT_405882), mRNA	Tricharina praecox
+2323985920	Tricharina praecox uncharacterized protein (BZA05DRAFT_405882), mRNA	Tricharina praecox
+2234988182	Daldinia vernicosa CAF1-domain-containing protein (F5Y00DRAFT_263251), partial mRNA	Daldinia vernicosa
+2273231213	Colletotrichum lupini short chain dehydrogenase (CLUP02_17372), partial mRNA	Colletotrichum lupini
+2324020906	Kickxella alabastrina uncharacterized protein (BX661DRAFT_173355), partial mRNA	Kickxella alabastrina
+2272178885	Wardomyces moseri uncharacterized protein (JN550_008826), partial mRNA	Neoarthrinium moseri
+2272491863	Alternaria hordeiaustralica uncharacterized protein (J4E84_009294), partial mRNA	Alternaria hordeiaustralica
+2323948164	Alternaria incomplexa argininosuccinate synthetase (ARG1), partial mRNA	Alternaria incomplexa
+2323731946	Radiomyces spectabilis cytosolic Fe-S cluster assembly factor CFD1 (BYT42DRAFT_571220), mRNA	Radiomyces spectabilis
+296147206	Saccharomyces cerevisiae S288C m-AAA protease subunit YTA12 (YTA12), partial mRNA	Saccharomyces cerevisiae S288C
+2323755434	Gilbertella persicaria hsp60-like protein (B0P05DRAFT_552905), partial mRNA	Gilbertella persicaria
+2323855716	Emericellopsis cladophorae putative atp synthase subunit alpha protein (J7T54_008188), partial mRNA	Emericellopsis cladophorae
+2287675669	Penicillium oxalicum ATP synthase subunit alpha (POX_h09802), partial mRNA	Penicillium oxalicum
+2234935967	Xylaria bambusicola P-loop containing nucleoside triphosphate hydrolase protein (F5B22DRAFT_418386), mRNA	Xylaria bambusicola
+2324071488	Mucor mucedo V-type proton ATPase subunit B (EV154DRAFT_606547), mRNA	Mucor mucedo
+2301326723	Aspergillus nidulans FGSC A4 hypothetical protein (ANIA_10195), mRNA	Aspergillus nidulans FGSC A4
+2323724973	Gilbertella persicaria NADH-ubiquinone oxidoreductase (B0P05DRAFT_531077), mRNA	Gilbertella persicaria
+2325053265	Pisolithus orientalis heat shock protein 70 family (F5J12DRAFT_839813), mRNA	Pisolithus orientalis
+2287672365	Penicillium oxalicum Polyketide synthase-nonribosomal peptide synthetase (POX_f08122), partial mRNA	Penicillium oxalicum
+2323836532	Emericellopsis cladophorae uncharacterized protein (J7T54_005645), partial mRNA	Emericellopsis cladophorae
+2323836532	Emericellopsis cladophorae uncharacterized protein (J7T54_005645), partial mRNA	Emericellopsis cladophorae
+2272104002	Ophidiomyces ophidiicola threonyl-tRNA synthetase (MST1), partial mRNA	Ophidiomyces ophidiicola
+2272351145	Alternaria viburni uncharacterized protein (J4E79_008451), partial mRNA	Alternaria viburni
+2272384468	Alternaria triticimaculans uncharacterized protein (J4E78_004022), partial mRNA	Alternaria triticimaculans
+2272452716	Alternaria novae-zelandiae uncharacterized protein (J4E88_006523), partial mRNA	Alternaria novae-zelandiae
+2272475939	Alternaria hordeiaustralica uncharacterized protein (J4E84_003524), partial mRNA	Alternaria hordeiaustralica
+2323873623	Alternaria arbusti uncharacterized protein (J4E86_010297), partial mRNA	Alternaria arbusti
+2323881839	Alternaria conjuncta uncharacterized protein (J4E85_005543), partial mRNA	Alternaria conjuncta
+2323926819	Alternaria incomplexa uncharacterized protein (J4E90_002811), partial mRNA	Alternaria incomplexa
+2323979892	Durotheca rogersii translation elongation factor Tu (GGS23DRAFT_171556), mRNA	Durotheca rogersii
+2272253209	Candida oxycetoniae DSK1 (KGF56_001910), partial mRNA	Candida oxycetoniae
+2323784105	Gamsiella multidivaricata P-loop containing nucleoside triphosphate hydrolase protein (BC939DRAFT_454266), partial mRNA	Gamsiella multidivaricata
+2323683958	Umbelopsis ramanniana AG uncharacterized protein (K450DRAFT_278731), partial mRNA	Umbelopsis ramanniana AG
+2323712276	Radiomyces spectabilis ATP synthase subunit alpha (BYT42DRAFT_611497), partial mRNA	Radiomyces spectabilis
+2323741498	Radiomyces spectabilis ATP synthase subunit alpha (BYT42DRAFT_577321), partial mRNA	Radiomyces spectabilis
+296147012	Saccharomyces cerevisiae S288C orotate phosphoribosyltransferase URA5 (URA5), partial mRNA	Saccharomyces cerevisiae S288C
+2272180579	Daldinia loculata uncharacterized protein (F4817DRAFT_355200), mRNA	Daldinia loculata
+296147899	Saccharomyces cerevisiae S288C Wsc3p (WSC3), partial mRNA	Saccharomyces cerevisiae S288C
+2234859596	Psilocybe cubensis uncharacterized protein (JR316_0006521), partial mRNA	Psilocybe cubensis
+2234881151	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_003196), partial mRNA	Puccinia striiformis f. sp. tritici
+2323771141	Gamsiella multidivaricata P-loop containing nucleoside triphosphate hydrolase protein (BC939DRAFT_483160), partial mRNA	Gamsiella multidivaricata
+2323985492	Tricharina praecox P-loop containing nucleoside triphosphate hydrolase protein (BZA05DRAFT_475837), mRNA	Tricharina praecox
+2235023523	Annulohypoxylon truncatum putative U-snRNP-associated cyclophilin (F4807DRAFT_285182), mRNA	Annulohypoxylon truncatum
+2272162434	Daldinia loculata HSP20-like chaperone (F4817DRAFT_200150), mRNA	Daldinia loculata
+2324889062	Alternaria postmessia uncharacterized protein (J4E82_010960), partial mRNA	Alternaria postmessia
+2323770720	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_284138), mRNA	Gamsiella multidivaricata
+2323705844	Radiomyces spectabilis uncharacterized protein (BYT42DRAFT_555035), mRNA	Radiomyces spectabilis
+2323977831	Tricharina praecox uncharacterized protein (BZA05DRAFT_54968), mRNA	Tricharina praecox
+2325101817	Candida jiufengensis PRX1 (KGF54_005648), partial mRNA	Candida jiufengensis
+2325077738	Candida theae DNF1 (KGF57_003097), partial mRNA	Candida theae
+2323725859	Gilbertella persicaria Cupredoxin (B0P05DRAFT_368648), mRNA	Gilbertella persicaria
+2323779286	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_451493), mRNA	Gamsiella multidivaricata
+2272162871	Daldinia decipiens uncharacterized protein (F4813DRAFT_235098), mRNA	Daldinia decipiens
+2272119137	Daldinia loculata 26S proteasome regulatory complex, non-ATPase subcomplex, Rpn1 subunit (F4817DRAFT_327110), mRNA	Daldinia loculata
+302679269	Schizophyllum commune H4-8 ClpP/crotonase (SCHCODRAFT_02509648), partial mRNA	Schizophyllum commune H4-8
+2234988160	Daldinia vernicosa phosphoribosylamine--glycine ligase (F5Y00DRAFT_111663), mRNA	Daldinia vernicosa
+2323828958	Emericellopsis cladophorae ABC transporter F family member-like protein (J7T54_006950), partial mRNA	Emericellopsis cladophorae
+2323794874	Gamsiella multidivaricata 1-pyrroline-5-carboxylate dehydrogenase (BC939DRAFT_460056), mRNA	Gamsiella multidivaricata
+2234827030	Fulvia fulva N-glycosylase/DNA lyase (CLAFUR5_08331), partial mRNA	Fulvia fulva
+2323776440	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_447484), mRNA	Gamsiella multidivaricata
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2325083122	Candida pseudojiufengensis MAK5 (KGF55_003119), partial mRNA	Candida pseudojiufengensis
+2234895905	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_017589), mRNA	Puccinia striiformis f. sp. tritici
+2323706366	Halteromyces radiatus transitional endoplasmic reticulum ATPase (BX664DRAFT_289953), mRNA	Halteromyces radiatus
+2323717851	Radiomyces spectabilis thioredoxin-like protein (BYT42DRAFT_563022), mRNA	Radiomyces spectabilis
+2272215995	Colletotrichum spaethianum catalase-peroxidase (ColLi_07540), partial mRNA	Colletotrichum spaethianum
+2272292103	Alternaria ethzedia uncharacterized protein (J4E87_005378), partial mRNA	Alternaria ethzedia
+2324008590	Durotheca rogersii putative histidine kinase SlnCl1 (GGS23DRAFT_246937), mRNA	Durotheca rogersii
+2234913598	Annulohypoxylon maeteangense heat shock protein (GGS22DRAFT_157163), mRNA	Annulohypoxylon maeteangense
+2272119137	Daldinia loculata 26S proteasome regulatory complex, non-ATPase subcomplex, Rpn1 subunit (F4817DRAFT_327110), mRNA	Daldinia loculata
+2323891305	Hypoxylon trugodes translation elongation factor Tu (F4822DRAFT_187728), mRNA	Hypoxylon trugodes
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2272306645	Alternaria ethzedia translation elongation factor Tu (TUF1), partial mRNA	Alternaria ethzedia
+2272311896	Alternaria metachromatica translation elongation factor Tu (TUF1), partial mRNA	Alternaria metachromatica
+2272360321	Alternaria viburni translation elongation factor Tu (TUF1), partial mRNA	Alternaria viburni
+2272381433	Alternaria triticimaculans translation elongation factor Tu (TUF1), partial mRNA	Alternaria triticimaculans
+2272414527	Alternaria novae-zelandiae translation elongation factor Tu (TUF1), partial mRNA	Alternaria novae-zelandiae
+2272420353	Alternaria ventricosa translation elongation factor Tu (TUF1), partial mRNA	Alternaria ventricosa
+2272484966	Alternaria hordeiaustralica translation elongation factor Tu (TUF1), partial mRNA	Alternaria hordeiaustralica
+2323838040	Alternaria arbusti translation elongation factor Tu (TUF1), partial mRNA	Alternaria arbusti
+2323869795	Alternaria conjuncta translation elongation factor Tu (TUF1), partial mRNA	Alternaria conjuncta
+2323925741	Alternaria incomplexa translation elongation factor Tu (TUF1), partial mRNA	Alternaria incomplexa
+2323946486	Alternaria infectoria translation elongation factor Tu (TUF1), partial mRNA	Alternaria infectoria
+2324012599	Kickxella alabastrina P-loop containing nucleoside triphosphate hydrolase protein (BX661DRAFT_181454), mRNA	Kickxella alabastrina
+2273214652	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_242295), mRNA	Hypoxylon fragiforme
+2323984492	Durotheca rogersii P-loop containing nucleoside triphosphate hydrolase protein (GGS23DRAFT_299893), mRNA	Durotheca rogersii
+2272328097	Alternaria metachromatica chaperone ATPase hsp78 (HSP78), partial mRNA	Alternaria metachromatica
+2323724289	Halteromyces radiatus elongation factor Tu (BX664DRAFT_278051), mRNA	Halteromyces radiatus
+2272085113	Ophidiomyces ophidiicola translation elongation factor Tu (TUF1), partial mRNA	Ophidiomyces ophidiicola
+2324068873	Cokeromyces recurvatus ATP synthase subunit beta (BX663DRAFT_507852), mRNA	Cokeromyces recurvatus
+2324081559	Cokeromyces recurvatus ATP synthase subunit beta (BX663DRAFT_517217), mRNA	Cokeromyces recurvatus
+2324081571	Cokeromyces recurvatus ATP synthase subunit beta (BX663DRAFT_517252), mRNA	Cokeromyces recurvatus
+2273207142	Hypoxylon fragiforme ATP synthase regulation protein NCA2 (GGS25DRAFT_470665), mRNA	Hypoxylon fragiforme
+2235024787	Annulohypoxylon truncatum ADP-ribosylglycohydrolase (F4807DRAFT_445909), mRNA	Annulohypoxylon truncatum
+2323972061	Tricharina praecox uncharacterized protein (BZA05DRAFT_434764), mRNA	Tricharina praecox
+2287672313	Penicillium oxalicum Polyubiquitin (POX_f08094), partial mRNA	Penicillium oxalicum
+2272154471	Wardomyces moseri uncharacterized protein (JN550_004805), partial mRNA	Neoarthrinium moseri
+2292381268	Schizophyllum commune H4-8 ubiquitin (SCHCODRAFT_02744056), mRNA	Schizophyllum commune H4-8
+2292381268	Schizophyllum commune H4-8 ubiquitin (SCHCODRAFT_02744056), mRNA	Schizophyllum commune H4-8
+2292381268	Schizophyllum commune H4-8 ubiquitin (SCHCODRAFT_02744056), mRNA	Schizophyllum commune H4-8
+2234988569	Xylaria bambusicola polyubiquitin (F5B22DRAFT_651650), partial mRNA	Xylaria bambusicola
+2324843050	Alternaria postmessia plasma membrane H+-ATPase (PMA1), partial mRNA	Alternaria postmessia
+2323771378	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_393118), partial mRNA	Gamsiella multidivaricata
+2323993922	Tricharina praecox uncharacterized protein (BZA05DRAFT_412229), mRNA	Tricharina praecox
+2323996054	Tricharina praecox uncharacterized protein (BZA05DRAFT_477920), mRNA	Tricharina praecox
+2323996367	Tricharina praecox uncharacterized protein (BZA05DRAFT_380713), mRNA	Tricharina praecox
+2287658227	Penicillium oxalicum 54S ribosomal protein L9 (POX_a00908), partial mRNA	Penicillium oxalicum
+2324071733	Mucor mucedo SERCA-type calcium-translocating P-type ATPase (EV154DRAFT_63403), mRNA	Mucor mucedo
+2324066155	Cokeromyces recurvatus uncharacterized protein (BX663DRAFT_485506), partial mRNA	Cokeromyces recurvatus
+2324857687	Alternaria postmessia uncharacterized protein (J4E82_003503), partial mRNA	Alternaria postmessia
+2323969391	Tricharina praecox NADP-specific glutamate dehydrogenase (BZA05DRAFT_169229), mRNA	Tricharina praecox
+2324007926	Kickxella alabastrina 2-amino-3-ketobutyrate coenzyme A ligase (BX661DRAFT_179320), mRNA	Kickxella alabastrina
+2272356897	Alternaria viburni uncharacterized protein (J4E79_010498), partial mRNA	Alternaria viburni
+2323772864	Gamsiella multidivaricata isocitrate dehydrogenase [NADP] cytoplasmic-like protein (BC939DRAFT_500461), partial mRNA	Gamsiella multidivaricata
+2323980398	Durotheca rogersii SNF2 family N-terminal domain-containing protein (GGS23DRAFT_602546), partial mRNA	Durotheca rogersii
+2323689245	Umbelopsis ramanniana AG uncharacterized protein (K450DRAFT_243181), mRNA	Umbelopsis ramanniana AG
+2272008274	[Candida] subhashii ADE12 (J8A68_000349), partial mRNA	[Candida] subhashii
+2324082905	Cokeromyces recurvatus phosphoribosylaminoimidazole-succinocarboxamide synthase (BX663DRAFT_519607), mRNA	Cokeromyces recurvatus
+2323857626	Emericellopsis cladophorae Cuticle-degrading protease-like protein (J7T54_000996), partial mRNA	Emericellopsis cladophorae
+2287675669	Penicillium oxalicum ATP synthase subunit alpha (POX_h09802), partial mRNA	Penicillium oxalicum
+2324018314	Kickxella alabastrina transketolase (BX661DRAFT_185229), mRNA	Kickxella alabastrina
+2323720663	Gilbertella persicaria peptidase family M41-domain-containing protein (B0P05DRAFT_625515), partial mRNA	Gilbertella persicaria
+2323733540	Halteromyces radiatus phosphoribosylformylglycinamidine synthase (BX664DRAFT_332421), mRNA	Halteromyces radiatus
+2324021126	Kickxella alabastrina DNA-directed RNA polymerase II subunit RPB2 (BX661DRAFT_188672), mRNA	Kickxella alabastrina
+2272089436	Ophidiomyces ophidiicola citrate synthase (CIT3), partial mRNA	Ophidiomyces ophidiicola
+2272178864	Wardomyces moseri uncharacterized protein (JN550_008821), partial mRNA	Neoarthrinium moseri
+2272176177	Daldinia loculata 26S protease regulatory subunit 6B (F4817DRAFT_291608), mRNA	Daldinia loculata
+2234915747	Annulohypoxylon maeteangense 26S protease regulatory subunit 6B (GGS22DRAFT_158553), mRNA	Annulohypoxylon maeteangense
+2273239384	Colletotrichum lupini ATPase (CLUP02_05443), partial mRNA	Colletotrichum lupini
+2323975993	Tricharina praecox glycoside hydrolase family 13 protein (BZA05DRAFT_337245), partial mRNA	Tricharina praecox
+2325470709	Candida margitis SNT1 (CANMA_003017), partial mRNA	Candida margitis
+2234975130	Xylaria bambusicola O-acetylhomoserine ami (F5B22DRAFT_443076), mRNA	Xylaria bambusicola
+2292423248	Schizophyllum commune H4-8 uncharacterized protein (SCHCODRAFT_02521002), partial mRNA	Schizophyllum commune H4-8
+2272320744	Alternaria metachromatica uncharacterized protein (J4E83_008733), partial mRNA	Alternaria metachromatica
+2272345237	Alternaria viburni uncharacterized protein (J4E79_006769), partial mRNA	Alternaria viburni
+2323895639	Alternaria conjuncta uncharacterized protein (J4E85_008873), partial mRNA	Alternaria conjuncta
+2323865464	Alternaria arbusti uncharacterized protein (J4E86_008203), partial mRNA	Alternaria arbusti
+2323942528	Alternaria incomplexa uncharacterized protein (J4E90_009404), partial mRNA	Alternaria incomplexa
+2324048885	Mucor mucedo uncharacterized protein (EV154DRAFT_505968), mRNA	Mucor mucedo
+2323748885	Gilbertella persicaria V-type proton ATPase catalytic subunit A (B0P05DRAFT_156878), mRNA	Gilbertella persicaria
+2323989306	Tricharina praecox uncharacterized protein (BZA05DRAFT_459296), mRNA	Tricharina praecox
+2272273731	Alternaria ethzedia uncharacterized protein (J4E87_001804), partial mRNA	Alternaria ethzedia
+2272389910	Alternaria triticimaculans uncharacterized protein (J4E78_006123), partial mRNA	Alternaria triticimaculans
+2272468833	Alternaria hordeiaustralica uncharacterized protein (J4E84_001864), partial mRNA	Alternaria hordeiaustralica
+2323886965	Alternaria conjuncta uncharacterized protein (J4E85_006747), partial mRNA	Alternaria conjuncta
+2323689245	Umbelopsis ramanniana AG uncharacterized protein (K450DRAFT_243181), mRNA	Umbelopsis ramanniana AG
+2272163276	Wardomyces moseri uncharacterized protein (JN550_005990), partial mRNA	Neoarthrinium moseri
+2272271598	Alternaria ethzedia RNA-dependent ATPase (DBP3), partial mRNA	Alternaria ethzedia
+2272328926	Alternaria viburni RNA-dependent ATPase (DBP3), partial mRNA	Alternaria viburni
+2323860534	Emericellopsis cladophorae uncharacterized protein (J7T54_007435), partial mRNA	Emericellopsis cladophorae
+2324017462	Kickxella alabastrina Na P-type ATPase (BX661DRAFT_199230), partial mRNA	Kickxella alabastrina
+2273227645	Colletotrichum lupini ATP synthase F1 (CLUP02_00720), partial mRNA	Colletotrichum lupini
+2272108096	Ophidiomyces ophidiicola Methylcrotonoyl-CoA carboxylase beta chain, mitochondrial (MCCC2), partial mRNA	Ophidiomyces ophidiicola
+2323976429	Tricharina praecox uncharacterized protein (BZA05DRAFT_44228), mRNA	Tricharina praecox
+2324009306	Durotheca rogersii glycoside hydrolase family 29 protein (GGS23DRAFT_256658), mRNA	Durotheca rogersii
+2272193473	Colletotrichum spaethianum methionine aminopeptidase 1 (ColLi_01643), partial mRNA	Colletotrichum spaethianum
+2272209377	Colletotrichum spaethianum aminopeptidase (ColLi_05029), partial mRNA	Colletotrichum spaethianum
+2272210349	Colletotrichum spaethianum putative leucine aminopeptidase 2 (ColLi_05419), partial mRNA	Colletotrichum spaethianum
+2272305988	Alternaria metachromatica GMP synthase (glutamine-hydrolyzing) (GUA1), partial mRNA	Alternaria metachromatica
+2272294737	Alternaria ethzedia GMP synthase (glutamine-hydrolyzing) (GUA1), partial mRNA	Alternaria ethzedia
+2272324426	Alternaria viburni GMP synthase (glutamine-hydrolyzing) (GUA1), partial mRNA	Alternaria viburni
+2272467167	Alternaria novae-zelandiae GMP synthase (glutamine-hydrolyzing) (GUA1), partial mRNA	Alternaria novae-zelandiae
+2273227633	Colletotrichum lupini Mus7/MMS22 family protein (CLUP02_00714), partial mRNA	Colletotrichum lupini
+2323971721	Tricharina praecox uncharacterized protein (BZA05DRAFT_236178), mRNA	Tricharina praecox
+2323973309	Tricharina praecox uncharacterized protein (BZA05DRAFT_393514), mRNA	Tricharina praecox
+2323772156	Gamsiella multidivaricata tetrapyrrole methylase (BC939DRAFT_500179), partial mRNA	Gamsiella multidivaricata
+2323983974	Durotheca rogersii putative carbamoyl-phosphate synthase arginine-specific large chain (GGS23DRAFT_292770), mRNA	Durotheca rogersii
+2234922503	Annulohypoxylon maeteangense lytic polysaccharide monooxygenase (GGS22DRAFT_140402), mRNA	Annulohypoxylon maeteangense
+2272149837	Daldinia loculata uncharacterized protein (F4817DRAFT_142773), mRNA	Daldinia loculata
+2273227645	Colletotrichum lupini ATP synthase F1 (CLUP02_00720), partial mRNA	Colletotrichum lupini
+2287658395	Penicillium oxalicum Endoplasmic reticulum chaperone BiP (POX_a00996), partial mRNA	Penicillium oxalicum
+2272126105	Daldinia loculata Phosphoacetylglucosamine mutase (F4817DRAFT_17281), mRNA	Daldinia loculata
+2235003870	Annulohypoxylon truncatum uncharacterized protein (F4807DRAFT_456370), partial mRNA	Annulohypoxylon truncatum
+2325071564	Candida theae BUD2 (KGF57_001511), partial mRNA	Candida theae
+2272105883	Daldinia decipiens MFS general substrate transporter (F4813DRAFT_100057), mRNA	Daldinia decipiens
+2272174098	Daldinia loculata frequency clock protein (F4817DRAFT_351208), mRNA	Daldinia loculata
+2272182852	Wardomyces moseri uncharacterized protein (JN550_009787), partial mRNA	Neoarthrinium moseri
+2234927795	Annulohypoxylon maeteangense uncharacterized protein (GGS22DRAFT_27225), mRNA	Annulohypoxylon maeteangense
+2272122017	Daldinia decipiens uncharacterized protein (F4813DRAFT_22768), mRNA	Daldinia decipiens
+2323775032	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_445614), mRNA	Gamsiella multidivaricata
+2323986018	Durotheca rogersii PAB-dependent poly(A)-specific ribonuclease subunit PAN2 (GGS23DRAFT_594085), partial mRNA	Durotheca rogersii
+2324013083	Kickxella alabastrina uncharacterized protein (BX661DRAFT_181666), mRNA	Kickxella alabastrina
+2272212330	Colletotrichum spaethianum sulfate permease 2 (ColLi_06235), partial mRNA	Colletotrichum spaethianum
+2323814330	Gamsiella multidivaricata sulfate adenylyltransferase (BC939DRAFT_508845), partial mRNA	Gamsiella multidivaricata
+2273215274	Hypoxylon fragiforme ATP-dependent DNA helicase (GGS25DRAFT_514111), partial mRNA	Hypoxylon fragiforme
+429241983	Schizosaccharomyces pombe putative phosphoribosylformylglycinamidine synthase Ade3 (ade3), mRNA	fission yeast
+2272017485	[Candida] subhashii uncharacterized protein (J8A68_004850), partial mRNA	[Candida] subhashii
+2235020337	Annulohypoxylon truncatum uncharacterized protein (F4807DRAFT_463123), partial mRNA	Annulohypoxylon truncatum
+2272159131	Daldinia loculata acid protease (F4817DRAFT_344200), mRNA	Daldinia loculata
+2324007224	Kickxella alabastrina uncharacterized protein (BX661DRAFT_178959), mRNA	Kickxella alabastrina
+2323837506	Emericellopsis cladophorae uncharacterized protein (J7T54_004429), partial mRNA	Emericellopsis cladophorae
+2323996796	Durotheca rogersii Six-hairpin glycosidase (GGS23DRAFT_605011), partial mRNA	Durotheca rogersii
+2292393977	Schizophyllum commune H4-8 ammonium transporter (SCHCODRAFT_02636140), mRNA	Schizophyllum commune H4-8
+2272259983	Candida oxycetoniae uncharacterized protein (KGF56_003062), partial mRNA	Candida oxycetoniae
+2325081892	Candida pseudojiufengensis PGK1 (KGF55_002797), partial mRNA	Candida pseudojiufengensis
+2323740702	Radiomyces spectabilis succinate dehydrogenase flavoprotein subunit 1 (BYT42DRAFT_518332), mRNA	Radiomyces spectabilis
+2323971721	Tricharina praecox uncharacterized protein (BZA05DRAFT_236178), mRNA	Tricharina praecox
+2301324542	Aspergillus nidulans FGSC A4 hypothetical protein (ANIA_07758), mRNA	Aspergillus nidulans FGSC A4
+2235007783	Daldinia vernicosa fungal-specific transcription factor domain-containing protein (F5Y00DRAFT_249522), mRNA	Daldinia vernicosa
+2272136436	Daldinia loculata RhoGAP-domain-containing protein (F4817DRAFT_334655), mRNA	Daldinia loculata
+2234975162	Daldinia vernicosa uncharacterized protein (F5Y00DRAFT_79691), mRNA	Daldinia vernicosa
+2234975162	Daldinia vernicosa uncharacterized protein (F5Y00DRAFT_79691), mRNA	Daldinia vernicosa
+2323984156	Tricharina praecox uncharacterized protein (BZA05DRAFT_457273), partial mRNA	Tricharina praecox
+2323984156	Tricharina praecox uncharacterized protein (BZA05DRAFT_457273), partial mRNA	Tricharina praecox
+2323984156	Tricharina praecox uncharacterized protein (BZA05DRAFT_457273), partial mRNA	Tricharina praecox
+2323737423	Radiomyces spectabilis acyl-activating enzyme (BYT42DRAFT_574767), mRNA	Radiomyces spectabilis
+2272212330	Colletotrichum spaethianum sulfate permease 2 (ColLi_06235), partial mRNA	Colletotrichum spaethianum
+2292395492	Schizophyllum commune H4-8 isomerising glucosamine-fructose-6-phosphate aminotransferase (SCHCODRAFT_02637886), mRNA	Schizophyllum commune H4-8
+2272185974	Colletotrichum spaethianum acetolactate synthase catalytic subunit, mitochondrial (ColLi_00513), partial mRNA	Colletotrichum spaethianum
+2272185974	Colletotrichum spaethianum acetolactate synthase catalytic subunit, mitochondrial (ColLi_00513), partial mRNA	Colletotrichum spaethianum
+2323770246	Gamsiella multidivaricata large subunit of biosynthetic type acetolactate synthase (BC939DRAFT_392566), partial mRNA	Gamsiella multidivaricata
+2287658395	Penicillium oxalicum Endoplasmic reticulum chaperone BiP (POX_a00996), partial mRNA	Penicillium oxalicum
+2323933590	Alternaria incomplexa uncharacterized protein (J4E90_006154), partial mRNA	Alternaria incomplexa
+2323857494	Emericellopsis cladophorae uncharacterized protein (J7T54_000465), partial mRNA	Emericellopsis cladophorae
+2272174815	Wardomyces moseri uncharacterized protein (JN550_007894), partial mRNA	Neoarthrinium moseri
+2325091657	Candida jiufengensis ILV3 (KGF54_000659), partial mRNA	Candida jiufengensis
+2325090087	Candida pseudojiufengensis ILV3 (KGF55_005693), partial mRNA	Candida pseudojiufengensis
+2323992870	Durotheca rogersii kinesin-domain-containing protein (GGS23DRAFT_595663), partial mRNA	Durotheca rogersii
+2323812059	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_470523), mRNA	Gamsiella multidivaricata
+2323975753	Tricharina praecox uncharacterized protein (BZA05DRAFT_397412), mRNA	Tricharina praecox
+2234838755	Fulvia fulva Electron transfer flavoprotein subunit beta (CLAFUR5_05871), partial mRNA	Fulvia fulva
+2324015097	Kickxella alabastrina S-adenosylmethionine synthase (BX661DRAFT_205448), mRNA	Kickxella alabastrina
+2323732724	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_586029), partial mRNA	Gilbertella persicaria
+2323858840	Emericellopsis cladophorae uncharacterized protein (J7T54_008252), partial mRNA	Emericellopsis cladophorae
+2235021320	Annulohypoxylon truncatum FMN-linked oxidoreductase (F4807DRAFT_438964), mRNA	Annulohypoxylon truncatum
+2273254434	Colletotrichum lupini potassium/sodium efflux P-type ATPase (CLUP02_13015), partial mRNA	Colletotrichum lupini
+2323783585	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_453565), mRNA	Gamsiella multidivaricata
+2272162871	Daldinia decipiens uncharacterized protein (F4813DRAFT_235098), mRNA	Daldinia decipiens
+2272317683	Alternaria ethzedia Vacuolar ATP synthase subunit B (VMA2), partial mRNA	Alternaria ethzedia
+2272330493	Alternaria viburni Vacuolar ATP synthase subunit B (VMA2), partial mRNA	Alternaria viburni
+2272331021	Alternaria metachromatica Vacuolar ATP synthase subunit B (VMA2), partial mRNA	Alternaria metachromatica
+2272434170	Alternaria ventricosa Vacuolar ATP synthase subunit B (VMA2), partial mRNA	Alternaria ventricosa
+2272459699	Alternaria novae-zelandiae Vacuolar ATP synthase subunit B (VMA2), partial mRNA	Alternaria novae-zelandiae
+2272466958	Alternaria hordeiaustralica Vacuolar ATP synthase subunit B (VMA2), partial mRNA	Alternaria hordeiaustralica
+2323875335	Alternaria arbusti Vacuolar ATP synthase subunit B (VMA2), partial mRNA	Alternaria arbusti
+2323904456	Alternaria conjuncta Vacuolar ATP synthase subunit B (VMA2), partial mRNA	Alternaria conjuncta
+2323935172	Alternaria incomplexa Vacuolar ATP synthase subunit B (VMA2), partial mRNA	Alternaria incomplexa
+2323949372	Alternaria infectoria Vacuolar ATP synthase subunit B (VMA2), partial mRNA	Alternaria infectoria
+2325041201	Pisolithus orientalis kinase-like domain-containing protein (F5J12DRAFT_797939), mRNA	Pisolithus orientalis
+2323679193	Umbelopsis ramanniana AG uncharacterized protein (K450DRAFT_219160), mRNA	Umbelopsis ramanniana AG
+2323704172	Radiomyces spectabilis P-loop containing nucleoside triphosphate hydrolase protein (BYT42DRAFT_32049), mRNA	Radiomyces spectabilis
+2234995605	Xylaria bambusicola DEAD-domain-containing protein (F5B22DRAFT_557370), mRNA	Xylaria bambusicola
+2273219064	Hypoxylon fragiforme decarboxylating 6-phosphogluconate dehydrogenase (GGS25DRAFT_496177), mRNA	Hypoxylon fragiforme
+2234853818	Fulvia fulva 6-phosphogluconate dehydrogenase, decarboxylating 2 (CLAFUR5_09203), partial mRNA	Fulvia fulva
+2324014817	Kickxella alabastrina P-loop containing nucleoside triphosphate hydrolase protein (BX661DRAFT_182506), mRNA	Kickxella alabastrina
+2323771378	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_393118), partial mRNA	Gamsiella multidivaricata
+2234955000	Daldinia vernicosa arginine-tRNA-protein transferase (F5Y00DRAFT_257050), partial mRNA	Daldinia vernicosa
+2272351753	Alternaria viburni uncharacterized protein (J4E79_008702), partial mRNA	Alternaria viburni
+2272139962	Daldinia decipiens uncharacterized protein (F4813DRAFT_390181), partial mRNA	Daldinia decipiens
+2323741123	Gilbertella persicaria Adenylosuccinate synthetase (B0P05DRAFT_542683), mRNA	Gilbertella persicaria
+2301320488	Aspergillus nidulans FGSC A4 hypothetical protein (ANIA_06426), mRNA	Aspergillus nidulans FGSC A4
+429241511	Schizosaccharomyces pombe putative P-type ATPase (SPAC24B11.12c), mRNA	fission yeast
+2323971721	Tricharina praecox uncharacterized protein (BZA05DRAFT_236178), mRNA	Tricharina praecox
+2323989802	Tricharina praecox putative UTP--glucose-1-phosphate uridylyltransferase (BZA05DRAFT_421610), partial mRNA	Tricharina praecox
+2272262020	Candida oxycetoniae MUM2 (KGF56_003621), partial mRNA	Candida oxycetoniae
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2273209472	Hypoxylon fragiforme histidine acid phosphatase (GGS25DRAFT_122708), mRNA	Hypoxylon fragiforme
+2323737299	Gilbertella persicaria tryptophan synthase beta subunit-like PLP-dependent enzyme (B0P05DRAFT_596485), mRNA	Gilbertella persicaria
+2323830364	Emericellopsis cladophorae uncharacterized protein (J7T54_007878), partial mRNA	Emericellopsis cladophorae
+2273228785	Colletotrichum lupini succinate-CoA ligase (CLUP02_01295), partial mRNA	Colletotrichum lupini
+2272197315	Wardomyces moseri uncharacterized protein (JN550_012959), partial mRNA	Neoarthrinium moseri
+2272103419	Ophidiomyces ophidiicola NADP-dependent glutamate dehydrogenase (GDH3), partial mRNA	Ophidiomyces ophidiicola
+2234822747	Fulvia fulva Glyceraldehyde-3-phosphate dehydrogenase (CLAFUR5_03368), partial mRNA	Fulvia fulva
+2324085664	Cokeromyces recurvatus NADP-dependent oxidoreductase domain-containing protein (BX663DRAFT_538456), partial mRNA	Cokeromyces recurvatus
+2324049021	Mucor mucedo NADP-dependent oxidoreductase domain-containing protein (EV154DRAFT_463151), mRNA	Mucor mucedo
+2323986676	Durotheca rogersii P-loop containing nucleoside triphosphate hydrolase protein (GGS23DRAFT_555418), mRNA	Durotheca rogersii
+2272221669	Colletotrichum spaethianum glutathione peroxidase-like peroxiredoxin gpx1 (ColLi_09365), partial mRNA	Colletotrichum spaethianum
+2273244718	Colletotrichum lupini glutathione peroxidase (CLUP02_08127), partial mRNA	Colletotrichum lupini
+2234970568	Daldinia vernicosa glutathione peroxidase (F5Y00DRAFT_261040), partial mRNA	Daldinia vernicosa
+2235000485	Annulohypoxylon truncatum thioredoxin-like protein (F4807DRAFT_405493), mRNA	Annulohypoxylon truncatum
+2272160873	Daldinia loculata glutathione peroxidase (F4817DRAFT_360318), partial mRNA	Daldinia loculata
+2234875998	Psilocybe cubensis uncharacterized protein (JR316_0013022), partial mRNA	Psilocybe cubensis
+2323726011	Gilbertella persicaria plasma-membrane proton-efflux P-type ATPase (B0P05DRAFT_369420), mRNA	Gilbertella persicaria
+2235018552	Annulohypoxylon truncatum uncharacterized protein (F4807DRAFT_433389), mRNA	Annulohypoxylon truncatum
+2272199273	Colletotrichum spaethianum calcium-transporting ATPase 1 (ColLi_02247), partial mRNA	Colletotrichum spaethianum
+2325467581	Candida margitis ebp2 (CANMA_001443), partial mRNA	Candida margitis
+2323684933	Umbelopsis ramanniana AG uncharacterized protein (K450DRAFT_232800), mRNA	Umbelopsis ramanniana AG
+2272154252	Daldinia loculata glucose-6-phosphate isomerase (F4817DRAFT_342047), mRNA	Daldinia loculata
+2287671876	Penicillium oxalicum Glucose-6-phosphate isomerase (POX_f07867), partial mRNA	Penicillium oxalicum
+2323828846	Emericellopsis cladophorae cystathionine beta-synthase (J7T54_006901), partial mRNA	Emericellopsis cladophorae
+2323854948	Emericellopsis cladophorae Adenosylhomocysteinase-like protein (J7T54_005728), partial mRNA	Emericellopsis cladophorae
+2273238824	Colletotrichum lupini adenosylhomocysteinase (CLUP02_05161), partial mRNA	Colletotrichum lupini
+2292394678	Schizophyllum commune H4-8 S-adenosyl-L-homocysteine hydrolase (SCHCODRAFT_02637088), mRNA	Schizophyllum commune H4-8
+2301328131	Aspergillus nidulans FGSC A4 adenosylhomocysteinase (ANIA_01263), mRNA	Aspergillus nidulans FGSC A4
+2323987262	Tricharina praecox P-loop containing nucleoside triphosphate hydrolase protein (BZA05DRAFT_406962), mRNA	Tricharina praecox
+2325077486	Candida theae SNM1 (KGF57_003032), partial mRNA	Candida theae
+2324000778	Durotheca rogersii uncharacterized protein (GGS23DRAFT_109387), mRNA	Durotheca rogersii
+2323993430	Tricharina praecox uncharacterized protein (BZA05DRAFT_190544), mRNA	Tricharina praecox
+2323993430	Tricharina praecox uncharacterized protein (BZA05DRAFT_190544), mRNA	Tricharina praecox
+2323993430	Tricharina praecox uncharacterized protein (BZA05DRAFT_190544), mRNA	Tricharina praecox
+2323993430	Tricharina praecox uncharacterized protein (BZA05DRAFT_190544), mRNA	Tricharina praecox
+2323993430	Tricharina praecox uncharacterized protein (BZA05DRAFT_190544), mRNA	Tricharina praecox
+2323993430	Tricharina praecox uncharacterized protein (BZA05DRAFT_190544), mRNA	Tricharina praecox
+2323993430	Tricharina praecox uncharacterized protein (BZA05DRAFT_190544), mRNA	Tricharina praecox
+2272451359	Alternaria novae-zelandiae uncharacterized protein (J4E88_006263), partial mRNA	Alternaria novae-zelandiae
+2324016246	Kickxella alabastrina uncharacterized protein (BX661DRAFT_183239), mRNA	Kickxella alabastrina
+296147206	Saccharomyces cerevisiae S288C m-AAA protease subunit YTA12 (YTA12), partial mRNA	Saccharomyces cerevisiae S288C
+2323705989	Halteromyces radiatus peptidase family M41-domain-containing protein (BX664DRAFT_377421), partial mRNA	Halteromyces radiatus
+2323686889	Umbelopsis ramanniana AG uncharacterized protein (K450DRAFT_198649), partial mRNA	Umbelopsis ramanniana AG
+2292381055	Schizophyllum commune H4-8 ATP-dependent metallopeptidase Hfl (SCHCODRAFT_02663303), partial mRNA	Schizophyllum commune H4-8
+2323713302	Radiomyces spectabilis uncharacterized protein (BYT42DRAFT_490961), partial mRNA	Radiomyces spectabilis
+2234983093	Daldinia vernicosa uncharacterized protein (F5Y00DRAFT_240013), mRNA	Daldinia vernicosa
+2272185744	Wardomyces moseri uncharacterized protein (JN550_010330), partial mRNA	Neoarthrinium moseri
+2272174380	Wardomyces moseri uncharacterized protein (JN550_007799), partial mRNA	Neoarthrinium moseri
+2323791287	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_457847), mRNA	Gamsiella multidivaricata
+2272218005	Colletotrichum spaethianum uncharacterized protein (ColLi_08217), partial mRNA	Colletotrichum spaethianum
+2272218008	Colletotrichum spaethianum plasma membrane ATPase (ColLi_08218), partial mRNA	Colletotrichum spaethianum
+2272168182	Wardomyces moseri uncharacterized protein (JN550_006743), partial mRNA	Neoarthrinium moseri
+2323977867	Tricharina praecox glyceraldehyde 3-phosphate dehydrogenase (BZA05DRAFT_353888), mRNA	Tricharina praecox
+2234822747	Fulvia fulva Glyceraldehyde-3-phosphate dehydrogenase (CLAFUR5_03368), partial mRNA	Fulvia fulva
+2287656523	Penicillium oxalicum Glyceraldehyde-3-phosphate dehydrogenase (POX_a00047), partial mRNA	Penicillium oxalicum
+2323847852	Emericellopsis cladophorae glyceraldehyde-3-phosphate dehydrogenase (J7T54_003281), partial mRNA	Emericellopsis cladophorae
+2292399759	Schizophyllum commune H4-8 glyceraldehyde-3-phosphate dehydrogenase (SCHCODRAFT_02638699), mRNA	Schizophyllum commune H4-8
+2273222110	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_533917), mRNA	Hypoxylon fragiforme
+2323848996	Emericellopsis cladophorae Long chain acyl-CoA synthetase 7 (J7T54_007377), partial mRNA	Emericellopsis cladophorae
+2273228591	Colletotrichum lupini glyceraldehyde-3-phosphate dehydrogenase (CLUP02_01198), partial mRNA	Colletotrichum lupini
+2323836532	Emericellopsis cladophorae uncharacterized protein (J7T54_005645), partial mRNA	Emericellopsis cladophorae
+2272113957	Daldinia loculata uncharacterized protein (F4817DRAFT_324585), mRNA	Daldinia loculata
+2323985528	Tricharina praecox uncharacterized protein (BZA05DRAFT_457815), partial mRNA	Tricharina praecox
+2323993482	Tricharina praecox uncharacterized protein (BZA05DRAFT_477438), mRNA	Tricharina praecox
+2323779286	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_451493), mRNA	Gamsiella multidivaricata
+2325058863	Pisolithus orientalis HSP20-like chaperone (F5J12DRAFT_857881), mRNA	Pisolithus orientalis
+2324052242	Mucor mucedo uncharacterized protein (EV154DRAFT_464560), mRNA	Mucor mucedo
+67527888	Aspergillus nidulans FGSC A4 hypothetical protein (ANIA_04192), partial mRNA	Aspergillus nidulans FGSC A4
+2323886161	Hypoxylon trugodes uncharacterized protein (F4822DRAFT_141752), mRNA	Hypoxylon trugodes
+2323978906	Tricharina praecox uncharacterized protein (BZA05DRAFT_374433), mRNA	Tricharina praecox
+2272124170	Wardomyces moseri uncharacterized protein (JN550_000938), partial mRNA	Neoarthrinium moseri
+2323783497	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_453443), mRNA	Gamsiella multidivaricata
+2323741586	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_597034), mRNA	Gilbertella persicaria
+2234951698	Xylaria bambusicola glutamate synthase (F5B22DRAFT_61933), mRNA	Xylaria bambusicola
+2323857208	Emericellopsis cladophorae TPR Domain containing protein (J7T54_000414), partial mRNA	Emericellopsis cladophorae
+2323856224	Emericellopsis cladophorae Peptidyl-prolyl cis-trans isomerase-like-like protein (J7T54_002796), partial mRNA	Emericellopsis cladophorae
+2272328097	Alternaria metachromatica chaperone ATPase hsp78 (HSP78), partial mRNA	Alternaria metachromatica
+2273231009	Colletotrichum lupini FeS cluster assembly scaffold IscU (CLUP02_17269), partial mRNA	Colletotrichum lupini
+2235020149	Annulohypoxylon truncatum glycerophosphoryl diester phosphodiesterase family protein (F4807DRAFT_209736), mRNA	Annulohypoxylon truncatum
+2323799810	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_495909), mRNA	Gamsiella multidivaricata
+2323862134	Emericellopsis cladophorae uncharacterized protein (J7T54_005049), partial mRNA	Emericellopsis cladophorae
+2272228738	Colletotrichum spaethianum kynureninase 2 (ColLi_11790), partial mRNA	Colletotrichum spaethianum
+2272225258	Colletotrichum spaethianum pyridoxal phosphate homeostasis protein (ColLi_10652), partial mRNA	Colletotrichum spaethianum
+2324005894	Durotheca rogersii peptidase S8/S53 domain-containing protein (GGS23DRAFT_213058), mRNA	Durotheca rogersii
+2325068282	Candida theae uncharacterized protein (KGF57_000143), partial mRNA	Candida theae
+2272474069	Alternaria hordeiaustralica uncharacterized protein (J4E84_002919), partial mRNA	Alternaria hordeiaustralica
+2272229493	Colletotrichum spaethianum histone deacetylase clr3 (ColLi_12068), partial mRNA	Colletotrichum spaethianum
+2272154037	Daldinia decipiens Adenosylhomocysteinase (F4813DRAFT_367922), mRNA	Daldinia decipiens
+2235006249	Daldinia vernicosa Adenosylhomocysteinase (F5Y00DRAFT_256024), partial mRNA	Daldinia vernicosa
+2272114795	Daldinia loculata Adenosylhomocysteinase (F4817DRAFT_356092), partial mRNA	Daldinia loculata
+2324061323	Mucor mucedo NADH dehydrogenase flavoprotein 1 (EV154DRAFT_516641), mRNA	Mucor mucedo
+2235005089	Annulohypoxylon truncatum phosphatases II (F4807DRAFT_261420), mRNA	Annulohypoxylon truncatum
+2272221817	Colletotrichum spaethianum elongation factor Tu, mitochondrial (ColLi_09416), partial mRNA	Colletotrichum spaethianum
+2234963756	Xylaria bambusicola elongation factor Tu precursor (F5B22DRAFT_243620), mRNA	Xylaria bambusicola
+2287664632	Penicillium oxalicum Elongation factor Tu (POX_c04157), partial mRNA	Penicillium oxalicum
+2234964390	Xylaria bambusicola P-loop containing nucleoside triphosphate hydrolase protein (F5B22DRAFT_612287), mRNA	Xylaria bambusicola
+2301327567	Aspergillus nidulans FGSC A4 F1F0 ATP synthase subunit beta (ANIA_02315), mRNA	Aspergillus nidulans FGSC A4
+2323870600	Alternaria conjuncta uncharacterized protein (J4E85_003633), partial mRNA	Alternaria conjuncta
+2323870600	Alternaria conjuncta uncharacterized protein (J4E85_003633), partial mRNA	Alternaria conjuncta
+2323870600	Alternaria conjuncta uncharacterized protein (J4E85_003633), partial mRNA	Alternaria conjuncta
+2323870600	Alternaria conjuncta uncharacterized protein (J4E85_003633), partial mRNA	Alternaria conjuncta
+2323870600	Alternaria conjuncta uncharacterized protein (J4E85_003633), partial mRNA	Alternaria conjuncta
+2273227645	Colletotrichum lupini ATP synthase F1 (CLUP02_00720), partial mRNA	Colletotrichum lupini
+2323773525	Gamsiella multidivaricata P-loop containing nucleoside triphosphate hydrolase protein (BC939DRAFT_394288), partial mRNA	Gamsiella multidivaricata
+2324017462	Kickxella alabastrina Na P-type ATPase (BX661DRAFT_199230), partial mRNA	Kickxella alabastrina
+2325468863	Candida margitis TKL1 (CANMA_002093), partial mRNA	Candida margitis
+2272183197	Colletotrichum spaethianum aconitate hydratase, mitochondrial (ColLi_00080), partial mRNA	Colletotrichum spaethianum
+2272191019	Wardomyces moseri uncharacterized protein (JN550_011737), partial mRNA	Neoarthrinium moseri
+2287659966	Penicillium oxalicum Aconitate hydratase (POX_a01787), partial mRNA	Penicillium oxalicum
+2323994692	Durotheca rogersii aconitase family-domain-containing protein (GGS23DRAFT_564539), mRNA	Durotheca rogersii
+2234995484	Xylaria bambusicola aconitase family-domain-containing protein (F5B22DRAFT_629651), mRNA	Xylaria bambusicola
+2323971807	Tricharina praecox aconitate hydratase (BZA05DRAFT_334003), partial mRNA	Tricharina praecox
+67526872	Aspergillus nidulans FGSC A4 aconitate hydratase ACO2 (ANIA_03894), partial mRNA	Aspergillus nidulans FGSC A4
+2272478475	Alternaria hordeiaustralica uncharacterized protein (J4E84_004430), partial mRNA	Alternaria hordeiaustralica
+2273249502	Colletotrichum lupini aconitate hydratase (CLUP02_10532), partial mRNA	Colletotrichum lupini
+2325079028	Candida theae uncharacterized protein (KGF57_003443), partial mRNA	Candida theae
+2323993588	Durotheca rogersii uncharacterized protein (GGS23DRAFT_595827), partial mRNA	Durotheca rogersii
+2325069160	Candida theae ORC1 (KGF57_000585), partial mRNA	Candida theae
+2325069160	Candida theae ORC1 (KGF57_000585), partial mRNA	Candida theae
+2325069160	Candida theae ORC1 (KGF57_000585), partial mRNA	Candida theae
+2325069160	Candida theae ORC1 (KGF57_000585), partial mRNA	Candida theae
+2272263690	Candida oxycetoniae uncharacterized protein (KGF56_004153), partial mRNA	Candida oxycetoniae
+2234846741	Fulvia fulva Carbonyl reductase [NADPH] 1 (CLAFUR5_10101), partial mRNA	Fulvia fulva
+2272190779	Colletotrichum spaethianum leptomycin B resistance protein pmd1 (ColLi_01064), partial mRNA	Colletotrichum spaethianum
+2324017386	Kickxella alabastrina glutamate dehydrogenase (BX661DRAFT_184375), mRNA	Kickxella alabastrina
+2324872854	Alternaria postmessia uncharacterized protein (J4E82_006874), partial mRNA	Alternaria postmessia
+2292376922	Schizophyllum commune H4-8 initiation factor 2 (SCHCODRAFT_02481435), partial mRNA	Schizophyllum commune H4-8
+2292380360	Schizophyllum commune H4-8 glycine dehydrogenase (SCHCODRAFT_02610942), mRNA	Schizophyllum commune H4-8
+2234965996	Daldinia vernicosa uncharacterized protein (F5Y00DRAFT_19739), mRNA	Daldinia vernicosa
+2234876806	Psilocybe cubensis uncharacterized protein (JR316_0013432), partial mRNA	Psilocybe cubensis
+67903671	Aspergillus nidulans FGSC A4 protein scrC (ANIA_08823), partial mRNA	Aspergillus nidulans FGSC A4
+2272259983	Candida oxycetoniae uncharacterized protein (KGF56_003062), partial mRNA	Candida oxycetoniae
+2323849110	Emericellopsis cladophorae Transcription initiation factor TFIID subunit-like protein (J7T54_001046), partial mRNA	Emericellopsis cladophorae
+2324061344	Cokeromyces recurvatus Gar1/Naf1 RNA binding region-domain-containing protein (BX663DRAFT_502900), mRNA	Cokeromyces recurvatus
+2323706991	Halteromyces radiatus ATP synthase subunit beta (BX664DRAFT_322253), mRNA	Halteromyces radiatus
+2323728692	Halteromyces radiatus ATP synthase subunit beta (BX664DRAFT_330869), mRNA	Halteromyces radiatus
+2323750355	Halteromyces radiatus ATP synthase subunit beta (BX664DRAFT_284604), mRNA	Halteromyces radiatus
+2234872351	Psilocybe cubensis uncharacterized protein (JR316_0011155), partial mRNA	Psilocybe cubensis
+2324006254	Kickxella alabastrina 6-phosphogluconate dehydrogenase, decarboxylating (BX661DRAFT_178501), mRNA	Kickxella alabastrina
+2323975551	Tricharina praecox chaperonin Cpn60/TCP-1 family (BZA05DRAFT_473750), partial mRNA	Tricharina praecox
+2324005116	Kickxella alabastrina heat shock protein 60, mitochondrial precursor (BX661DRAFT_177964), mRNA	Kickxella alabastrina
+2272114553	Daldinia loculata CoA-transferase family III (F4817DRAFT_135218), mRNA	Daldinia loculata
+2323836118	Emericellopsis cladophorae aconitate hydratase (J7T54_005546), partial mRNA	Emericellopsis cladophorae
+2234942412	Xylaria bambusicola aconitase family-domain-containing protein (F5B22DRAFT_643459), partial mRNA	Xylaria bambusicola
+2324890222	Alternaria postmessia uncharacterized protein (J4E82_011546), partial mRNA	Alternaria postmessia
+2234931185	Xylaria bambusicola HAD-like domain-containing protein (F5B22DRAFT_586595), mRNA	Xylaria bambusicola
+2323997334	Durotheca rogersii uncharacterized protein (GGS23DRAFT_53115), mRNA	Durotheca rogersii
+2323997334	Durotheca rogersii uncharacterized protein (GGS23DRAFT_53115), mRNA	Durotheca rogersii
+2323733358	Radiomyces spectabilis catalase (BYT42DRAFT_533713), mRNA	Radiomyces spectabilis
+2272198399	Wardomyces moseri uncharacterized protein (JN550_013228), partial mRNA	Neoarthrinium moseri
+2324844876	Alternaria postmessia histone H2A (HTA1), partial mRNA	Alternaria postmessia
+2323968376	Tricharina praecox histone-fold-containing protein (BZA05DRAFT_331670), partial mRNA	Tricharina praecox
+2234915347	Annulohypoxylon maeteangense Cyanovirin-N (GGS22DRAFT_120766), mRNA	Annulohypoxylon maeteangense
+2235018778	Annulohypoxylon truncatum Cyanovirin-N (F4807DRAFT_462356), partial mRNA	Annulohypoxylon truncatum
+2272407330	Alternaria triticimaculans uncharacterized protein (J4E78_011099), partial mRNA	Alternaria triticimaculans
+2272116333	Daldinia decipiens uncharacterized protein (F4813DRAFT_313633), mRNA	Daldinia decipiens
+2235022879	Annulohypoxylon truncatum oxidoreductase (F4807DRAFT_470930), partial mRNA	Annulohypoxylon truncatum
+2323693325	Umbelopsis ramanniana AG uncharacterized protein (K450DRAFT_252139), mRNA	Umbelopsis ramanniana AG
+2234901635	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_022513), partial mRNA	Puccinia striiformis f. sp. tritici
+2325471955	Candida margitis uncharacterized protein (CANMA_003584), partial mRNA	Candida margitis
+2323830546	Emericellopsis cladophorae uncharacterized protein (J7T54_007921), partial mRNA	Emericellopsis cladophorae
+2273233746	Colletotrichum lupini kynureninase (CLUP02_02600), partial mRNA	Colletotrichum lupini
+2323751203	Radiomyces spectabilis kinase-like domain-containing protein (BYT42DRAFT_617328), partial mRNA	Radiomyces spectabilis
+2292376922	Schizophyllum commune H4-8 initiation factor 2 (SCHCODRAFT_02481435), partial mRNA	Schizophyllum commune H4-8
+2323759124	Radiomyces spectabilis hsp60-like protein (BYT42DRAFT_523482), mRNA	Radiomyces spectabilis
+2323759038	Halteromyces radiatus tyrosine-tRNA ligase (BX664DRAFT_342661), partial mRNA	Halteromyces radiatus
+429241281	Schizosaccharomyces pombe S-adenosylmethionine synthetase (sam1), mRNA	fission yeast
+2323715999	Halteromyces radiatus S-adenosylmethionine synthase (BX664DRAFT_275957), mRNA	Halteromyces radiatus
+2324050007	Mucor mucedo S-adenosylmethionine synthase (EV154DRAFT_506880), mRNA	Mucor mucedo
+2323733358	Radiomyces spectabilis catalase (BYT42DRAFT_533713), mRNA	Radiomyces spectabilis
+2234951538	Xylaria bambusicola beta subunit of gdp-forming succinate-CoA ligase (F5B22DRAFT_59478), mRNA	Xylaria bambusicola
+2323836976	Emericellopsis cladophorae Hybrid signal transduction histidine kinase K-like protein (J7T54_004303), partial mRNA	Emericellopsis cladophorae
+2272120065	Wardomyces moseri uncharacterized protein (JN550_000339), partial mRNA	Neoarthrinium moseri
+2323953082	Alternaria infectoria uncharacterized protein (J4E92_004905), partial mRNA	Alternaria infectoria
+2273207780	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_53768), mRNA	Hypoxylon fragiforme
+2234918299	Annulohypoxylon maeteangense acyl-CoA dehydrogenase NM domain-like protein (GGS22DRAFT_125316), mRNA	Annulohypoxylon maeteangense
+2272157826	Daldinia decipiens Thioesterase/thiol ester dehydrase-isomerase (F4813DRAFT_369569), mRNA	Daldinia decipiens
+2272145363	Daldinia decipiens RCC1/BLIP-II (F4813DRAFT_138593), mRNA	Daldinia decipiens
+2272145363	Daldinia decipiens RCC1/BLIP-II (F4813DRAFT_138593), mRNA	Daldinia decipiens
+2272160268	Daldinia decipiens uncharacterized protein (F4813DRAFT_208691), mRNA	Daldinia decipiens
+2272160268	Daldinia decipiens uncharacterized protein (F4813DRAFT_208691), mRNA	Daldinia decipiens
+2273216162	Hypoxylon fragiforme high-temperature-induced dauer-formation protein-domain-containing protein (GGS25DRAFT_490045), mRNA	Hypoxylon fragiforme
+2234974792	Xylaria bambusicola PLC-like phosphodiesterase (F5B22DRAFT_439845), mRNA	Xylaria bambusicola
+2272148920	Wardomyces moseri uncharacterized protein (JN550_004148), partial mRNA	Neoarthrinium moseri
+2324083817	Cokeromyces recurvatus fructose-bisphosphate aldolase, class II (BX663DRAFT_545660), mRNA	Cokeromyces recurvatus
+2323710357	Halteromyces radiatus WD40-repeat-containing domain protein (BX664DRAFT_274574), partial mRNA	Halteromyces radiatus
+2273219064	Hypoxylon fragiforme decarboxylating 6-phosphogluconate dehydrogenase (GGS25DRAFT_496177), mRNA	Hypoxylon fragiforme
+2234989147	Daldinia vernicosa decarboxylating 6-phosphogluconate dehydrogenase (F5Y00DRAFT_241223), mRNA	Daldinia vernicosa
+2272132011	Daldinia decipiens decarboxylating 6-phosphogluconate dehydrogenase (F4813DRAFT_358258), mRNA	Daldinia decipiens
+2234907253	Annulohypoxylon maeteangense decarboxylating 6-phosphogluconate dehydrogenase (GGS22DRAFT_153209), mRNA	Annulohypoxylon maeteangense
+2235012290	Annulohypoxylon truncatum decarboxylating 6-phosphogluconate dehydrogenase (F4807DRAFT_421381), mRNA	Annulohypoxylon truncatum
+2272181739	Wardomyces moseri uncharacterized protein (JN550_009547), partial mRNA	Neoarthrinium moseri
+2325474983	Candida margitis FLO8 (CANMA_005108), partial mRNA	Candida margitis
+2323840410	Emericellopsis cladophorae 37S ribosomal protein-like protein (J7T54_003592), partial mRNA	Emericellopsis cladophorae
+2273224696	Hypoxylon fragiforme thioredoxin-like protein (GGS25DRAFT_69216), mRNA	Hypoxylon fragiforme
+2323967442	Alternaria infectoria uncharacterized protein (J4E92_010946), partial mRNA	Alternaria infectoria
+2323939722	Alternaria infectoria uncharacterized protein (J4E92_000572), partial mRNA	Alternaria infectoria
+2273220638	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_499794), mRNA	Hypoxylon fragiforme
+2235012318	Annulohypoxylon truncatum NAD(P)-binding protein (F4807DRAFT_421492), mRNA	Annulohypoxylon truncatum
+2324006438	Durotheca rogersii carboxyl transferase (GGS23DRAFT_599197), partial mRNA	Durotheca rogersii
+2323681589	Umbelopsis ramanniana AG uncharacterized protein (K450DRAFT_224850), mRNA	Umbelopsis ramanniana AG
+2272119137	Daldinia loculata 26S proteasome regulatory complex, non-ATPase subcomplex, Rpn1 subunit (F4817DRAFT_327110), mRNA	Daldinia loculata
+2323699669	Umbelopsis ramanniana AG uncharacterized protein (K450DRAFT_263550), mRNA	Umbelopsis ramanniana AG
+2324070607	Cokeromyces recurvatus alanyl-tRNA synthetase (BX663DRAFT_509018), mRNA	Cokeromyces recurvatus
+2272162871	Daldinia decipiens uncharacterized protein (F4813DRAFT_235098), mRNA	Daldinia decipiens
+2273207084	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_470561), mRNA	Hypoxylon fragiforme
+2273207084	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_470561), mRNA	Hypoxylon fragiforme
+2273207084	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_470561), mRNA	Hypoxylon fragiforme
+2324021076	Kickxella alabastrina Sec1-like protein (BX661DRAFT_188604), mRNA	Kickxella alabastrina
+2324021076	Kickxella alabastrina Sec1-like protein (BX661DRAFT_188604), mRNA	Kickxella alabastrina
+2324021076	Kickxella alabastrina Sec1-like protein (BX661DRAFT_188604), mRNA	Kickxella alabastrina
+2272109564	Daldinia decipiens guanosine-diphosphatase (F4813DRAFT_346615), mRNA	Daldinia decipiens
+2272109564	Daldinia decipiens guanosine-diphosphatase (F4813DRAFT_346615), mRNA	Daldinia decipiens
+2287660923	Penicillium oxalicum Peroxisomal hydratase-dehydrogenase-epimerase (POX_b02274), partial mRNA	Penicillium oxalicum

@@ -1,0 +1,206 @@
+2324066950	"Mucor mucedo uncharacterized protein (EV154DRAFT_18979), mRNA"	Mucor mucedo
+2324069111	"Mucor mucedo uncharacterized protein (EV154DRAFT_40327), mRNA"	Mucor mucedo
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2324066581	"Mucor mucedo uncharacterized protein (EV154DRAFT_521070), mRNA"	Mucor mucedo
+2324045354	"Mucor mucedo uncharacterized protein (EV154DRAFT_550156), mRNA"	Mucor mucedo
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2324066581	"Mucor mucedo uncharacterized protein (EV154DRAFT_521070), mRNA"	Mucor mucedo
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2323770898	"Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_439819), mRNA"	Gamsiella multidivaricata
+2323770898	"Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_439819), mRNA"	Gamsiella multidivaricata
+2324066950	"Mucor mucedo uncharacterized protein (EV154DRAFT_18979), mRNA"	Mucor mucedo
+2324069111	"Mucor mucedo uncharacterized protein (EV154DRAFT_40327), mRNA"	Mucor mucedo
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2324066950	"Mucor mucedo uncharacterized protein (EV154DRAFT_18979), mRNA"	Mucor mucedo
+2324069111	"Mucor mucedo uncharacterized protein (EV154DRAFT_40327), mRNA"	Mucor mucedo
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2324045354	"Mucor mucedo uncharacterized protein (EV154DRAFT_550156), mRNA"	Mucor mucedo
+2323770898	"Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_439819), mRNA"	Gamsiella multidivaricata
+2323770898	"Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_439819), mRNA"	Gamsiella multidivaricata
+2323770898	"Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_439819), mRNA"	Gamsiella multidivaricata
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2324066581	"Mucor mucedo uncharacterized protein (EV154DRAFT_521070), mRNA"	Mucor mucedo
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2323770898	"Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_439819), mRNA"	Gamsiella multidivaricata
+2323773322	"Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_500663), partial mRNA"	Gamsiella multidivaricata
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2287659036	"Penicillium oxalicum Elongation factor 2 (POX_a01318), partial mRNA"	Penicillium oxalicum
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2323770898	"Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_439819), mRNA"	Gamsiella multidivaricata
+2324045354	"Mucor mucedo uncharacterized protein (EV154DRAFT_550156), mRNA"	Mucor mucedo
+2323714699	"Gilbertella persicaria kinase-like domain-containing protein (B0P05DRAFT_523658), mRNA"	Gilbertella persicaria
+2323741203	"Gilbertella persicaria uncharacterized protein (B0P05DRAFT_111839), mRNA"	Gilbertella persicaria
+2324051448	"Cokeromyces recurvatus kinase-like domain-containing protein (BX663DRAFT_496221), mRNA"	Cokeromyces recurvatus
+2324070075	"Mucor mucedo kinase-like domain-containing protein (EV154DRAFT_524000), mRNA"	Mucor mucedo
+2324086481	"Cokeromyces recurvatus kinase-like domain-containing protein (BX663DRAFT_268466), mRNA"	Cokeromyces recurvatus
+296146686	"Saccharomyces cerevisiae S288C Tar1p (TAR1), partial mRNA"	Saccharomyces cerevisiae S288C
+2324066950	"Mucor mucedo uncharacterized protein (EV154DRAFT_18979), mRNA"	Mucor mucedo
+296146704	"Saccharomyces cerevisiae S288C Rrt15p (RRT15), partial mRNA"	Saccharomyces cerevisiae S288C
+2323770898	"Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_439819), mRNA"	Gamsiella multidivaricata
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2272127382	"Wardomyces moseri uncharacterized protein (JN550_001366), partial mRNA"	Neoarthrinium moseri
+2323851538	"Emericellopsis cladophorae uncharacterized protein (J7T54_007288), partial mRNA"	Emericellopsis cladophorae
+2272112024	"Daldinia decipiens uncharacterized protein (F4813DRAFT_348307), mRNA"	Daldinia decipiens
+2323862554	"Emericellopsis cladophorae ubiquitin-40S ribosomal protein S27a (J7T54_005354), partial mRNA"	Emericellopsis cladophorae
+2273218704	"Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_328393), mRNA"	Hypoxylon fragiforme
+2273226681	"Colletotrichum lupini ubiquitin (CLUP02_00233), partial mRNA"	Colletotrichum lupini
+2323967404	"Tricharina praecox putative ATP-dependent protein binding protein (BZA05DRAFT_367335), partial mRNA"	Tricharina praecox
+2323967404	"Tricharina praecox putative ATP-dependent protein binding protein (BZA05DRAFT_367335), partial mRNA"	Tricharina praecox
+2324066950	"Mucor mucedo uncharacterized protein (EV154DRAFT_18979), mRNA"	Mucor mucedo
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+296146686	"Saccharomyces cerevisiae S288C Tar1p (TAR1), partial mRNA"	Saccharomyces cerevisiae S288C
+2273216218	"Hypoxylon fragiforme actin (GGS25DRAFT_490237), mRNA"	Hypoxylon fragiforme
+2287665590	"Penicillium oxalicum actin (POX_c04656), partial mRNA"	Penicillium oxalicum
+2234824681	"Fulvia fulva Actin, gamma (CLAFUR5_03859), partial mRNA"	Fulvia fulva
+2323747790	"Gilbertella persicaria thioredoxin-like protein (B0P05DRAFT_512537), mRNA"	Gilbertella persicaria
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2273245022	"Colletotrichum lupini cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD (CLUP02_08279), partial mRNA"	Colletotrichum lupini
+296146686	"Saccharomyces cerevisiae S288C Tar1p (TAR1), partial mRNA"	Saccharomyces cerevisiae S288C
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2323770898	"Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_439819), mRNA"	Gamsiella multidivaricata
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2272351180	"Alternaria viburni chaperonin (HSP60), partial mRNA"	Alternaria viburni
+2272292043	"Alternaria ethzedia chaperonin (HSP60), partial mRNA"	Alternaria ethzedia
+2272384496	"Alternaria triticimaculans chaperonin (HSP60), partial mRNA"	Alternaria triticimaculans
+2272475980	"Alternaria hordeiaustralica chaperonin (HSP60), partial mRNA"	Alternaria hordeiaustralica
+2323881911	"Alternaria conjuncta chaperonin (HSP60), partial mRNA"	Alternaria conjuncta
+2323926849	"Alternaria incomplexa chaperonin (HSP60), partial mRNA"	Alternaria incomplexa
+2323949008	"Alternaria infectoria chaperonin (HSP60), partial mRNA"	Alternaria infectoria
+2323862554	"Emericellopsis cladophorae ubiquitin-40S ribosomal protein S27a (J7T54_005354), partial mRNA"	Emericellopsis cladophorae
+2272173985	"Wardomyces moseri uncharacterized protein (JN550_007738), partial mRNA"	Neoarthrinium moseri
+2323851538	"Emericellopsis cladophorae uncharacterized protein (J7T54_007288), partial mRNA"	Emericellopsis cladophorae
+2272127382	"Wardomyces moseri uncharacterized protein (JN550_001366), partial mRNA"	Neoarthrinium moseri
+2272154471	"Wardomyces moseri uncharacterized protein (JN550_004805), partial mRNA"	Neoarthrinium moseri
+2272154471	"Wardomyces moseri uncharacterized protein (JN550_004805), partial mRNA"	Neoarthrinium moseri
+2272154471	"Wardomyces moseri uncharacterized protein (JN550_004805), partial mRNA"	Neoarthrinium moseri
+2273253900	"Colletotrichum lupini ubiquitin-40S ribosomal protein S27a (CLUP02_12744), partial mRNA"	Colletotrichum lupini
+2287662423	"Penicillium oxalicum Ubiquitin-40S ribosomal protein S27a (POX_b03033), partial mRNA"	Penicillium oxalicum
+2234988569	"Xylaria bambusicola polyubiquitin (F5B22DRAFT_651650), partial mRNA"	Xylaria bambusicola
+2234988569	"Xylaria bambusicola polyubiquitin (F5B22DRAFT_651650), partial mRNA"	Xylaria bambusicola
+2273225188	"Hypoxylon fragiforme ubiquitin family-domain-containing protein (GGS25DRAFT_516128), partial mRNA"	Hypoxylon fragiforme
+2272105770	"Daldinia decipiens ubiquitin (F4813DRAFT_343537), mRNA"	Daldinia decipiens
+2273214966	"Hypoxylon fragiforme polyubiquitin (GGS25DRAFT_514069), partial mRNA"	Hypoxylon fragiforme
+296146686	"Saccharomyces cerevisiae S288C Tar1p (TAR1), partial mRNA"	Saccharomyces cerevisiae S288C
+2292379726	"Schizophyllum commune H4-8 putative rRNA pseudouridine synthase (SCHCODRAFT_02528027), mRNA"	Schizophyllum commune H4-8
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2272217939	"Colletotrichum spaethianum protein RER1 (ColLi_08199), partial mRNA"	Colletotrichum spaethianum
+2273236490	"Colletotrichum lupini Rer1 family protein (CLUP02_03986), partial mRNA"	Colletotrichum lupini
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2323997439	"Durotheca rogersii uncharacterized protein (GGS23DRAFT_55447), mRNA"	Durotheca rogersii
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234886469	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_007875), mRNA"	Puccinia striiformis f. sp. tritici
+2324048895	"Mucor mucedo uncharacterized protein (EV154DRAFT_601929), mRNA"	Mucor mucedo
+2234961114	"Xylaria bambusicola heat shock protein 70 family (F5B22DRAFT_636767), partial mRNA"	Xylaria bambusicola
+2323752450	"Radiomyces spectabilis actin (BYT42DRAFT_584695), mRNA"	Radiomyces spectabilis
+2323680727	"Umbelopsis ramanniana AG actin (K450DRAFT_222698), partial mRNA"	Umbelopsis ramanniana AG
+2323697064	"Umbelopsis ramanniana AG actin (K450DRAFT_259007), mRNA"	Umbelopsis ramanniana AG
+296146686	"Saccharomyces cerevisiae S288C Tar1p (TAR1), partial mRNA"	Saccharomyces cerevisiae S288C
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2324066950	"Mucor mucedo uncharacterized protein (EV154DRAFT_18979), mRNA"	Mucor mucedo
+2324066581	"Mucor mucedo uncharacterized protein (EV154DRAFT_521070), mRNA"	Mucor mucedo
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2323766982	"Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_515980), partial mRNA"	Gamsiella multidivaricata
+2234950681	"Xylaria bambusicola uncharacterized protein (F5B22DRAFT_598206), mRNA"	Xylaria bambusicola
+2272189163	"Wardomyces moseri uncharacterized protein (JN550_011239), partial mRNA"	Neoarthrinium moseri
+2235018778	"Annulohypoxylon truncatum Cyanovirin-N (F4807DRAFT_462356), partial mRNA"	Annulohypoxylon truncatum
+2287669001	"Penicillium oxalicum Heat shock 70 kDa protein (POX_e06400), partial mRNA"	Penicillium oxalicum
+2323774625	"Gamsiella multidivaricata ribosomal protein S12/S23-domain-containing protein (BC939DRAFT_527136), partial mRNA"	Gamsiella multidivaricata
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234956716	"Daldinia vernicosa NIF-domain-containing protein (F5Y00DRAFT_224723), mRNA"	Daldinia vernicosa
+2234956716	"Daldinia vernicosa NIF-domain-containing protein (F5Y00DRAFT_224723), mRNA"	Daldinia vernicosa
+2273224452	"Hypoxylon fragiforme galactose mutarotase-like protein (GGS25DRAFT_508387), mRNA"	Hypoxylon fragiforme
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2324051432	"Mucor mucedo uncharacterized protein (EV154DRAFT_397216), partial mRNA"	Mucor mucedo
+2324066950	"Mucor mucedo uncharacterized protein (EV154DRAFT_18979), mRNA"	Mucor mucedo
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+2323852828	"Emericellopsis cladophorae 6-phosphogluconate decarboxylating 1 (J7T54_000089), partial mRNA"	Emericellopsis cladophorae
+2272192196	"Wardomyces moseri uncharacterized protein (JN550_011972), partial mRNA"	Neoarthrinium moseri
+2272225258	"Colletotrichum spaethianum pyridoxal phosphate homeostasis protein (ColLi_10652), partial mRNA"	Colletotrichum spaethianum
+2234920169	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA"	Puccinia striiformis f. sp. tritici
+2234921753	"Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA"	Puccinia striiformis f. sp. tritici
+296144393	"Saccharomyces cerevisiae S288C actin (ACT1), partial mRNA"	Saccharomyces cerevisiae S288C
+296144888	"Saccharomyces cerevisiae S288C Yrb30p (YRB30), partial mRNA"	Saccharomyces cerevisiae S288C
+296146704	"Saccharomyces cerevisiae S288C Rrt15p (RRT15), partial mRNA"	Saccharomyces cerevisiae S288C
+2324047234	"Mucor mucedo uncharacterized protein (EV154DRAFT_504367), mRNA"	Mucor mucedo

@@ -1,0 +1,1600 @@
+2324052242	Mucor mucedo uncharacterized protein (EV154DRAFT_464560), mRNA	Mucor mucedo
+2324039107	Mucor mucedo GDP-mannose 4,6 dehydratase (EV154DRAFT_559291), partial mRNA	Mucor mucedo
+2325084690	Candida theae SAH1 (KGF57_004882), partial mRNA	Candida theae
+2235002956	Annulohypoxylon truncatum uncharacterized protein (F4807DRAFT_468361), partial mRNA	Annulohypoxylon truncatum
+2235002956	Annulohypoxylon truncatum uncharacterized protein (F4807DRAFT_468361), partial mRNA	Annulohypoxylon truncatum
+2323830832	Emericellopsis cladophorae methionine--tRNA ligase-like protein (J7T54_007993), partial mRNA	Emericellopsis cladophorae
+2323830832	Emericellopsis cladophorae methionine--tRNA ligase-like protein (J7T54_007993), partial mRNA	Emericellopsis cladophorae
+2272260257	Candida oxycetoniae ADE12 (KGF56_003122), partial mRNA	Candida oxycetoniae
+2323837796	Emericellopsis cladophorae uncharacterized protein (J7T54_000587), partial mRNA	Emericellopsis cladophorae
+2323769540	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_566656), mRNA	Gilbertella persicaria
+2323769540	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_566656), mRNA	Gilbertella persicaria
+2323769540	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_566656), mRNA	Gilbertella persicaria
+2272249959	Candida oxycetoniae HSP104 (KGF56_001159), partial mRNA	Candida oxycetoniae
+296142629	Saccharomyces cerevisiae S288C mitochondrial 54S ribosomal protein YmL47 (MRPL16), partial mRNA	Saccharomyces cerevisiae S288C
+2323714399	Radiomyces spectabilis kinase-like domain-containing protein (BYT42DRAFT_611800), partial mRNA	Radiomyces spectabilis
+2323970095	Tricharina praecox uncharacterized protein (BZA05DRAFT_202857), mRNA	Tricharina praecox
+2323959998	Alternaria infectoria uncharacterized protein (J4E92_008396), partial mRNA	Alternaria infectoria
+2323959998	Alternaria infectoria uncharacterized protein (J4E92_008396), partial mRNA	Alternaria infectoria
+2323959998	Alternaria infectoria uncharacterized protein (J4E92_008396), partial mRNA	Alternaria infectoria
+2272264650	Candida oxycetoniae CCT4 (KGF56_004426), partial mRNA	Candida oxycetoniae
+2272264650	Candida oxycetoniae CCT4 (KGF56_004426), partial mRNA	Candida oxycetoniae
+2272260260	Candida oxycetoniae IDH1 (KGF56_003123), partial mRNA	Candida oxycetoniae
+2323755990	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_553390), mRNA	Gilbertella persicaria
+2323755990	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_553390), mRNA	Gilbertella persicaria
+2323976059	Durotheca rogersii ClpP/crotonase (GGS23DRAFT_543393), mRNA	Durotheca rogersii
+296148182	Saccharomyces cerevisiae S288C translation elongation factor Tu (TUF1), partial mRNA	Saccharomyces cerevisiae S288C
+2234901245	Annulohypoxylon maeteangense calcium-transporting P (GGS22DRAFT_17411), mRNA	Annulohypoxylon maeteangense
+2234901245	Annulohypoxylon maeteangense calcium-transporting P (GGS22DRAFT_17411), mRNA	Annulohypoxylon maeteangense
+2273225986	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_96724), mRNA	Hypoxylon fragiforme
+2234988182	Daldinia vernicosa CAF1-domain-containing protein (F5Y00DRAFT_263251), partial mRNA	Daldinia vernicosa
+2273216652	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_285762), mRNA	Hypoxylon fragiforme
+2323722491	Radiomyces spectabilis serine protease 1 (BYT42DRAFT_565137), mRNA	Radiomyces spectabilis
+2323722491	Radiomyces spectabilis serine protease 1 (BYT42DRAFT_565137), mRNA	Radiomyces spectabilis
+2292390369	Schizophyllum commune H4-8 uncharacterized protein (SCHCODRAFT_02629108), mRNA	Schizophyllum commune H4-8
+2323808684	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_30512), mRNA	Gamsiella multidivaricata
+2234930633	Xylaria bambusicola CTD kinase subunit gamma CTK3-domain-containing protein (F5B22DRAFT_585351), mRNA	Xylaria bambusicola
+2234930633	Xylaria bambusicola CTD kinase subunit gamma CTK3-domain-containing protein (F5B22DRAFT_585351), mRNA	Xylaria bambusicola
+2323971757	Tricharina praecox uncharacterized protein (BZA05DRAFT_236756), mRNA	Tricharina praecox
+2272265489	Candida oxycetoniae NAB3 (KGF56_004707), partial mRNA	Candida oxycetoniae
+2323720842	Gilbertella persicaria putative phosphatase regulatory subunit-domain-containing protein (B0P05DRAFT_634596), mRNA	Gilbertella persicaria
+2323992570	Tricharina praecox uncharacterized protein (BZA05DRAFT_411152), mRNA	Tricharina praecox
+2324072407	Cokeromyces recurvatus tRNA synthetases class I (M)-domain-containing protein (BX663DRAFT_510409), mRNA	Cokeromyces recurvatus
+2323898837	Hypoxylon trugodes 26S proteasome subunit P45 family protein (F4822DRAFT_402930), mRNA	Hypoxylon trugodes
+2323898837	Hypoxylon trugodes 26S proteasome subunit P45 family protein (F4822DRAFT_402930), mRNA	Hypoxylon trugodes
+2323898837	Hypoxylon trugodes 26S proteasome subunit P45 family protein (F4822DRAFT_402930), mRNA	Hypoxylon trugodes
+2325078340	Candida pseudojiufengensis uncharacterized protein (KGF55_001934), partial mRNA	Candida pseudojiufengensis
+2323716105	Halteromyces radiatus uncharacterized protein (BX664DRAFT_326115), mRNA	Halteromyces radiatus
+2323716105	Halteromyces radiatus uncharacterized protein (BX664DRAFT_326115), mRNA	Halteromyces radiatus
+2323730628	Halteromyces radiatus 3-isopropylmalate dehydrogenase (BX664DRAFT_279450), mRNA	Halteromyces radiatus
+2272119137	Daldinia loculata 26S proteasome regulatory complex, non-ATPase subcomplex, Rpn1 subunit (F4817DRAFT_327110), mRNA	Daldinia loculata
+2272119137	Daldinia loculata 26S proteasome regulatory complex, non-ATPase subcomplex, Rpn1 subunit (F4817DRAFT_327110), mRNA	Daldinia loculata
+2325073182	Candida pseudojiufengensis NDH51 (KGF55_000664), partial mRNA	Candida pseudojiufengensis
+2234880399	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_002836), mRNA	Puccinia striiformis f. sp. tritici
+2273206688	Hypoxylon fragiforme P-loop containing nucleoside triphosphate hydrolase protein (GGS25DRAFT_527076), partial mRNA	Hypoxylon fragiforme
+2273206688	Hypoxylon fragiforme P-loop containing nucleoside triphosphate hydrolase protein (GGS25DRAFT_527076), partial mRNA	Hypoxylon fragiforme
+2323895639	Alternaria conjuncta uncharacterized protein (J4E85_008873), partial mRNA	Alternaria conjuncta
+2323895639	Alternaria conjuncta uncharacterized protein (J4E85_008873), partial mRNA	Alternaria conjuncta
+2323787818	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_204223), mRNA	Gamsiella multidivaricata
+2324020752	Kickxella alabastrina argininosuccinate lyase (BX661DRAFT_188201), mRNA	Kickxella alabastrina
+2323993430	Tricharina praecox uncharacterized protein (BZA05DRAFT_190544), mRNA	Tricharina praecox
+2323993430	Tricharina praecox uncharacterized protein (BZA05DRAFT_190544), mRNA	Tricharina praecox
+2323993430	Tricharina praecox uncharacterized protein (BZA05DRAFT_190544), mRNA	Tricharina praecox
+2323993430	Tricharina praecox uncharacterized protein (BZA05DRAFT_190544), mRNA	Tricharina praecox
+2323993430	Tricharina praecox uncharacterized protein (BZA05DRAFT_190544), mRNA	Tricharina praecox
+2323993430	Tricharina praecox uncharacterized protein (BZA05DRAFT_190544), mRNA	Tricharina praecox
+2323993430	Tricharina praecox uncharacterized protein (BZA05DRAFT_190544), mRNA	Tricharina praecox
+2323988890	Tricharina praecox uncharacterized protein (BZA05DRAFT_447937), partial mRNA	Tricharina praecox
+2325467571	Candida margitis NDH51 (CANMA_001438), partial mRNA	Candida margitis
+2272167612	Daldinia loculata uncharacterized protein (F4817DRAFT_347789), mRNA	Daldinia loculata
+2292381648	Schizophyllum commune H4-8 kinase-like protein (SCHCODRAFT_02206419), mRNA	Schizophyllum commune H4-8
+2292391646	Schizophyllum commune H4-8 cornichon (SCHCODRAFT_02631473), mRNA	Schizophyllum commune H4-8
+2292391646	Schizophyllum commune H4-8 cornichon (SCHCODRAFT_02631473), mRNA	Schizophyllum commune H4-8
+2235022332	Annulohypoxylon truncatum PEBP-like protein (F4807DRAFT_246204), mRNA	Annulohypoxylon truncatum
+2235022332	Annulohypoxylon truncatum PEBP-like protein (F4807DRAFT_246204), mRNA	Annulohypoxylon truncatum
+2235022332	Annulohypoxylon truncatum PEBP-like protein (F4807DRAFT_246204), mRNA	Annulohypoxylon truncatum
+2272256249	Candida oxycetoniae KEL2 (KGF56_002501), partial mRNA	Candida oxycetoniae
+2272256249	Candida oxycetoniae KEL2 (KGF56_002501), partial mRNA	Candida oxycetoniae
+2272260411	Candida oxycetoniae uncharacterized protein (KGF56_003167), partial mRNA	Candida oxycetoniae
+2272260411	Candida oxycetoniae uncharacterized protein (KGF56_003167), partial mRNA	Candida oxycetoniae
+2272260411	Candida oxycetoniae uncharacterized protein (KGF56_003167), partial mRNA	Candida oxycetoniae
+2272260411	Candida oxycetoniae uncharacterized protein (KGF56_003167), partial mRNA	Candida oxycetoniae
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2272254503	Candida oxycetoniae uncharacterized protein (KGF56_002139), partial mRNA	Candida oxycetoniae
+2272254503	Candida oxycetoniae uncharacterized protein (KGF56_002139), partial mRNA	Candida oxycetoniae
+2272254503	Candida oxycetoniae uncharacterized protein (KGF56_002139), partial mRNA	Candida oxycetoniae
+2272254503	Candida oxycetoniae uncharacterized protein (KGF56_002139), partial mRNA	Candida oxycetoniae
+2323812137	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_470664), mRNA	Gamsiella multidivaricata
+2323812137	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_470664), mRNA	Gamsiella multidivaricata
+2323812137	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_470664), mRNA	Gamsiella multidivaricata
+2323812137	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_470664), mRNA	Gamsiella multidivaricata
+2325081754	Candida theae uncharacterized protein (KGF57_004166), partial mRNA	Candida theae
+2325081754	Candida theae uncharacterized protein (KGF57_004166), partial mRNA	Candida theae
+2234862986	Psilocybe cubensis uncharacterized protein (JR316_0007251), partial mRNA	Psilocybe cubensis
+2234862986	Psilocybe cubensis uncharacterized protein (JR316_0007251), partial mRNA	Psilocybe cubensis
+2272093622	Ophidiomyces ophidiicola uncharacterized protein (LOZ57_002918), partial mRNA	Ophidiomyces ophidiicola
+2272093622	Ophidiomyces ophidiicola uncharacterized protein (LOZ57_002918), partial mRNA	Ophidiomyces ophidiicola
+2323778616	Gamsiella multidivaricata prolyl-tRNA synthetase (BC939DRAFT_450445), mRNA	Gamsiella multidivaricata
+2323778616	Gamsiella multidivaricata prolyl-tRNA synthetase (BC939DRAFT_450445), mRNA	Gamsiella multidivaricata
+2323778616	Gamsiella multidivaricata prolyl-tRNA synthetase (BC939DRAFT_450445), mRNA	Gamsiella multidivaricata
+2323778616	Gamsiella multidivaricata prolyl-tRNA synthetase (BC939DRAFT_450445), mRNA	Gamsiella multidivaricata
+2273211228	Hypoxylon fragiforme autophagy-related protein 27 (GGS25DRAFT_163591), mRNA	Hypoxylon fragiforme
+2273211228	Hypoxylon fragiforme autophagy-related protein 27 (GGS25DRAFT_163591), mRNA	Hypoxylon fragiforme
+2323799870	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_495935), mRNA	Gamsiella multidivaricata
+2323799870	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_495935), mRNA	Gamsiella multidivaricata
+2323981434	Tricharina praecox uncharacterized protein (BZA05DRAFT_437180), partial mRNA	Tricharina praecox
+2323981434	Tricharina praecox uncharacterized protein (BZA05DRAFT_437180), partial mRNA	Tricharina praecox
+2272142403	Daldinia loculata uncharacterized protein (F4817DRAFT_103910), mRNA	Daldinia loculata
+2272173757	Wardomyces moseri uncharacterized protein (JN550_007696), partial mRNA	Neoarthrinium moseri
+2272140820	Wardomyces moseri uncharacterized protein (JN550_003112), partial mRNA	Neoarthrinium moseri
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272161636	Daldinia loculata TLD-domain-containing protein (F4817DRAFT_345283), mRNA	Daldinia loculata
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2273238372	Colletotrichum lupini uncharacterized protein (CLUP02_04935), partial mRNA	Colletotrichum lupini
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2234968496	Daldinia vernicosa ubiquitin-conjugating enzyme (F5Y00DRAFT_34840), mRNA	Daldinia vernicosa
+2272110366	Daldinia loculata uncharacterized protein (F4817DRAFT_363080), mRNA	Daldinia loculata
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2273218836	Hypoxylon fragiforme MFS general substrate transporter (GGS25DRAFT_495585), mRNA	Hypoxylon fragiforme
+2273219208	Hypoxylon fragiforme Ribokinase-like protein (GGS25DRAFT_496614), mRNA	Hypoxylon fragiforme
+2324078036	Mucor mucedo uncharacterized protein (EV154DRAFT_571577), partial mRNA	Mucor mucedo
+2272246671	Candida oxycetoniae ZDS1 (KGF56_000458), partial mRNA	Candida oxycetoniae
+2272247712	Candida oxycetoniae YPS7 (KGF56_000673), partial mRNA	Candida oxycetoniae
+2272265835	Candida oxycetoniae uncharacterized protein (KGF56_004852), partial mRNA	Candida oxycetoniae
+2323742089	Radiomyces spectabilis F/Y rich C-terminus-domain-containing protein (BYT42DRAFT_577739), mRNA	Radiomyces spectabilis
+2323965374	Alternaria infectoria Heat shock protein hsp98 (HSP98), partial mRNA	Alternaria infectoria
+2272486584	Alternaria hordeiaustralica Heat shock protein hsp98 (HSP98), partial mRNA	Alternaria hordeiaustralica
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+429238777	Schizosaccharomyces pombe putative isoleucine--tRNA (Ile) ligase (SPCC18B5.08c), mRNA	fission yeast
+2272250031	Candida oxycetoniae uncharacterized protein (KGF56_001172), partial mRNA	Candida oxycetoniae
+2323770354	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_260281), mRNA	Gamsiella multidivaricata
+2273220638	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_499794), mRNA	Hypoxylon fragiforme
+2272126105	Daldinia loculata Phosphoacetylglucosamine mutase (F4817DRAFT_17281), mRNA	Daldinia loculata
+2235000375	Annulohypoxylon truncatum CCR4-Not complex subunit Caf16 (F4807DRAFT_405392), mRNA	Annulohypoxylon truncatum
+2272110415	Daldinia decipiens P-loop containing nucleoside triphosphate hydrolase protein (F4813DRAFT_347274), mRNA	Daldinia decipiens
+2235023947	Annulohypoxylon truncatum uncharacterized protein (F4807DRAFT_471259), mRNA	Annulohypoxylon truncatum
+2234898216	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_019618), mRNA	Puccinia striiformis f. sp. tritici
+2272250031	Candida oxycetoniae uncharacterized protein (KGF56_001172), partial mRNA	Candida oxycetoniae
+2323770354	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_260281), mRNA	Gamsiella multidivaricata
+2234930633	Xylaria bambusicola CTD kinase subunit gamma CTK3-domain-containing protein (F5B22DRAFT_585351), mRNA	Xylaria bambusicola
+2234930633	Xylaria bambusicola CTD kinase subunit gamma CTK3-domain-containing protein (F5B22DRAFT_585351), mRNA	Xylaria bambusicola
+2323971757	Tricharina praecox uncharacterized protein (BZA05DRAFT_236756), mRNA	Tricharina praecox
+2272103146	Daldinia decipiens uncharacterized protein (F4813DRAFT_342022), mRNA	Daldinia decipiens
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272161636	Daldinia loculata TLD-domain-containing protein (F4817DRAFT_345283), mRNA	Daldinia loculata
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2273238372	Colletotrichum lupini uncharacterized protein (CLUP02_04935), partial mRNA	Colletotrichum lupini
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2234968496	Daldinia vernicosa ubiquitin-conjugating enzyme (F5Y00DRAFT_34840), mRNA	Daldinia vernicosa
+2272110366	Daldinia loculata uncharacterized protein (F4817DRAFT_363080), mRNA	Daldinia loculata
+2272247712	Candida oxycetoniae YPS7 (KGF56_000673), partial mRNA	Candida oxycetoniae
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2273218836	Hypoxylon fragiforme MFS general substrate transporter (GGS25DRAFT_495585), mRNA	Hypoxylon fragiforme
+2273219208	Hypoxylon fragiforme Ribokinase-like protein (GGS25DRAFT_496614), mRNA	Hypoxylon fragiforme
+2324078036	Mucor mucedo uncharacterized protein (EV154DRAFT_571577), partial mRNA	Mucor mucedo
+2272246671	Candida oxycetoniae ZDS1 (KGF56_000458), partial mRNA	Candida oxycetoniae
+2272265835	Candida oxycetoniae uncharacterized protein (KGF56_004852), partial mRNA	Candida oxycetoniae
+2323742089	Radiomyces spectabilis F/Y rich C-terminus-domain-containing protein (BYT42DRAFT_577739), mRNA	Radiomyces spectabilis
+2323758222	Halteromyces radiatus pyridoxine biosynthesis protein pyroA (BX664DRAFT_380878), partial mRNA	Halteromyces radiatus
+2272256586	Candida oxycetoniae uncharacterized protein (KGF56_002577), partial mRNA	Candida oxycetoniae
+2272244164	Candida oxycetoniae uncharacterized protein (KGF56_000042), partial mRNA	Candida oxycetoniae
+2325099603	Candida jiufengensis uncharacterized protein (KGF54_004529), partial mRNA	Candida jiufengensis
+2325068620	Candida theae APL4 (KGF57_000313), partial mRNA	Candida theae
+2272162871	Daldinia decipiens uncharacterized protein (F4813DRAFT_235098), mRNA	Daldinia decipiens
+2272119137	Daldinia loculata 26S proteasome regulatory complex, non-ATPase subcomplex, Rpn1 subunit (F4817DRAFT_327110), mRNA	Daldinia loculata
+2234930633	Xylaria bambusicola CTD kinase subunit gamma CTK3-domain-containing protein (F5B22DRAFT_585351), mRNA	Xylaria bambusicola
+2323971757	Tricharina praecox uncharacterized protein (BZA05DRAFT_236756), mRNA	Tricharina praecox
+2323979850	Tricharina praecox uncharacterized protein (BZA05DRAFT_68296), mRNA	Tricharina praecox
+2323979850	Tricharina praecox uncharacterized protein (BZA05DRAFT_68296), mRNA	Tricharina praecox
+2323979854	Tricharina praecox uncharacterized protein (BZA05DRAFT_400841), mRNA	Tricharina praecox
+2323979854	Tricharina praecox uncharacterized protein (BZA05DRAFT_400841), mRNA	Tricharina praecox
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2234846529	Psilocybe cubensis uncharacterized protein (JR316_0003907), partial mRNA	Psilocybe cubensis
+2272118022	Wardomyces moseri uncharacterized protein (JN550_000040), partial mRNA	Neoarthrinium moseri
+2325071158	Candida theae uncharacterized protein (KGF57_001406), partial mRNA	Candida theae
+2272111436	Daldinia decipiens P-loop containing nucleoside triphosphate hydrolase protein (F4813DRAFT_386085), partial mRNA	Daldinia decipiens
+2272119260	Daldinia decipiens uncharacterized protein (F4813DRAFT_328762), mRNA	Daldinia decipiens
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272161636	Daldinia loculata TLD-domain-containing protein (F4817DRAFT_345283), mRNA	Daldinia loculata
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2273238372	Colletotrichum lupini uncharacterized protein (CLUP02_04935), partial mRNA	Colletotrichum lupini
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2234968496	Daldinia vernicosa ubiquitin-conjugating enzyme (F5Y00DRAFT_34840), mRNA	Daldinia vernicosa
+2272110366	Daldinia loculata uncharacterized protein (F4817DRAFT_363080), mRNA	Daldinia loculata
+2272247712	Candida oxycetoniae YPS7 (KGF56_000673), partial mRNA	Candida oxycetoniae
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2273218836	Hypoxylon fragiforme MFS general substrate transporter (GGS25DRAFT_495585), mRNA	Hypoxylon fragiforme
+2273219208	Hypoxylon fragiforme Ribokinase-like protein (GGS25DRAFT_496614), mRNA	Hypoxylon fragiforme
+2324078036	Mucor mucedo uncharacterized protein (EV154DRAFT_571577), partial mRNA	Mucor mucedo
+2272246671	Candida oxycetoniae ZDS1 (KGF56_000458), partial mRNA	Candida oxycetoniae
+2272265835	Candida oxycetoniae uncharacterized protein (KGF56_004852), partial mRNA	Candida oxycetoniae
+2323742089	Radiomyces spectabilis F/Y rich C-terminus-domain-containing protein (BYT42DRAFT_577739), mRNA	Radiomyces spectabilis
+2235000375	Annulohypoxylon truncatum CCR4-Not complex subunit Caf16 (F4807DRAFT_405392), mRNA	Annulohypoxylon truncatum
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2272140308	Daldinia decipiens uncharacterized protein (F4813DRAFT_362167), mRNA	Daldinia decipiens
+2323979562	Tricharina praecox uncharacterized protein (BZA05DRAFT_400566), mRNA	Tricharina praecox
+2273213398	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_530529), partial mRNA	Hypoxylon fragiforme
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272161636	Daldinia loculata TLD-domain-containing protein (F4817DRAFT_345283), mRNA	Daldinia loculata
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2273238372	Colletotrichum lupini uncharacterized protein (CLUP02_04935), partial mRNA	Colletotrichum lupini
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2234968496	Daldinia vernicosa ubiquitin-conjugating enzyme (F5Y00DRAFT_34840), mRNA	Daldinia vernicosa
+2272110366	Daldinia loculata uncharacterized protein (F4817DRAFT_363080), mRNA	Daldinia loculata
+2272247712	Candida oxycetoniae YPS7 (KGF56_000673), partial mRNA	Candida oxycetoniae
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2273218836	Hypoxylon fragiforme MFS general substrate transporter (GGS25DRAFT_495585), mRNA	Hypoxylon fragiforme
+2273219208	Hypoxylon fragiforme Ribokinase-like protein (GGS25DRAFT_496614), mRNA	Hypoxylon fragiforme
+2324078036	Mucor mucedo uncharacterized protein (EV154DRAFT_571577), partial mRNA	Mucor mucedo
+2272246671	Candida oxycetoniae ZDS1 (KGF56_000458), partial mRNA	Candida oxycetoniae
+2272265835	Candida oxycetoniae uncharacterized protein (KGF56_004852), partial mRNA	Candida oxycetoniae
+2323742089	Radiomyces spectabilis F/Y rich C-terminus-domain-containing protein (BYT42DRAFT_577739), mRNA	Radiomyces spectabilis
+2234929049	Xylaria bambusicola osmosensing histidine protein kinase SLN1 (F5B22DRAFT_28093), mRNA	Xylaria bambusicola
+429238777	Schizosaccharomyces pombe putative isoleucine--tRNA (Ile) ligase (SPCC18B5.08c), mRNA	fission yeast
+2323732040	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_536293), mRNA	Gilbertella persicaria
+2272256706	Candida oxycetoniae uncharacterized protein (KGF56_002604), partial mRNA	Candida oxycetoniae
+2323764269	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_560656), mRNA	Gilbertella persicaria
+2324056284	Mucor mucedo uncharacterized protein (EV154DRAFT_552542), partial mRNA	Mucor mucedo
+2324086625	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_443793), partial mRNA	Cokeromyces recurvatus
+2323763556	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_433729), mRNA	Gamsiella multidivaricata
+2324071733	Mucor mucedo SERCA-type calcium-translocating P-type ATPase (EV154DRAFT_63403), mRNA	Mucor mucedo
+2324066155	Cokeromyces recurvatus uncharacterized protein (BX663DRAFT_485506), partial mRNA	Cokeromyces recurvatus
+2292391646	Schizophyllum commune H4-8 cornichon (SCHCODRAFT_02631473), mRNA	Schizophyllum commune H4-8
+2273221554	Hypoxylon fragiforme SET domain-containing protein (GGS25DRAFT_501995), mRNA	Hypoxylon fragiforme
+2323758222	Halteromyces radiatus pyridoxine biosynthesis protein pyroA (BX664DRAFT_380878), partial mRNA	Halteromyces radiatus
+2234930633	Xylaria bambusicola CTD kinase subunit gamma CTK3-domain-containing protein (F5B22DRAFT_585351), mRNA	Xylaria bambusicola
+2323971757	Tricharina praecox uncharacterized protein (BZA05DRAFT_236756), mRNA	Tricharina praecox
+2324021319	Kickxella alabastrina armadillo-type protein (BX661DRAFT_188921), mRNA	Kickxella alabastrina
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272161636	Daldinia loculata TLD-domain-containing protein (F4817DRAFT_345283), mRNA	Daldinia loculata
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2273238372	Colletotrichum lupini uncharacterized protein (CLUP02_04935), partial mRNA	Colletotrichum lupini
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2234968496	Daldinia vernicosa ubiquitin-conjugating enzyme (F5Y00DRAFT_34840), mRNA	Daldinia vernicosa
+2272110366	Daldinia loculata uncharacterized protein (F4817DRAFT_363080), mRNA	Daldinia loculata
+2272247712	Candida oxycetoniae YPS7 (KGF56_000673), partial mRNA	Candida oxycetoniae
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2273218836	Hypoxylon fragiforme MFS general substrate transporter (GGS25DRAFT_495585), mRNA	Hypoxylon fragiforme
+2273219208	Hypoxylon fragiforme Ribokinase-like protein (GGS25DRAFT_496614), mRNA	Hypoxylon fragiforme
+2324078036	Mucor mucedo uncharacterized protein (EV154DRAFT_571577), partial mRNA	Mucor mucedo
+2272246671	Candida oxycetoniae ZDS1 (KGF56_000458), partial mRNA	Candida oxycetoniae
+2272265835	Candida oxycetoniae uncharacterized protein (KGF56_004852), partial mRNA	Candida oxycetoniae
+2323742089	Radiomyces spectabilis F/Y rich C-terminus-domain-containing protein (BYT42DRAFT_577739), mRNA	Radiomyces spectabilis
+2273213398	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_530529), partial mRNA	Hypoxylon fragiforme
+2272140820	Wardomyces moseri uncharacterized protein (JN550_003112), partial mRNA	Neoarthrinium moseri
+2272103146	Daldinia decipiens uncharacterized protein (F4813DRAFT_342022), mRNA	Daldinia decipiens
+2273224882	Hypoxylon fragiforme homocitrate synthase (GGS25DRAFT_509393), mRNA	Hypoxylon fragiforme
+2273224882	Hypoxylon fragiforme homocitrate synthase (GGS25DRAFT_509393), mRNA	Hypoxylon fragiforme
+2273224882	Hypoxylon fragiforme homocitrate synthase (GGS25DRAFT_509393), mRNA	Hypoxylon fragiforme
+2273224882	Hypoxylon fragiforme homocitrate synthase (GGS25DRAFT_509393), mRNA	Hypoxylon fragiforme
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2272140308	Daldinia decipiens uncharacterized protein (F4813DRAFT_362167), mRNA	Daldinia decipiens
+2272173757	Wardomyces moseri uncharacterized protein (JN550_007696), partial mRNA	Neoarthrinium moseri
+2272103146	Daldinia decipiens uncharacterized protein (F4813DRAFT_342022), mRNA	Daldinia decipiens
+2273215696	Hypoxylon fragiforme translation elongation factor Tu (GGS25DRAFT_489114), mRNA	Hypoxylon fragiforme
+2323758222	Halteromyces radiatus pyridoxine biosynthesis protein pyroA (BX664DRAFT_380878), partial mRNA	Halteromyces radiatus
+2272250031	Candida oxycetoniae uncharacterized protein (KGF56_001172), partial mRNA	Candida oxycetoniae
+2323770354	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_260281), mRNA	Gamsiella multidivaricata
+2323939722	Alternaria infectoria uncharacterized protein (J4E92_000572), partial mRNA	Alternaria infectoria
+2273241570	Colletotrichum lupini 26S proteasome subunit P45 family protein (CLUP02_06544), partial mRNA	Colletotrichum lupini
+2323732040	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_536293), mRNA	Gilbertella persicaria
+2272256706	Candida oxycetoniae uncharacterized protein (KGF56_002604), partial mRNA	Candida oxycetoniae
+2323764269	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_560656), mRNA	Gilbertella persicaria
+2324056284	Mucor mucedo uncharacterized protein (EV154DRAFT_552542), partial mRNA	Mucor mucedo
+2324086625	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_443793), partial mRNA	Cokeromyces recurvatus
+2323969661	Tricharina praecox uncharacterized protein (BZA05DRAFT_388079), mRNA	Tricharina praecox
+2273218830	Hypoxylon fragiforme DNA mismatch repair protein MutL (GGS25DRAFT_331149), mRNA	Hypoxylon fragiforme
+2323984988	Durotheca rogersii uncharacterized protein (GGS23DRAFT_306768), mRNA	Durotheca rogersii
+2272258740	Candida oxycetoniae uncharacterized protein (KGF56_002872), partial mRNA	Candida oxycetoniae
+2323759723	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_556021), mRNA	Gilbertella persicaria
+2234930633	Xylaria bambusicola CTD kinase subunit gamma CTK3-domain-containing protein (F5B22DRAFT_585351), mRNA	Xylaria bambusicola
+2234930633	Xylaria bambusicola CTD kinase subunit gamma CTK3-domain-containing protein (F5B22DRAFT_585351), mRNA	Xylaria bambusicola
+2323971757	Tricharina praecox uncharacterized protein (BZA05DRAFT_236756), mRNA	Tricharina praecox
+2273213398	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_530529), partial mRNA	Hypoxylon fragiforme
+2272126105	Daldinia loculata Phosphoacetylglucosamine mutase (F4817DRAFT_17281), mRNA	Daldinia loculata
+2272256586	Candida oxycetoniae uncharacterized protein (KGF56_002577), partial mRNA	Candida oxycetoniae
+2272244164	Candida oxycetoniae uncharacterized protein (KGF56_000042), partial mRNA	Candida oxycetoniae
+2325099603	Candida jiufengensis uncharacterized protein (KGF54_004529), partial mRNA	Candida jiufengensis
+2325068620	Candida theae APL4 (KGF57_000313), partial mRNA	Candida theae
+2323980490	Durotheca rogersii NAD(P)-binding protein (GGS23DRAFT_179476), mRNA	Durotheca rogersii
+2273251806	Colletotrichum lupini short-chain dehydrogenase (CLUP02_11692), partial mRNA	Colletotrichum lupini
+2292390169	Schizophyllum commune H4-8 NAD(P)-binding protein (SCHCODRAFT_02628184), mRNA	Schizophyllum commune H4-8
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272161636	Daldinia loculata TLD-domain-containing protein (F4817DRAFT_345283), mRNA	Daldinia loculata
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2273238372	Colletotrichum lupini uncharacterized protein (CLUP02_04935), partial mRNA	Colletotrichum lupini
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2234968496	Daldinia vernicosa ubiquitin-conjugating enzyme (F5Y00DRAFT_34840), mRNA	Daldinia vernicosa
+2272110366	Daldinia loculata uncharacterized protein (F4817DRAFT_363080), mRNA	Daldinia loculata
+2272247712	Candida oxycetoniae YPS7 (KGF56_000673), partial mRNA	Candida oxycetoniae
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2273218836	Hypoxylon fragiforme MFS general substrate transporter (GGS25DRAFT_495585), mRNA	Hypoxylon fragiforme
+2273219208	Hypoxylon fragiforme Ribokinase-like protein (GGS25DRAFT_496614), mRNA	Hypoxylon fragiforme
+2324078036	Mucor mucedo uncharacterized protein (EV154DRAFT_571577), partial mRNA	Mucor mucedo
+2272246671	Candida oxycetoniae ZDS1 (KGF56_000458), partial mRNA	Candida oxycetoniae
+2272265835	Candida oxycetoniae uncharacterized protein (KGF56_004852), partial mRNA	Candida oxycetoniae
+2323742089	Radiomyces spectabilis F/Y rich C-terminus-domain-containing protein (BYT42DRAFT_577739), mRNA	Radiomyces spectabilis
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2323758222	Halteromyces radiatus pyridoxine biosynthesis protein pyroA (BX664DRAFT_380878), partial mRNA	Halteromyces radiatus
+2272229936	Colletotrichum spaethianum uncharacterized protein (ColLi_12274), partial mRNA	Colletotrichum spaethianum
+2273241570	Colletotrichum lupini 26S proteasome subunit P45 family protein (CLUP02_06544), partial mRNA	Colletotrichum lupini
+2272110415	Daldinia decipiens P-loop containing nucleoside triphosphate hydrolase protein (F4813DRAFT_347274), mRNA	Daldinia decipiens
+2323763556	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_433729), mRNA	Gamsiella multidivaricata
+2273241570	Colletotrichum lupini 26S proteasome subunit P45 family protein (CLUP02_06544), partial mRNA	Colletotrichum lupini
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2324071733	Mucor mucedo SERCA-type calcium-translocating P-type ATPase (EV154DRAFT_63403), mRNA	Mucor mucedo
+2324066155	Cokeromyces recurvatus uncharacterized protein (BX663DRAFT_485506), partial mRNA	Cokeromyces recurvatus
+2272103146	Daldinia decipiens uncharacterized protein (F4813DRAFT_342022), mRNA	Daldinia decipiens
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272161636	Daldinia loculata TLD-domain-containing protein (F4817DRAFT_345283), mRNA	Daldinia loculata
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2273238372	Colletotrichum lupini uncharacterized protein (CLUP02_04935), partial mRNA	Colletotrichum lupini
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2234968496	Daldinia vernicosa ubiquitin-conjugating enzyme (F5Y00DRAFT_34840), mRNA	Daldinia vernicosa
+2272110366	Daldinia loculata uncharacterized protein (F4817DRAFT_363080), mRNA	Daldinia loculata
+2272247712	Candida oxycetoniae YPS7 (KGF56_000673), partial mRNA	Candida oxycetoniae
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2273218836	Hypoxylon fragiforme MFS general substrate transporter (GGS25DRAFT_495585), mRNA	Hypoxylon fragiforme
+2273219208	Hypoxylon fragiforme Ribokinase-like protein (GGS25DRAFT_496614), mRNA	Hypoxylon fragiforme
+2324078036	Mucor mucedo uncharacterized protein (EV154DRAFT_571577), partial mRNA	Mucor mucedo
+2272246671	Candida oxycetoniae ZDS1 (KGF56_000458), partial mRNA	Candida oxycetoniae
+2272265835	Candida oxycetoniae uncharacterized protein (KGF56_004852), partial mRNA	Candida oxycetoniae
+2323742089	Radiomyces spectabilis F/Y rich C-terminus-domain-containing protein (BYT42DRAFT_577739), mRNA	Radiomyces spectabilis
+2323770720	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_284138), mRNA	Gamsiella multidivaricata
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2272140308	Daldinia decipiens uncharacterized protein (F4813DRAFT_362167), mRNA	Daldinia decipiens
+2323758222	Halteromyces radiatus pyridoxine biosynthesis protein pyroA (BX664DRAFT_380878), partial mRNA	Halteromyces radiatus
+2325097472	Candida jiufengensis uncharacterized protein (KGF54_003464), partial mRNA	Candida jiufengensis
+2272256249	Candida oxycetoniae KEL2 (KGF56_002501), partial mRNA	Candida oxycetoniae
+2272260411	Candida oxycetoniae uncharacterized protein (KGF56_003167), partial mRNA	Candida oxycetoniae
+2272260411	Candida oxycetoniae uncharacterized protein (KGF56_003167), partial mRNA	Candida oxycetoniae
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2272254503	Candida oxycetoniae uncharacterized protein (KGF56_002139), partial mRNA	Candida oxycetoniae
+2272254503	Candida oxycetoniae uncharacterized protein (KGF56_002139), partial mRNA	Candida oxycetoniae
+2323812137	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_470664), mRNA	Gamsiella multidivaricata
+2323812137	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_470664), mRNA	Gamsiella multidivaricata
+2325081754	Candida theae uncharacterized protein (KGF57_004166), partial mRNA	Candida theae
+2234862986	Psilocybe cubensis uncharacterized protein (JR316_0007251), partial mRNA	Psilocybe cubensis
+2272093622	Ophidiomyces ophidiicola uncharacterized protein (LOZ57_002918), partial mRNA	Ophidiomyces ophidiicola
+2323778616	Gamsiella multidivaricata prolyl-tRNA synthetase (BC939DRAFT_450445), mRNA	Gamsiella multidivaricata
+2323778616	Gamsiella multidivaricata prolyl-tRNA synthetase (BC939DRAFT_450445), mRNA	Gamsiella multidivaricata
+2273211228	Hypoxylon fragiforme autophagy-related protein 27 (GGS25DRAFT_163591), mRNA	Hypoxylon fragiforme
+2323799870	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_495935), mRNA	Gamsiella multidivaricata
+2323981434	Tricharina praecox uncharacterized protein (BZA05DRAFT_437180), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272161636	Daldinia loculata TLD-domain-containing protein (F4817DRAFT_345283), mRNA	Daldinia loculata
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2273238372	Colletotrichum lupini uncharacterized protein (CLUP02_04935), partial mRNA	Colletotrichum lupini
+2234968496	Daldinia vernicosa ubiquitin-conjugating enzyme (F5Y00DRAFT_34840), mRNA	Daldinia vernicosa
+2272110366	Daldinia loculata uncharacterized protein (F4817DRAFT_363080), mRNA	Daldinia loculata
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2273218836	Hypoxylon fragiforme MFS general substrate transporter (GGS25DRAFT_495585), mRNA	Hypoxylon fragiforme
+2273219208	Hypoxylon fragiforme Ribokinase-like protein (GGS25DRAFT_496614), mRNA	Hypoxylon fragiforme
+2324078036	Mucor mucedo uncharacterized protein (EV154DRAFT_571577), partial mRNA	Mucor mucedo
+2272246671	Candida oxycetoniae ZDS1 (KGF56_000458), partial mRNA	Candida oxycetoniae
+2272247712	Candida oxycetoniae YPS7 (KGF56_000673), partial mRNA	Candida oxycetoniae
+2272265835	Candida oxycetoniae uncharacterized protein (KGF56_004852), partial mRNA	Candida oxycetoniae
+2323742089	Radiomyces spectabilis F/Y rich C-terminus-domain-containing protein (BYT42DRAFT_577739), mRNA	Radiomyces spectabilis
+2323836532	Emericellopsis cladophorae uncharacterized protein (J7T54_005645), partial mRNA	Emericellopsis cladophorae
+2234929049	Xylaria bambusicola osmosensing histidine protein kinase SLN1 (F5B22DRAFT_28093), mRNA	Xylaria bambusicola
+2272103146	Daldinia decipiens uncharacterized protein (F4813DRAFT_342022), mRNA	Daldinia decipiens
+2272110415	Daldinia decipiens P-loop containing nucleoside triphosphate hydrolase protein (F4813DRAFT_347274), mRNA	Daldinia decipiens
+2272174257	Daldinia decipiens uncharacterized protein (F4813DRAFT_321578), mRNA	Daldinia decipiens
+2272174257	Daldinia decipiens uncharacterized protein (F4813DRAFT_321578), mRNA	Daldinia decipiens
+2272126105	Daldinia loculata Phosphoacetylglucosamine mutase (F4817DRAFT_17281), mRNA	Daldinia loculata
+2323769540	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_566656), mRNA	Gilbertella persicaria
+2272103146	Daldinia decipiens uncharacterized protein (F4813DRAFT_342022), mRNA	Daldinia decipiens
+2234920169	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA	Puccinia striiformis f. sp. tritici
+2234920169	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA	Puccinia striiformis f. sp. tritici
+2234921753	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA	Puccinia striiformis f. sp. tritici
+2234921753	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA	Puccinia striiformis f. sp. tritici
+2272256586	Candida oxycetoniae uncharacterized protein (KGF56_002577), partial mRNA	Candida oxycetoniae
+2272244164	Candida oxycetoniae uncharacterized protein (KGF56_000042), partial mRNA	Candida oxycetoniae
+2325099603	Candida jiufengensis uncharacterized protein (KGF54_004529), partial mRNA	Candida jiufengensis
+2325068620	Candida theae APL4 (KGF57_000313), partial mRNA	Candida theae
+2323714399	Radiomyces spectabilis kinase-like domain-containing protein (BYT42DRAFT_611800), partial mRNA	Radiomyces spectabilis
+2292391646	Schizophyllum commune H4-8 cornichon (SCHCODRAFT_02631473), mRNA	Schizophyllum commune H4-8
+2234952732	Annulohypoxylon maeteangense uncharacterized protein (GGS22DRAFT_176739), mRNA	Annulohypoxylon maeteangense
+2234920169	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA	Puccinia striiformis f. sp. tritici
+2234921753	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA	Puccinia striiformis f. sp. tritici
+2272229936	Colletotrichum spaethianum uncharacterized protein (ColLi_12274), partial mRNA	Colletotrichum spaethianum
+429238777	Schizosaccharomyces pombe putative isoleucine--tRNA (Ile) ligase (SPCC18B5.08c), mRNA	fission yeast
+2273213398	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_530529), partial mRNA	Hypoxylon fragiforme
+2323732040	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_536293), mRNA	Gilbertella persicaria
+2323732040	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_536293), mRNA	Gilbertella persicaria
+2272256706	Candida oxycetoniae uncharacterized protein (KGF56_002604), partial mRNA	Candida oxycetoniae
+2272256706	Candida oxycetoniae uncharacterized protein (KGF56_002604), partial mRNA	Candida oxycetoniae
+2323764269	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_560656), mRNA	Gilbertella persicaria
+2323764269	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_560656), mRNA	Gilbertella persicaria
+2324056284	Mucor mucedo uncharacterized protein (EV154DRAFT_552542), partial mRNA	Mucor mucedo
+2324056284	Mucor mucedo uncharacterized protein (EV154DRAFT_552542), partial mRNA	Mucor mucedo
+2324086625	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_443793), partial mRNA	Cokeromyces recurvatus
+2324086625	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_443793), partial mRNA	Cokeromyces recurvatus
+2323770720	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_284138), mRNA	Gamsiella multidivaricata
+2273241570	Colletotrichum lupini 26S proteasome subunit P45 family protein (CLUP02_06544), partial mRNA	Colletotrichum lupini
+2324071733	Mucor mucedo SERCA-type calcium-translocating P-type ATPase (EV154DRAFT_63403), mRNA	Mucor mucedo
+2324066155	Cokeromyces recurvatus uncharacterized protein (BX663DRAFT_485506), partial mRNA	Cokeromyces recurvatus
+2325041201	Pisolithus orientalis kinase-like domain-containing protein (F5J12DRAFT_797939), mRNA	Pisolithus orientalis
+2325041201	Pisolithus orientalis kinase-like domain-containing protein (F5J12DRAFT_797939), mRNA	Pisolithus orientalis
+2292391646	Schizophyllum commune H4-8 cornichon (SCHCODRAFT_02631473), mRNA	Schizophyllum commune H4-8
+2273216528	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_490875), mRNA	Hypoxylon fragiforme
+2272173757	Wardomyces moseri uncharacterized protein (JN550_007696), partial mRNA	Neoarthrinium moseri
+2272150772	Daldinia loculata Rapamycin-insensitive companion of mTOR, N-term-domain-containing protein (F4817DRAFT_340716), mRNA	Daldinia loculata
+2272126105	Daldinia loculata Phosphoacetylglucosamine mutase (F4817DRAFT_17281), mRNA	Daldinia loculata
+2323969661	Tricharina praecox uncharacterized protein (BZA05DRAFT_388079), mRNA	Tricharina praecox
+2273218830	Hypoxylon fragiforme DNA mismatch repair protein MutL (GGS25DRAFT_331149), mRNA	Hypoxylon fragiforme
+2323984988	Durotheca rogersii uncharacterized protein (GGS23DRAFT_306768), mRNA	Durotheca rogersii
+2272258740	Candida oxycetoniae uncharacterized protein (KGF56_002872), partial mRNA	Candida oxycetoniae
+2323759723	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_556021), mRNA	Gilbertella persicaria
+2323978063	Tricharina praecox NADH-ubiquinone oxidoreductase-like protein B18 subunit (BZA05DRAFT_374094), mRNA	Tricharina praecox
+2323758222	Halteromyces radiatus pyridoxine biosynthesis protein pyroA (BX664DRAFT_380878), partial mRNA	Halteromyces radiatus
+296142595	Saccharomyces cerevisiae S288C Hsp70 family ATPase SSA3 (SSA3), partial mRNA	Saccharomyces cerevisiae S288C
+296142595	Saccharomyces cerevisiae S288C Hsp70 family ATPase SSA3 (SSA3), partial mRNA	Saccharomyces cerevisiae S288C
+2325079512	Candida pseudojiufengensis MSW1 (KGF55_002221), partial mRNA	Candida pseudojiufengensis
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2323763556	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_433729), mRNA	Gamsiella multidivaricata
+2272250031	Candida oxycetoniae uncharacterized protein (KGF56_001172), partial mRNA	Candida oxycetoniae
+2323770354	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_260281), mRNA	Gamsiella multidivaricata
+2235023947	Annulohypoxylon truncatum uncharacterized protein (F4807DRAFT_471259), mRNA	Annulohypoxylon truncatum
+2272173757	Wardomyces moseri uncharacterized protein (JN550_007696), partial mRNA	Neoarthrinium moseri
+2273216528	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_490875), mRNA	Hypoxylon fragiforme
+2273224882	Hypoxylon fragiforme homocitrate synthase (GGS25DRAFT_509393), mRNA	Hypoxylon fragiforme
+2273224882	Hypoxylon fragiforme homocitrate synthase (GGS25DRAFT_509393), mRNA	Hypoxylon fragiforme
+2273224882	Hypoxylon fragiforme homocitrate synthase (GGS25DRAFT_509393), mRNA	Hypoxylon fragiforme
+2273224882	Hypoxylon fragiforme homocitrate synthase (GGS25DRAFT_509393), mRNA	Hypoxylon fragiforme
+2323898837	Hypoxylon trugodes 26S proteasome subunit P45 family protein (F4822DRAFT_402930), mRNA	Hypoxylon trugodes
+2234930633	Xylaria bambusicola CTD kinase subunit gamma CTK3-domain-containing protein (F5B22DRAFT_585351), mRNA	Xylaria bambusicola
+2234930633	Xylaria bambusicola CTD kinase subunit gamma CTK3-domain-containing protein (F5B22DRAFT_585351), mRNA	Xylaria bambusicola
+2323971757	Tricharina praecox uncharacterized protein (BZA05DRAFT_236756), mRNA	Tricharina praecox
+2272229936	Colletotrichum spaethianum uncharacterized protein (ColLi_12274), partial mRNA	Colletotrichum spaethianum
+2324014373	Durotheca rogersii uncharacterized protein (GGS23DRAFT_589424), mRNA	Durotheca rogersii
+2324014373	Durotheca rogersii uncharacterized protein (GGS23DRAFT_589424), mRNA	Durotheca rogersii
+2234856260	Psilocybe cubensis uncharacterized protein (JR316_0005796), partial mRNA	Psilocybe cubensis
+2234875518	Psilocybe cubensis uncharacterized protein (JR316_0012778), partial mRNA	Psilocybe cubensis
+2272143369	Daldinia loculata uncharacterized protein (F4817DRAFT_337411), mRNA	Daldinia loculata
+2273211486	Hypoxylon fragiforme WD40 repeat-like protein (GGS25DRAFT_480426), mRNA	Hypoxylon fragiforme
+2323939722	Alternaria infectoria uncharacterized protein (J4E92_000572), partial mRNA	Alternaria infectoria
+2323965374	Alternaria infectoria Heat shock protein hsp98 (HSP98), partial mRNA	Alternaria infectoria
+2323965374	Alternaria infectoria Heat shock protein hsp98 (HSP98), partial mRNA	Alternaria infectoria
+2272486584	Alternaria hordeiaustralica Heat shock protein hsp98 (HSP98), partial mRNA	Alternaria hordeiaustralica
+2272486584	Alternaria hordeiaustralica Heat shock protein hsp98 (HSP98), partial mRNA	Alternaria hordeiaustralica
+2272103146	Daldinia decipiens uncharacterized protein (F4813DRAFT_342022), mRNA	Daldinia decipiens
+2235023947	Annulohypoxylon truncatum uncharacterized protein (F4807DRAFT_471259), mRNA	Annulohypoxylon truncatum
+2234856260	Psilocybe cubensis uncharacterized protein (JR316_0005796), partial mRNA	Psilocybe cubensis
+2234875518	Psilocybe cubensis uncharacterized protein (JR316_0012778), partial mRNA	Psilocybe cubensis
+2324014373	Durotheca rogersii uncharacterized protein (GGS23DRAFT_589424), mRNA	Durotheca rogersii
+2324014373	Durotheca rogersii uncharacterized protein (GGS23DRAFT_589424), mRNA	Durotheca rogersii
+2272143369	Daldinia loculata uncharacterized protein (F4817DRAFT_337411), mRNA	Daldinia loculata
+2273211486	Hypoxylon fragiforme WD40 repeat-like protein (GGS25DRAFT_480426), mRNA	Hypoxylon fragiforme
+2272103146	Daldinia decipiens uncharacterized protein (F4813DRAFT_342022), mRNA	Daldinia decipiens
+2235023947	Annulohypoxylon truncatum uncharacterized protein (F4807DRAFT_471259), mRNA	Annulohypoxylon truncatum
+2235006735	Daldinia vernicosa uncharacterized protein (F5Y00DRAFT_249040), mRNA	Daldinia vernicosa
+2323939722	Alternaria infectoria uncharacterized protein (J4E92_000572), partial mRNA	Alternaria infectoria
+2323766670	Gamsiella multidivaricata ammonium transporter AmtB-like domain-containing protein (BC939DRAFT_515886), partial mRNA	Gamsiella multidivaricata
+2324071733	Mucor mucedo SERCA-type calcium-translocating P-type ATPase (EV154DRAFT_63403), mRNA	Mucor mucedo
+2324066155	Cokeromyces recurvatus uncharacterized protein (BX663DRAFT_485506), partial mRNA	Cokeromyces recurvatus
+2272256586	Candida oxycetoniae uncharacterized protein (KGF56_002577), partial mRNA	Candida oxycetoniae
+2272244164	Candida oxycetoniae uncharacterized protein (KGF56_000042), partial mRNA	Candida oxycetoniae
+2325099603	Candida jiufengensis uncharacterized protein (KGF54_004529), partial mRNA	Candida jiufengensis
+2325068620	Candida theae APL4 (KGF57_000313), partial mRNA	Candida theae
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2234855022	Psilocybe cubensis uncharacterized protein (JR316_0005644), partial mRNA	Psilocybe cubensis
+2234968496	Daldinia vernicosa ubiquitin-conjugating enzyme (F5Y00DRAFT_34840), mRNA	Daldinia vernicosa
+2272110366	Daldinia loculata uncharacterized protein (F4817DRAFT_363080), mRNA	Daldinia loculata
+2272262020	Candida oxycetoniae MUM2 (KGF56_003621), partial mRNA	Candida oxycetoniae
+2273213156	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_208028), mRNA	Hypoxylon fragiforme
+2273218836	Hypoxylon fragiforme MFS general substrate transporter (GGS25DRAFT_495585), mRNA	Hypoxylon fragiforme
+2273219208	Hypoxylon fragiforme Ribokinase-like protein (GGS25DRAFT_496614), mRNA	Hypoxylon fragiforme
+2323742089	Radiomyces spectabilis F/Y rich C-terminus-domain-containing protein (BYT42DRAFT_577739), mRNA	Radiomyces spectabilis
+2324078036	Mucor mucedo uncharacterized protein (EV154DRAFT_571577), partial mRNA	Mucor mucedo
+2325041201	Pisolithus orientalis kinase-like domain-containing protein (F5J12DRAFT_797939), mRNA	Pisolithus orientalis
+2273216832	Hypoxylon fragiforme alpha/beta-hydrolase (GGS25DRAFT_491412), mRNA	Hypoxylon fragiforme
+2325078926	Candida theae uncharacterized protein (KGF57_003417), partial mRNA	Candida theae
+2325473717	Candida margitis SKO1 (CANMA_004472), partial mRNA	Candida margitis
+2325085558	Candida theae TAF12 (KGF57_005093), partial mRNA	Candida theae
+2325086402	Candida theae ufd2 (KGF57_005299), partial mRNA	Candida theae
+2235006735	Daldinia vernicosa uncharacterized protein (F5Y00DRAFT_249040), mRNA	Daldinia vernicosa
+2235006735	Daldinia vernicosa uncharacterized protein (F5Y00DRAFT_249040), mRNA	Daldinia vernicosa
+2324071733	Mucor mucedo SERCA-type calcium-translocating P-type ATPase (EV154DRAFT_63403), mRNA	Mucor mucedo
+2324066155	Cokeromyces recurvatus uncharacterized protein (BX663DRAFT_485506), partial mRNA	Cokeromyces recurvatus
+2272126105	Daldinia loculata Phosphoacetylglucosamine mutase (F4817DRAFT_17281), mRNA	Daldinia loculata
+2235023947	Annulohypoxylon truncatum uncharacterized protein (F4807DRAFT_471259), mRNA	Annulohypoxylon truncatum
+2234856260	Psilocybe cubensis uncharacterized protein (JR316_0005796), partial mRNA	Psilocybe cubensis
+2234860820	Psilocybe cubensis uncharacterized protein (JR316_0006799), partial mRNA	Psilocybe cubensis
+2324071733	Mucor mucedo SERCA-type calcium-translocating P-type ATPase (EV154DRAFT_63403), mRNA	Mucor mucedo
+2324066155	Cokeromyces recurvatus uncharacterized protein (BX663DRAFT_485506), partial mRNA	Cokeromyces recurvatus
+2234920169	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA	Puccinia striiformis f. sp. tritici
+2234920169	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_031828), partial mRNA	Puccinia striiformis f. sp. tritici
+2234921753	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA	Puccinia striiformis f. sp. tritici
+2234921753	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_032969), partial mRNA	Puccinia striiformis f. sp. tritici
+2292406649	Schizophyllum commune H4-8 uncharacterized protein (SCHCODRAFT_02752522), mRNA	Schizophyllum commune H4-8
+2292406649	Schizophyllum commune H4-8 uncharacterized protein (SCHCODRAFT_02752522), mRNA	Schizophyllum commune H4-8
+2292406649	Schizophyllum commune H4-8 uncharacterized protein (SCHCODRAFT_02752522), mRNA	Schizophyllum commune H4-8
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+296142595	Saccharomyces cerevisiae S288C Hsp70 family ATPase SSA3 (SSA3), partial mRNA	Saccharomyces cerevisiae S288C
+2323939722	Alternaria infectoria uncharacterized protein (J4E92_000572), partial mRNA	Alternaria infectoria
+2323939722	Alternaria infectoria uncharacterized protein (J4E92_000572), partial mRNA	Alternaria infectoria
+2235023947	Annulohypoxylon truncatum uncharacterized protein (F4807DRAFT_471259), mRNA	Annulohypoxylon truncatum
+2272162871	Daldinia decipiens uncharacterized protein (F4813DRAFT_235098), mRNA	Daldinia decipiens
+2272119137	Daldinia loculata 26S proteasome regulatory complex, non-ATPase subcomplex, Rpn1 subunit (F4817DRAFT_327110), mRNA	Daldinia loculata
+2234860428	Fulvia fulva uncharacterized protein (CLAFUR5_13170), partial mRNA	Fulvia fulva
+2234860428	Fulvia fulva uncharacterized protein (CLAFUR5_13170), partial mRNA	Fulvia fulva
+2234860428	Fulvia fulva uncharacterized protein (CLAFUR5_13170), partial mRNA	Fulvia fulva
+2234860428	Fulvia fulva uncharacterized protein (CLAFUR5_13170), partial mRNA	Fulvia fulva
+2234860428	Fulvia fulva uncharacterized protein (CLAFUR5_13170), partial mRNA	Fulvia fulva
+2234860428	Fulvia fulva uncharacterized protein (CLAFUR5_13170), partial mRNA	Fulvia fulva
+2234860428	Fulvia fulva uncharacterized protein (CLAFUR5_13170), partial mRNA	Fulvia fulva
+2234860428	Fulvia fulva uncharacterized protein (CLAFUR5_13170), partial mRNA	Fulvia fulva
+2234860428	Fulvia fulva uncharacterized protein (CLAFUR5_13170), partial mRNA	Fulvia fulva
+2234860428	Fulvia fulva uncharacterized protein (CLAFUR5_13170), partial mRNA	Fulvia fulva
+2234860428	Fulvia fulva uncharacterized protein (CLAFUR5_13170), partial mRNA	Fulvia fulva
+2234860428	Fulvia fulva uncharacterized protein (CLAFUR5_13170), partial mRNA	Fulvia fulva
+2272253532	Candida oxycetoniae MHP1 (KGF56_001974), partial mRNA	Candida oxycetoniae
+2323965528	Tricharina praecox uncharacterized protein (BZA05DRAFT_319441), partial mRNA	Tricharina praecox
+2272162871	Daldinia decipiens uncharacterized protein (F4813DRAFT_235098), mRNA	Daldinia decipiens
+2272119137	Daldinia loculata 26S proteasome regulatory complex, non-ATPase subcomplex, Rpn1 subunit (F4817DRAFT_327110), mRNA	Daldinia loculata
+2323758222	Halteromyces radiatus pyridoxine biosynthesis protein pyroA (BX664DRAFT_380878), partial mRNA	Halteromyces radiatus
+2323939722	Alternaria infectoria uncharacterized protein (J4E92_000572), partial mRNA	Alternaria infectoria
+2234866886	Psilocybe cubensis uncharacterized protein (JR316_0008426), partial mRNA	Psilocybe cubensis
+2273216528	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_490875), mRNA	Hypoxylon fragiforme
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2272256249	Candida oxycetoniae KEL2 (KGF56_002501), partial mRNA	Candida oxycetoniae
+2272256249	Candida oxycetoniae KEL2 (KGF56_002501), partial mRNA	Candida oxycetoniae
+2272260411	Candida oxycetoniae uncharacterized protein (KGF56_003167), partial mRNA	Candida oxycetoniae
+2272260411	Candida oxycetoniae uncharacterized protein (KGF56_003167), partial mRNA	Candida oxycetoniae
+2272260411	Candida oxycetoniae uncharacterized protein (KGF56_003167), partial mRNA	Candida oxycetoniae
+2272260411	Candida oxycetoniae uncharacterized protein (KGF56_003167), partial mRNA	Candida oxycetoniae
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2272254503	Candida oxycetoniae uncharacterized protein (KGF56_002139), partial mRNA	Candida oxycetoniae
+2272254503	Candida oxycetoniae uncharacterized protein (KGF56_002139), partial mRNA	Candida oxycetoniae
+2272254503	Candida oxycetoniae uncharacterized protein (KGF56_002139), partial mRNA	Candida oxycetoniae
+2272254503	Candida oxycetoniae uncharacterized protein (KGF56_002139), partial mRNA	Candida oxycetoniae
+2323812137	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_470664), mRNA	Gamsiella multidivaricata
+2323812137	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_470664), mRNA	Gamsiella multidivaricata
+2323812137	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_470664), mRNA	Gamsiella multidivaricata
+2323812137	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_470664), mRNA	Gamsiella multidivaricata
+2325081754	Candida theae uncharacterized protein (KGF57_004166), partial mRNA	Candida theae
+2325081754	Candida theae uncharacterized protein (KGF57_004166), partial mRNA	Candida theae
+2234862986	Psilocybe cubensis uncharacterized protein (JR316_0007251), partial mRNA	Psilocybe cubensis
+2234862986	Psilocybe cubensis uncharacterized protein (JR316_0007251), partial mRNA	Psilocybe cubensis
+2272093622	Ophidiomyces ophidiicola uncharacterized protein (LOZ57_002918), partial mRNA	Ophidiomyces ophidiicola
+2272093622	Ophidiomyces ophidiicola uncharacterized protein (LOZ57_002918), partial mRNA	Ophidiomyces ophidiicola
+2323778616	Gamsiella multidivaricata prolyl-tRNA synthetase (BC939DRAFT_450445), mRNA	Gamsiella multidivaricata
+2323778616	Gamsiella multidivaricata prolyl-tRNA synthetase (BC939DRAFT_450445), mRNA	Gamsiella multidivaricata
+2323778616	Gamsiella multidivaricata prolyl-tRNA synthetase (BC939DRAFT_450445), mRNA	Gamsiella multidivaricata
+2323778616	Gamsiella multidivaricata prolyl-tRNA synthetase (BC939DRAFT_450445), mRNA	Gamsiella multidivaricata
+2273211228	Hypoxylon fragiforme autophagy-related protein 27 (GGS25DRAFT_163591), mRNA	Hypoxylon fragiforme
+2273211228	Hypoxylon fragiforme autophagy-related protein 27 (GGS25DRAFT_163591), mRNA	Hypoxylon fragiforme
+2323799870	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_495935), mRNA	Gamsiella multidivaricata
+2323799870	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_495935), mRNA	Gamsiella multidivaricata
+2323981434	Tricharina praecox uncharacterized protein (BZA05DRAFT_437180), partial mRNA	Tricharina praecox
+2323981434	Tricharina praecox uncharacterized protein (BZA05DRAFT_437180), partial mRNA	Tricharina praecox
+2272142403	Daldinia loculata uncharacterized protein (F4817DRAFT_103910), mRNA	Daldinia loculata
+2272173757	Wardomyces moseri uncharacterized protein (JN550_007696), partial mRNA	Neoarthrinium moseri
+2272140820	Wardomyces moseri uncharacterized protein (JN550_003112), partial mRNA	Neoarthrinium moseri
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272161636	Daldinia loculata TLD-domain-containing protein (F4817DRAFT_345283), mRNA	Daldinia loculata
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2273238372	Colletotrichum lupini uncharacterized protein (CLUP02_04935), partial mRNA	Colletotrichum lupini
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2234968496	Daldinia vernicosa ubiquitin-conjugating enzyme (F5Y00DRAFT_34840), mRNA	Daldinia vernicosa
+2272110366	Daldinia loculata uncharacterized protein (F4817DRAFT_363080), mRNA	Daldinia loculata
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2273218836	Hypoxylon fragiforme MFS general substrate transporter (GGS25DRAFT_495585), mRNA	Hypoxylon fragiforme
+2273219208	Hypoxylon fragiforme Ribokinase-like protein (GGS25DRAFT_496614), mRNA	Hypoxylon fragiforme
+2324078036	Mucor mucedo uncharacterized protein (EV154DRAFT_571577), partial mRNA	Mucor mucedo
+2272246671	Candida oxycetoniae ZDS1 (KGF56_000458), partial mRNA	Candida oxycetoniae
+2272247712	Candida oxycetoniae YPS7 (KGF56_000673), partial mRNA	Candida oxycetoniae
+2272265835	Candida oxycetoniae uncharacterized protein (KGF56_004852), partial mRNA	Candida oxycetoniae
+2323742089	Radiomyces spectabilis F/Y rich C-terminus-domain-containing protein (BYT42DRAFT_577739), mRNA	Radiomyces spectabilis
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+429238777	Schizosaccharomyces pombe putative isoleucine--tRNA (Ile) ligase (SPCC18B5.08c), mRNA	fission yeast
+2272250031	Candida oxycetoniae uncharacterized protein (KGF56_001172), partial mRNA	Candida oxycetoniae
+2323770354	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_260281), mRNA	Gamsiella multidivaricata
+2273220638	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_499794), mRNA	Hypoxylon fragiforme
+2272126105	Daldinia loculata Phosphoacetylglucosamine mutase (F4817DRAFT_17281), mRNA	Daldinia loculata
+2272110415	Daldinia decipiens P-loop containing nucleoside triphosphate hydrolase protein (F4813DRAFT_347274), mRNA	Daldinia decipiens
+2235000375	Annulohypoxylon truncatum CCR4-Not complex subunit Caf16 (F4807DRAFT_405392), mRNA	Annulohypoxylon truncatum
+2235023947	Annulohypoxylon truncatum uncharacterized protein (F4807DRAFT_471259), mRNA	Annulohypoxylon truncatum
+2234898216	Puccinia striiformis f. sp. tritici uncharacterized protein (Pst134EA_019618), mRNA	Puccinia striiformis f. sp. tritici
+2272250031	Candida oxycetoniae uncharacterized protein (KGF56_001172), partial mRNA	Candida oxycetoniae
+2323770354	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_260281), mRNA	Gamsiella multidivaricata
+2234930633	Xylaria bambusicola CTD kinase subunit gamma CTK3-domain-containing protein (F5B22DRAFT_585351), mRNA	Xylaria bambusicola
+2234930633	Xylaria bambusicola CTD kinase subunit gamma CTK3-domain-containing protein (F5B22DRAFT_585351), mRNA	Xylaria bambusicola
+2323971757	Tricharina praecox uncharacterized protein (BZA05DRAFT_236756), mRNA	Tricharina praecox
+2272103146	Daldinia decipiens uncharacterized protein (F4813DRAFT_342022), mRNA	Daldinia decipiens
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272161636	Daldinia loculata TLD-domain-containing protein (F4817DRAFT_345283), mRNA	Daldinia loculata
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2273238372	Colletotrichum lupini uncharacterized protein (CLUP02_04935), partial mRNA	Colletotrichum lupini
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2234968496	Daldinia vernicosa ubiquitin-conjugating enzyme (F5Y00DRAFT_34840), mRNA	Daldinia vernicosa
+2272110366	Daldinia loculata uncharacterized protein (F4817DRAFT_363080), mRNA	Daldinia loculata
+2272247712	Candida oxycetoniae YPS7 (KGF56_000673), partial mRNA	Candida oxycetoniae
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2273218836	Hypoxylon fragiforme MFS general substrate transporter (GGS25DRAFT_495585), mRNA	Hypoxylon fragiforme
+2273219208	Hypoxylon fragiforme Ribokinase-like protein (GGS25DRAFT_496614), mRNA	Hypoxylon fragiforme
+2324078036	Mucor mucedo uncharacterized protein (EV154DRAFT_571577), partial mRNA	Mucor mucedo
+2272246671	Candida oxycetoniae ZDS1 (KGF56_000458), partial mRNA	Candida oxycetoniae
+2272265835	Candida oxycetoniae uncharacterized protein (KGF56_004852), partial mRNA	Candida oxycetoniae
+2323742089	Radiomyces spectabilis F/Y rich C-terminus-domain-containing protein (BYT42DRAFT_577739), mRNA	Radiomyces spectabilis
+2323758222	Halteromyces radiatus pyridoxine biosynthesis protein pyroA (BX664DRAFT_380878), partial mRNA	Halteromyces radiatus
+2272256586	Candida oxycetoniae uncharacterized protein (KGF56_002577), partial mRNA	Candida oxycetoniae
+2272244164	Candida oxycetoniae uncharacterized protein (KGF56_000042), partial mRNA	Candida oxycetoniae
+2325099603	Candida jiufengensis uncharacterized protein (KGF54_004529), partial mRNA	Candida jiufengensis
+2325068620	Candida theae APL4 (KGF57_000313), partial mRNA	Candida theae
+2272162871	Daldinia decipiens uncharacterized protein (F4813DRAFT_235098), mRNA	Daldinia decipiens
+2272119137	Daldinia loculata 26S proteasome regulatory complex, non-ATPase subcomplex, Rpn1 subunit (F4817DRAFT_327110), mRNA	Daldinia loculata
+2234930633	Xylaria bambusicola CTD kinase subunit gamma CTK3-domain-containing protein (F5B22DRAFT_585351), mRNA	Xylaria bambusicola
+2323971757	Tricharina praecox uncharacterized protein (BZA05DRAFT_236756), mRNA	Tricharina praecox
+2323979850	Tricharina praecox uncharacterized protein (BZA05DRAFT_68296), mRNA	Tricharina praecox
+2323979850	Tricharina praecox uncharacterized protein (BZA05DRAFT_68296), mRNA	Tricharina praecox
+2323979854	Tricharina praecox uncharacterized protein (BZA05DRAFT_400841), mRNA	Tricharina praecox
+2323979854	Tricharina praecox uncharacterized protein (BZA05DRAFT_400841), mRNA	Tricharina praecox
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2234846529	Psilocybe cubensis uncharacterized protein (JR316_0003907), partial mRNA	Psilocybe cubensis
+2272118022	Wardomyces moseri uncharacterized protein (JN550_000040), partial mRNA	Neoarthrinium moseri
+2325071158	Candida theae uncharacterized protein (KGF57_001406), partial mRNA	Candida theae
+2272111436	Daldinia decipiens P-loop containing nucleoside triphosphate hydrolase protein (F4813DRAFT_386085), partial mRNA	Daldinia decipiens
+2272119260	Daldinia decipiens uncharacterized protein (F4813DRAFT_328762), mRNA	Daldinia decipiens
+2235000375	Annulohypoxylon truncatum CCR4-Not complex subunit Caf16 (F4807DRAFT_405392), mRNA	Annulohypoxylon truncatum
+2273213398	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_530529), partial mRNA	Hypoxylon fragiforme
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272161636	Daldinia loculata TLD-domain-containing protein (F4817DRAFT_345283), mRNA	Daldinia loculata
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2273238372	Colletotrichum lupini uncharacterized protein (CLUP02_04935), partial mRNA	Colletotrichum lupini
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2234968496	Daldinia vernicosa ubiquitin-conjugating enzyme (F5Y00DRAFT_34840), mRNA	Daldinia vernicosa
+2272110366	Daldinia loculata uncharacterized protein (F4817DRAFT_363080), mRNA	Daldinia loculata
+2272247712	Candida oxycetoniae YPS7 (KGF56_000673), partial mRNA	Candida oxycetoniae
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2273218836	Hypoxylon fragiforme MFS general substrate transporter (GGS25DRAFT_495585), mRNA	Hypoxylon fragiforme
+2273219208	Hypoxylon fragiforme Ribokinase-like protein (GGS25DRAFT_496614), mRNA	Hypoxylon fragiforme
+2324078036	Mucor mucedo uncharacterized protein (EV154DRAFT_571577), partial mRNA	Mucor mucedo
+2272246671	Candida oxycetoniae ZDS1 (KGF56_000458), partial mRNA	Candida oxycetoniae
+2272265835	Candida oxycetoniae uncharacterized protein (KGF56_004852), partial mRNA	Candida oxycetoniae
+2323742089	Radiomyces spectabilis F/Y rich C-terminus-domain-containing protein (BYT42DRAFT_577739), mRNA	Radiomyces spectabilis
+2234929049	Xylaria bambusicola osmosensing histidine protein kinase SLN1 (F5B22DRAFT_28093), mRNA	Xylaria bambusicola
+429238777	Schizosaccharomyces pombe putative isoleucine--tRNA (Ile) ligase (SPCC18B5.08c), mRNA	fission yeast
+2323732040	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_536293), mRNA	Gilbertella persicaria
+2272256706	Candida oxycetoniae uncharacterized protein (KGF56_002604), partial mRNA	Candida oxycetoniae
+2323764269	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_560656), mRNA	Gilbertella persicaria
+2324056284	Mucor mucedo uncharacterized protein (EV154DRAFT_552542), partial mRNA	Mucor mucedo
+2324086625	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_443793), partial mRNA	Cokeromyces recurvatus
+2323763556	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_433729), mRNA	Gamsiella multidivaricata
+2324071733	Mucor mucedo SERCA-type calcium-translocating P-type ATPase (EV154DRAFT_63403), mRNA	Mucor mucedo
+2324066155	Cokeromyces recurvatus uncharacterized protein (BX663DRAFT_485506), partial mRNA	Cokeromyces recurvatus
+2272255379	Candida oxycetoniae uncharacterized protein (KGF56_002343), partial mRNA	Candida oxycetoniae
+2323758222	Halteromyces radiatus pyridoxine biosynthesis protein pyroA (BX664DRAFT_380878), partial mRNA	Halteromyces radiatus
+2234876376	Psilocybe cubensis uncharacterized protein (JR316_0013214), partial mRNA	Psilocybe cubensis
+2272456247	Alternaria ventricosa uncharacterized protein (J4E93_010608), partial mRNA	Alternaria ventricosa
+2323935062	Alternaria incomplexa uncharacterized protein (J4E90_006897), partial mRNA	Alternaria incomplexa
+2325465701	Candida margitis uncharacterized protein (CANMA_000496), partial mRNA	Candida margitis
+2323741360	Radiomyces spectabilis WD40-repeat-containing domain protein (BYT42DRAFT_577189), mRNA	Radiomyces spectabilis
+2324021319	Kickxella alabastrina armadillo-type protein (BX661DRAFT_188921), mRNA	Kickxella alabastrina
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272161636	Daldinia loculata TLD-domain-containing protein (F4817DRAFT_345283), mRNA	Daldinia loculata
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2273238372	Colletotrichum lupini uncharacterized protein (CLUP02_04935), partial mRNA	Colletotrichum lupini
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2234968496	Daldinia vernicosa ubiquitin-conjugating enzyme (F5Y00DRAFT_34840), mRNA	Daldinia vernicosa
+2272110366	Daldinia loculata uncharacterized protein (F4817DRAFT_363080), mRNA	Daldinia loculata
+2272247712	Candida oxycetoniae YPS7 (KGF56_000673), partial mRNA	Candida oxycetoniae
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2273218836	Hypoxylon fragiforme MFS general substrate transporter (GGS25DRAFT_495585), mRNA	Hypoxylon fragiforme
+2273219208	Hypoxylon fragiforme Ribokinase-like protein (GGS25DRAFT_496614), mRNA	Hypoxylon fragiforme
+2324078036	Mucor mucedo uncharacterized protein (EV154DRAFT_571577), partial mRNA	Mucor mucedo
+2272246671	Candida oxycetoniae ZDS1 (KGF56_000458), partial mRNA	Candida oxycetoniae
+2272265835	Candida oxycetoniae uncharacterized protein (KGF56_004852), partial mRNA	Candida oxycetoniae
+2323742089	Radiomyces spectabilis F/Y rich C-terminus-domain-containing protein (BYT42DRAFT_577739), mRNA	Radiomyces spectabilis
+2273213398	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_530529), partial mRNA	Hypoxylon fragiforme
+2272140820	Wardomyces moseri uncharacterized protein (JN550_003112), partial mRNA	Neoarthrinium moseri
+2272103146	Daldinia decipiens uncharacterized protein (F4813DRAFT_342022), mRNA	Daldinia decipiens
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323967976	Tricharina praecox uncharacterized protein (BZA05DRAFT_109428), mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2323974623	Tricharina praecox uncharacterized protein (BZA05DRAFT_468737), partial mRNA	Tricharina praecox
+2272140308	Daldinia decipiens uncharacterized protein (F4813DRAFT_362167), mRNA	Daldinia decipiens
+67525288	Aspergillus nidulans FGSC A4 protein phkA (ANIA_03102), partial mRNA	Aspergillus nidulans FGSC A4
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324052523	Mucor mucedo uncharacterized protein (EV154DRAFT_588876), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324055824	Mucor mucedo uncharacterized protein (EV154DRAFT_590657), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072423	Mucor mucedo uncharacterized protein (EV154DRAFT_606752), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2324072451	Mucor mucedo uncharacterized protein (EV154DRAFT_569337), partial mRNA	Mucor mucedo
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2325078894	Candida theae uncharacterized protein (KGF57_003409), partial mRNA	Candida theae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272253864	Candida oxycetoniae IML2 (KGF56_002029), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2272258595	Candida oxycetoniae uncharacterized protein (KGF56_002846), partial mRNA	Candida oxycetoniae
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324066104	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_535980), mRNA	Cokeromyces recurvatus
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2324073005	Mucor mucedo uncharacterized protein (EV154DRAFT_569564), partial mRNA	Mucor mucedo
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2325076488	Candida theae CAT8 (KGF57_002781), partial mRNA	Candida theae
+2272264215	Candida oxycetoniae FUN31 (KGF56_004299), partial mRNA	Candida oxycetoniae
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272149507	Daldinia decipiens uncharacterized protein (F4813DRAFT_391376), partial mRNA	Daldinia decipiens
+2272161636	Daldinia loculata TLD-domain-containing protein (F4817DRAFT_345283), mRNA	Daldinia loculata
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2272469517	Alternaria hordeiaustralica uncharacterized protein (J4E84_002003), partial mRNA	Alternaria hordeiaustralica
+2273238372	Colletotrichum lupini uncharacterized protein (CLUP02_04935), partial mRNA	Colletotrichum lupini
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
+2234968496	Daldinia vernicosa ubiquitin-conjugating enzyme (F5Y00DRAFT_34840), mRNA	Daldinia vernicosa
+2272110366	Daldinia loculata uncharacterized protein (F4817DRAFT_363080), mRNA	Daldinia loculata
+2272247712	Candida oxycetoniae YPS7 (KGF56_000673), partial mRNA	Candida oxycetoniae
+2272258989	Candida oxycetoniae uncharacterized protein (KGF56_002906), partial mRNA	Candida oxycetoniae
+2273218836	Hypoxylon fragiforme MFS general substrate transporter (GGS25DRAFT_495585), mRNA	Hypoxylon fragiforme
+2273219208	Hypoxylon fragiforme Ribokinase-like protein (GGS25DRAFT_496614), mRNA	Hypoxylon fragiforme
+2324078036	Mucor mucedo uncharacterized protein (EV154DRAFT_571577), partial mRNA	Mucor mucedo
+2272246671	Candida oxycetoniae ZDS1 (KGF56_000458), partial mRNA	Candida oxycetoniae
+2272265835	Candida oxycetoniae uncharacterized protein (KGF56_004852), partial mRNA	Candida oxycetoniae
+2323742089	Radiomyces spectabilis F/Y rich C-terminus-domain-containing protein (BYT42DRAFT_577739), mRNA	Radiomyces spectabilis
+2272173757	Wardomyces moseri uncharacterized protein (JN550_007696), partial mRNA	Neoarthrinium moseri
+2272103146	Daldinia decipiens uncharacterized protein (F4813DRAFT_342022), mRNA	Daldinia decipiens
+2234856260	Psilocybe cubensis uncharacterized protein (JR316_0005796), partial mRNA	Psilocybe cubensis
+2323774962	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_501355), partial mRNA	Gamsiella multidivaricata
+2273215696	Hypoxylon fragiforme translation elongation factor Tu (GGS25DRAFT_489114), mRNA	Hypoxylon fragiforme
+2323758222	Halteromyces radiatus pyridoxine biosynthesis protein pyroA (BX664DRAFT_380878), partial mRNA	Halteromyces radiatus
+2292391646	Schizophyllum commune H4-8 cornichon (SCHCODRAFT_02631473), mRNA	Schizophyllum commune H4-8
+2323939722	Alternaria infectoria uncharacterized protein (J4E92_000572), partial mRNA	Alternaria infectoria
+2273241570	Colletotrichum lupini 26S proteasome subunit P45 family protein (CLUP02_06544), partial mRNA	Colletotrichum lupini
+2323732040	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_536293), mRNA	Gilbertella persicaria
+2272256706	Candida oxycetoniae uncharacterized protein (KGF56_002604), partial mRNA	Candida oxycetoniae
+2323764269	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_560656), mRNA	Gilbertella persicaria
+2324056284	Mucor mucedo uncharacterized protein (EV154DRAFT_552542), partial mRNA	Mucor mucedo
+2324086625	Cokeromyces recurvatus WD40-repeat-containing domain protein (BX663DRAFT_443793), partial mRNA	Cokeromyces recurvatus
+2323969661	Tricharina praecox uncharacterized protein (BZA05DRAFT_388079), mRNA	Tricharina praecox
+2273218830	Hypoxylon fragiforme DNA mismatch repair protein MutL (GGS25DRAFT_331149), mRNA	Hypoxylon fragiforme
+2323984988	Durotheca rogersii uncharacterized protein (GGS23DRAFT_306768), mRNA	Durotheca rogersii
+2272258740	Candida oxycetoniae uncharacterized protein (KGF56_002872), partial mRNA	Candida oxycetoniae
+2323759723	Gilbertella persicaria uncharacterized protein (B0P05DRAFT_556021), mRNA	Gilbertella persicaria
+2273213398	Hypoxylon fragiforme uncharacterized protein (GGS25DRAFT_530529), partial mRNA	Hypoxylon fragiforme
+2272126105	Daldinia loculata Phosphoacetylglucosamine mutase (F4817DRAFT_17281), mRNA	Daldinia loculata
+2272256586	Candida oxycetoniae uncharacterized protein (KGF56_002577), partial mRNA	Candida oxycetoniae
+2272244164	Candida oxycetoniae uncharacterized protein (KGF56_000042), partial mRNA	Candida oxycetoniae
+2325099603	Candida jiufengensis uncharacterized protein (KGF54_004529), partial mRNA	Candida jiufengensis
+2325068620	Candida theae APL4 (KGF57_000313), partial mRNA	Candida theae
+2323980490	Durotheca rogersii NAD(P)-binding protein (GGS23DRAFT_179476), mRNA	Durotheca rogersii
+2273251806	Colletotrichum lupini short-chain dehydrogenase (CLUP02_11692), partial mRNA	Colletotrichum lupini
+2292390169	Schizophyllum commune H4-8 NAD(P)-binding protein (SCHCODRAFT_02628184), mRNA	Schizophyllum commune H4-8
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2323758222	Halteromyces radiatus pyridoxine biosynthesis protein pyroA (BX664DRAFT_380878), partial mRNA	Halteromyces radiatus
+2272229936	Colletotrichum spaethianum uncharacterized protein (ColLi_12274), partial mRNA	Colletotrichum spaethianum
+2273241570	Colletotrichum lupini 26S proteasome subunit P45 family protein (CLUP02_06544), partial mRNA	Colletotrichum lupini
+2272110415	Daldinia decipiens P-loop containing nucleoside triphosphate hydrolase protein (F4813DRAFT_347274), mRNA	Daldinia decipiens
+2323763556	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_433729), mRNA	Gamsiella multidivaricata
+2273241570	Colletotrichum lupini 26S proteasome subunit P45 family protein (CLUP02_06544), partial mRNA	Colletotrichum lupini
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773105	Gamsiella multidivaricata COQ9-domain-containing protein (BC939DRAFT_442903), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2323773107	Gamsiella multidivaricata oxidative stress survival, Svf1-like protein (BC939DRAFT_442905), mRNA	Gamsiella multidivaricata
+2324071733	Mucor mucedo SERCA-type calcium-translocating P-type ATPase (EV154DRAFT_63403), mRNA	Mucor mucedo
+2324066155	Cokeromyces recurvatus uncharacterized protein (BX663DRAFT_485506), partial mRNA	Cokeromyces recurvatus
+2272103146	Daldinia decipiens uncharacterized protein (F4813DRAFT_342022), mRNA	Daldinia decipiens
+2323770720	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_284138), mRNA	Gamsiella multidivaricata
+2234875518	Psilocybe cubensis uncharacterized protein (JR316_0012778), partial mRNA	Psilocybe cubensis
+2301321518	Aspergillus nidulans FGSC A4 hypothetical protein (ANIA_06914), partial mRNA	Aspergillus nidulans FGSC A4
+2325097472	Candida jiufengensis uncharacterized protein (KGF54_003464), partial mRNA	Candida jiufengensis
+2272256249	Candida oxycetoniae KEL2 (KGF56_002501), partial mRNA	Candida oxycetoniae
+2272260411	Candida oxycetoniae uncharacterized protein (KGF56_003167), partial mRNA	Candida oxycetoniae
+2272260411	Candida oxycetoniae uncharacterized protein (KGF56_003167), partial mRNA	Candida oxycetoniae
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2234847799	Psilocybe cubensis uncharacterized protein (JR316_0004181), partial mRNA	Psilocybe cubensis
+2272254503	Candida oxycetoniae uncharacterized protein (KGF56_002139), partial mRNA	Candida oxycetoniae
+2272254503	Candida oxycetoniae uncharacterized protein (KGF56_002139), partial mRNA	Candida oxycetoniae
+2323812137	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_470664), mRNA	Gamsiella multidivaricata
+2323812137	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_470664), mRNA	Gamsiella multidivaricata
+2325081754	Candida theae uncharacterized protein (KGF57_004166), partial mRNA	Candida theae
+2234862986	Psilocybe cubensis uncharacterized protein (JR316_0007251), partial mRNA	Psilocybe cubensis
+2272093622	Ophidiomyces ophidiicola uncharacterized protein (LOZ57_002918), partial mRNA	Ophidiomyces ophidiicola
+2323778616	Gamsiella multidivaricata prolyl-tRNA synthetase (BC939DRAFT_450445), mRNA	Gamsiella multidivaricata
+2323778616	Gamsiella multidivaricata prolyl-tRNA synthetase (BC939DRAFT_450445), mRNA	Gamsiella multidivaricata
+2273211228	Hypoxylon fragiforme autophagy-related protein 27 (GGS25DRAFT_163591), mRNA	Hypoxylon fragiforme
+2323799870	Gamsiella multidivaricata uncharacterized protein (BC939DRAFT_495935), mRNA	Gamsiella multidivaricata
+2323981434	Tricharina praecox uncharacterized protein (BZA05DRAFT_437180), partial mRNA	Tricharina praecox
+2323974341	Tricharina praecox uncharacterized protein (BZA05DRAFT_444190), partial mRNA	Tricharina praecox
