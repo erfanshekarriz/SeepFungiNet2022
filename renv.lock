@@ -324,10 +324,10 @@
     },
     "Matrix": {
       "Package": "Matrix",
-      "Version": "1.5-1",
+      "Version": "1.5-3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "539dc0c0c05636812f1080f473d2c177",
+      "Hash": "4006dffe49958d2dd591c17e61e60591",
       "Requirements": [
         "lattice"
       ]
@@ -1475,20 +1475,22 @@
     },
     "ggplot2": {
       "Package": "ggplot2",
-      "Version": "3.3.6",
+      "Version": "3.4.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0fb26d0674c82705c6b701d1a61e02ea",
+      "Hash": "fd2aab12f54400c6bca43687231e246b",
       "Requirements": [
         "MASS",
-        "digest",
+        "cli",
         "glue",
         "gtable",
         "isoband",
+        "lifecycle",
         "mgcv",
         "rlang",
         "scales",
         "tibble",
+        "vctrs",
         "withr"
       ]
     },
@@ -1577,14 +1579,15 @@
     },
     "ggtree": {
       "Package": "ggtree",
-      "Version": "3.0.4",
+      "Version": "3.2.1",
       "Source": "Bioconductor",
+      "RemoteType": "bioconductor",
       "Remotes": "GuangchuangYu/treeio",
       "git_url": "https://git.bioconductor.org/packages/ggtree",
-      "git_branch": "RELEASE_3_13",
-      "git_last_commit": "7a83be2",
-      "git_last_commit_date": "2021-08-20",
-      "Hash": "2df101a189ad4a01a9f6cdb5e0957d53",
+      "git_branch": "RELEASE_3_14",
+      "git_last_commit": "d3747e6",
+      "git_last_commit_date": "2021-11-14",
+      "Hash": "5711c057a04e53ed1c70909939dd9ad9",
       "Requirements": [
         "ape",
         "aplot",
@@ -1603,13 +1606,13 @@
     },
     "ggtreeExtra": {
       "Package": "ggtreeExtra",
-      "Version": "1.2.3",
+      "Version": "1.4.2",
       "Source": "Bioconductor",
       "git_url": "https://git.bioconductor.org/packages/ggtreeExtra",
-      "git_branch": "RELEASE_3_13",
-      "git_last_commit": "759f5d0",
-      "git_last_commit_date": "2021-09-09",
-      "Hash": "e25f16efe20b0b85af40246f98dcb956",
+      "git_branch": "RELEASE_3_14",
+      "git_last_commit": "c5bde8b",
+      "git_last_commit_date": "2022-03-06",
+      "Hash": "1447c9a03742ce2d64a006498eb1568b",
       "Requirements": [
         "ggnewscale",
         "ggplot2",
@@ -2062,10 +2065,10 @@
     },
     "mgcv": {
       "Package": "mgcv",
-      "Version": "1.8-40",
+      "Version": "1.8-41",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "c6b2fdb18cf68ab613bd564363e1ba0d",
+      "Hash": "6b3904f13346742caa3e82dd0303d4ad",
       "Requirements": [
         "Matrix",
         "nlme"
@@ -2110,13 +2113,13 @@
     },
     "microbiome": {
       "Package": "microbiome",
-      "Version": "1.14.0",
+      "Version": "1.16.0",
       "Source": "Bioconductor",
       "git_url": "https://git.bioconductor.org/packages/microbiome",
-      "git_branch": "RELEASE_3_13",
-      "git_last_commit": "bd8313a",
-      "git_last_commit_date": "2021-05-19",
-      "Hash": "f081bc66f91aa4501ab61068b4244163",
+      "git_branch": "RELEASE_3_14",
+      "git_last_commit": "a7b74b7",
+      "git_last_commit_date": "2021-10-26",
+      "Hash": "4fd8c7b66d1b18224348a02478c81164",
       "Requirements": [
         "Rtsne",
         "dplyr",
@@ -2442,10 +2445,10 @@
     },
     "plyr": {
       "Package": "plyr",
-      "Version": "1.8.7",
+      "Version": "1.8.8",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9c17c6ee41639ebdc1d7266546d3b627",
+      "Hash": "d744387aef9047b0b48be2933d78e862",
       "Requirements": [
         "Rcpp"
       ]
@@ -3051,14 +3054,18 @@
     },
     "stringr": {
       "Package": "stringr",
-      "Version": "1.4.1",
+      "Version": "1.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "a66ad12140cd34d4f9dfcc19e84fc2a5",
+      "Hash": "671a4d384ae9d32fc47a14e98bfa3dc8",
       "Requirements": [
+        "cli",
         "glue",
+        "lifecycle",
         "magrittr",
-        "stringi"
+        "rlang",
+        "stringi",
+        "vctrs"
       ]
     },
     "survival": {
@@ -3244,13 +3251,15 @@
     },
     "treeio": {
       "Package": "treeio",
-      "Version": "1.18.1",
-      "Source": "Bioconductor",
-      "git_url": "https://git.bioconductor.org/packages/treeio",
-      "git_branch": "RELEASE_3_14",
-      "git_last_commit": "a06b6b3",
-      "git_last_commit_date": "2021-11-12",
-      "Hash": "835f0ab27ea0cfcad448397568fdf4d1",
+      "Version": "1.23.0",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "GuangchuangYu",
+      "RemoteRepo": "treeio",
+      "RemoteRef": "master",
+      "RemoteSha": "db8580345375480eb31ab99c139c59bb8fcdad9b",
+      "Hash": "433b442fbf3eaa237278f697e41d4208",
       "Requirements": [
         "ape",
         "dplyr",
@@ -3321,10 +3330,10 @@
     },
     "vctrs": {
       "Package": "vctrs",
-      "Version": "0.5.0",
+      "Version": "0.5.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "001fd6a5ebfff8316baf9fb2b5516dc9",
+      "Hash": "970324f6572b4fd81db507b5d4062cb0",
       "Requirements": [
         "cli",
         "glue",
