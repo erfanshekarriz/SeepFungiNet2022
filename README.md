@@ -37,8 +37,11 @@ ____________________________________________
 
 
 First you have to install all the packages necessary for doing the analysis with two easy steps!
-1. Open the R project file called ```coldseepfungi.Rproj```
-2. In the Console, type ```renv::init``` and ```renv:restore``` to install all packages necessary (might take a while so grab some coffee)
+1. Open the R project file called ```coldseepfungi.Rproj``` (by double-clicking the file)
+2. In the Console, type ```renv::init()``` to install all packages necessary (might take a while so grab some coffee)
+
+An exact instruction of how to use renv can be found at https://www.youtube.com/watch?v=yc7ZB4F_dc0&ab_channel=RiffomonasProject (at 15 mins 30 seconds)
+Credits to Patrick Patrick D. Schloss!
 
 ____________________________________________
 
