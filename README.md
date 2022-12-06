@@ -36,17 +36,18 @@ ____________________________________________
 #### 3) Setup environment using renv
 
 
-First you have to install all the packages necessary for doing the analysis with four easy steps!
+First you have to install all the packages necessary for doing the analysis:
 
 1. Make sure you have the correct version of R (v4.2.2)
-2.  ```conda activate ./envs``` to activate the R version (must be done every time)
-3. Open the R project file called ```coldseepfungi.Rproj``` (by double-clicking the file)
-4. In the Console, type ```renv::restore()``` to install all packages necessary (might take a while so grab some coffee)
+2. Open the R project file called ```coldseepfungi.Rproj``` (by double-clicking the file)
+3. In the Console, type ```renv::restore()``` to install all packages necessary (might take a while so grab some coffee)
 
 ** How to use renv: https://www.youtube.com/watch?v=yc7ZB4F_dc0&ab_channel=RiffomonasProject (Time-stamp 15:30)
 Credits to Patrick Patrick D. Schloss!
 
-** Big note that renv is far from perfect, and some packages might need manual installation with alternative tools like ```devtools``` and ```remotes``` instead. If you run into any problems please don't hesitate to contact us. 
+** Big note that renv is far from perfect, and some packages might need manual installation with alternative tools like ```devtools``` and ```remotes``` instead. If you run into any problems please don't hesitate to contact us.
+
+** If you're looking to reproduce only one of the figures, I would go ahead and just manually install the libraries in that file and skip renv::restore. Just make sure to look at the lock.file to see the correct version
 ____________________________________________
 
 #### 4) Reproduce the figures!
