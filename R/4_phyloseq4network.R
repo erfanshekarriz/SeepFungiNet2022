@@ -2,6 +2,7 @@ library(phyloseq)
 library(tidyverse)
 library(metagMisc)
 
+
 # SET PREV THERSHOLD
 prevthreshold <- 0.2
 

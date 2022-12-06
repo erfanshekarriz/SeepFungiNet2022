@@ -2,6 +2,7 @@ library(lefser)
 library(mia)
 library(RColorBrewer)
 
+
 set.seed(1234)
 ### LOAD DATA
 physeq18SFungi <- readRDS("./data/Data/physeq18SFungi.rds")
@@ -19,7 +20,6 @@ lefseRes <- lefser(SExp,
                    kruskal.threshold = 0.05,
                    wilcox.threshold = 0.05,
                    lda.threshold = 2)
-
 lefserPlot(lefseRes)
 lefseResDF <- lefseRes %>% 
   dplyr::left_join(., (taxdf %>%

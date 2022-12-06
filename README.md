@@ -36,15 +36,17 @@ ____________________________________________
 #### 3) Setup environment using renv
 
 
-First you have to install all the packages necessary for doing the analysis with two easy steps!
-1. Make sure you have R version 4.1.1 installed. Although most versions of R should be compatible, this one is gauranteed to give you full reproducibility. R is the only thing that needs to be manually installed here and can't be handled by ```renv```.
-2. Open the R project file called ```coldseepfungi.Rproj``` (by double-clicking the file)
-3. In the Console, type ```renv::restore()``` to install all packages necessary (might take a while so grab some coffee)
+First you have to install all the packages necessary for doing the analysis with four easy steps!
 
-* An exact instruction of how to use renv can be found at https://www.youtube.com/watch?v=yc7ZB4F_dc0&ab_channel=RiffomonasProject (at 15 mins 30 seconds)
+1. Make sure you have the correct version of R (v4.2.2)
+2.  ```conda activate ./envs``` to activate the R version (must be done every time)
+3. Open the R project file called ```coldseepfungi.Rproj``` (by double-clicking the file)
+4. In the Console, type ```renv::restore()``` to install all packages necessary (might take a while so grab some coffee)
+
+** How to use renv: https://www.youtube.com/watch?v=yc7ZB4F_dc0&ab_channel=RiffomonasProject (Time-stamp 15:30)
 Credits to Patrick Patrick D. Schloss!
 
-** If you would like to change your version of R, please look at https://btep.ccr.cancer.gov/docs/rtools/R%20and%20RStudio/2.6_switching_r_version/ this tutorial
+** Big note that renv is far from perfect, and some packages might need manual installation with alternative tools like ```devtools``` and ```remotes``` instead. If you run into any problems please don't hesitate to contact us. 
 ____________________________________________
 
 #### 4) Reproduce the figures!

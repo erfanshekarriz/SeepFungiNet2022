@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+fixphyseq.R
 *.tiff
 *.tif
 physeqraw

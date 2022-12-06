@@ -3,8 +3,7 @@ library(SpiecEasi)
 library(tidyverse)
 library(ggpubr)
 library(corrplot)
-
-
+library(devtools)
 
 ### LOAD DATA
 BAFslr <- readRDS("./data/networks/raw/BAF/BAF_SpiecEasi_network_nlambda20_lambda.min.ratio0.005_rep.num5_ncores4_stability0.01707_SLR.rds")

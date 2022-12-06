@@ -2,7 +2,6 @@ library(tidyverse)
 library(RColorBrewer)
 library(ggrepel)
 
-
 world <- map_data("world")
 
 
