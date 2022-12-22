@@ -3,6 +3,8 @@
 .RData
 .Ruserdata
 fixphyseq.R
+manuscript
 *.tiff
 *.tif
 physeqraw
+editphyseq.R

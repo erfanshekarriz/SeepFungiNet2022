@@ -20,11 +20,6 @@ conda activate bowtie2\
 	nohup bowtie2-build $\{SCAFF\} $\{INDEXD\} &\
 	done\
 \
-ID=vent_ELSC (not working)\
-ID=vent_GB1 (not working)\
-ID=vent_GB2\
-ID=vent_TVG\
-\
 ID=seep_ROV1a\
 \pard\pardeftab720\partightenfactor0
 
@@ -56,7 +51,7 @@ N_JOBS=4\
 \f0 \cf2 \cb3 conda activate bowtie2\
 \pard\pardeftab720\partightenfactor0
 
-\f1 \cf4 \cb5 for ID in $(cat ventID); \
+\f1 \cf4 \cb5 for ID in $(cat globalID); \
 	do  \
 	INPUT=veba_output/assembly/$\{ID\}/output/mapped.sam\
 	OUTPUT=veba_output/assembly/$\{ID\}/output/mapped.bam\
@@ -73,7 +68,7 @@ N_JOBS=4\
 \f0 \cf2 \cb3 conda activate bowtie2\
 \pard\pardeftab720\partightenfactor0
 
-\f1 \cf4 \cb5 for ID in $(cat ventID); \
+\f1 \cf4 \cb5 for ID in $(cat globalID); \
 	do  \
 	INPUT=veba_output/assembly/$\{ID\}/output/mapped.bam\
 	OUTPUT=veba_output/assembly/$\{ID\}/output/mapped.sorted.bam\
