@@ -1,8 +1,13 @@
 # Disentangling the Functional Role of Fungi in Cold Seep Sediment
 Hi and welcome! Erfan here. This README.md is a step-by-step guide to reproduce the figures and tables in our study titled "Disentangling the Functional Role of Fungi in Cold Seep Sediment". Some of the steps can take a long time and high computation power. To help save your precious time, we've gone ahead and commented out those sections of the code, and instead directly upload the preprocessed output (denoted as [OPTIONAL]). Feel free to uncomment these code blocks and run the analysis for yourself!
 
-
 * Note that our instructions are written for a linux/mac workbench, but can be modified easily for Windows and other OS.
+
+
+#### Citation
+
+Shekarriz, E., Chen, J., Xu, Z., & Liu, H. (n.d.). Disentangling the functional role of fungi in cold seep sediment. Microbiology Spectrum, 0(0), e01978-22. https://doi.org/10.1128/spectrum.01978-22
+
 
 ____________________________________________
 
